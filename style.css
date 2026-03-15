@@ -29,8 +29,8 @@ html{
 
     .carousel{
         /* I am using flexbox just for the image carousel element, again just experemanital I might change it later */
-        display:flex;
-        align-items:flex-start;
+        display: flex;
+        align-items: flex-start;
         gap: 1rem;
         overflow:visible;
         /* This function will move the elements along the X axis relative to its current position without affecting the layout of other elements. This calculation uses the already named varible --index to move the objects. */
@@ -42,6 +42,11 @@ html{
     .items{
         min-width: 200px;
         height: 250px;
+        background-color: blueviolet;
+        dispaly: flex;
+        align-items: center;
+        justify-content: center;
+
     }
 
 
