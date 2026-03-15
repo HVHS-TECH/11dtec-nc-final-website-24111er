@@ -10,7 +10,7 @@ html{
     }
 
     .overall-content{
-        /* I am unsure if the repetitional code is necassery, but I will set it up and then see if I can simplify the code */
+        /* I am unsure if the repetitional code is necassery, but I will set it up and then see if I can simplify the code later*/
         position:relative;
         width:500px;
         display:grid;
@@ -28,7 +28,12 @@ html{
     }
 
     .carousel{
-        
+        /* I am using flexbox just for the image carousel element, again just experemanital I might change it later */
+        display:flex;
+        align-items:flex-start;
+        gap: 1rem;
+        overflow:visible;
+        transform: translateX(calc((var (--index) * -200px) - (var (--index) * 3rem)));
     }
 
 
