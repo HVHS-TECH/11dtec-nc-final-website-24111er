@@ -33,6 +33,7 @@ html{
         align-items:flex-start;
         gap: 1rem;
         overflow:visible;
+        /* This function will move the elements along the X axis relative to its current position without affecting the layout of other elements */
         transform: translateX(calc((var (--index) * -200px) - (var (--index) * 3rem)));
     }
 
