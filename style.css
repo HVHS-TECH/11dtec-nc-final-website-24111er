@@ -35,7 +35,13 @@ html{
         overflow:visible;
         /* This function will move the elements along the X axis relative to its current position without affecting the layout of other elements. This calculation uses the already named varible --index to move the objects. */
         transform: translateX(calc((var (--index) * -200px) - (var (--index) * 3rem)));
+        /* This ensures that the transition is smooth, and sets the time of the transition */
         transition: all 250ms ease-in-out;
+    }
+
+    .items{
+        min-width: 200px;
+        height: 250px;
     }
 
 
