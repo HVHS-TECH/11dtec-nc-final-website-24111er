@@ -1,0 +1,38 @@
+html{
+
+    body{
+        /* This supposidly enables the html elements to overlap */
+        --index: 0; 
+        display:grid;
+        place-items:center;
+        background-color: aliceblue;
+
+    }
+
+    .overall-content{
+        /* I am unsure if the repetitional code is necassery, but I will set it up and then see if I can simplify the code */
+        position:relative;
+        width:500px;
+        display:grid;
+        place-items:center;
+    }
+
+    .container{
+        /* I am using high contrasting colours, as it is early in the experimental process and first I want to make sure this code works. I will change the colours later. */
+        background-color: black;
+        width:100%;
+        max-width: calc (200px + 2rem);
+        height:100%;
+        color:aliceblue;
+        overflow:hidden;
+    }
+
+
+
+
+
+
+
+
+
+}
