@@ -9,6 +9,7 @@ html{
         display: flex;
         gap: 1em;
         scroll-behavior:smooth;
+        anchor-name: --carousel;
  
     }
 
@@ -20,7 +21,8 @@ html{
         content: '-->';
         border:none;
         cursor:pointer;
-        scroll-behavior:smooth;
+        position: fixed;
+        position-anchor: --carousel;
         /* background-color:cadetblue;
         font-size: 3rem;
         color:rgb(0, 0, 0);
@@ -32,7 +34,6 @@ html{
         content:'<--';
         border:none;
         cursor:pointer;
-        scroll-behavior:smooth;
         /* background-color:cadetblue;
         font-size: 3rem;
         color:rgb(0, 0, 0);
