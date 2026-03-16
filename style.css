@@ -12,6 +12,7 @@ html{
         gap: 1em;
         scroll-behavior:smooth;
         anchor-name: --carousel;
+        scroll-snap-type: x mandatory;
  
     }
 
@@ -51,6 +52,7 @@ html{
     }
 
     .items{
+        scroll-snap-align: start;
         flex: 0 0 20em;
         height: 12em;
         background-color:black;
@@ -59,6 +61,7 @@ html{
         text-align:center;
         align-content:center;
         color:white;
+        
    
     }
 
