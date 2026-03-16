@@ -19,6 +19,9 @@ html{
         content: '-->';
         border:none;
         cursor:pointer;
+        background-color:cadetblue;
+        font-size: 3rem;
+        color
     }
 
     .items{
