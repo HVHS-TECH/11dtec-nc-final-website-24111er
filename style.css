@@ -2,13 +2,6 @@
 html{
 
 
-
-   
-    
-
-   
-    }
-
     .carousel{
         width: 50%;
         overflow-x:auto;
@@ -16,6 +9,10 @@ html{
         display: flex;
         gap: 1em;
  
+    }
+
+    .carousel::-webkit-scrollbar{
+        display:none;
     }
 
     .items{
