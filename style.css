@@ -1,6 +1,8 @@
 
 html{
 
+    /* https://www.youtube.com/watch?v=gmI5nvzv170 */
+
 
     .carousel{
         width: 50%;
@@ -23,6 +25,8 @@ html{
         cursor:pointer;
         position: fixed;
         position-anchor: --carousel;
+        position-area: right center;
+        translate: -50%;
         /* background-color:cadetblue;
         font-size: 3rem;
         color:rgb(0, 0, 0);
@@ -34,6 +38,10 @@ html{
         content:'<--';
         border:none;
         cursor:pointer;
+        position: fixed;
+        position-anchor: --carousel;
+        position-area: left center;
+        translate: 50%;
         /* background-color:cadetblue;
         font-size: 3rem;
         color:rgb(0, 0, 0);
