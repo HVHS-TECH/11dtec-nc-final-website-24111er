@@ -19,13 +19,14 @@ html{
     }
 
     .items{
-        flex: 0 20em 20em;
+        flex: 0 0 50em;
         height: 12em;
         background-color:black;
         padding: 1em;
         border-radius: .5em;
         text-align:center;
         align-content:center;
+        color:white;
    
     }
 
