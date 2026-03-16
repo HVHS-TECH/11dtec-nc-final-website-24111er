@@ -13,6 +13,7 @@ html{
         scroll-behavior:smooth;
         anchor-name: --carousel;
         scroll-snap-type: x mandatory;
+        scroll-marker-group:after;
  
     }
 
@@ -28,7 +29,6 @@ html{
         position-anchor: --carousel;
         position-area: right center;
         translate: -50%;
-        scroll-marker-group:after;
         /* background-color:cadetblue;
         font-size: 3rem;
         color:rgb(0, 0, 0);
