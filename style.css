@@ -15,7 +15,11 @@ html{
         display:none;
     }
 
-    .carousel::
+    .carousel::scroll-button(right) {
+        content: '-->';
+        border:none;
+        cursor:pointer;
+    }
 
     .items{
         flex: 0 0 50em;
