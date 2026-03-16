@@ -22,6 +22,7 @@ html{
         background-color:cadetblue;
         font-size: 3rem;
         color:rgb(0, 0, 0);
+        border-radius:50%;
     }
 
     .items{
