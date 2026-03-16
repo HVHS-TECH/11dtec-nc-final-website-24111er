@@ -10,7 +10,7 @@ html{
     }
 
     .carousel{
-        width: 100%;
+        width: 50%;
         overflow-x:auto;
         margin: 3em auto;
         display: flex;
@@ -19,7 +19,7 @@ html{
     }
 
     .items{
-        flex: 0 20em 0;
+        flex: 0 20em 20em;
         height: 12em;
         background-color:black;
         padding: 1em;
