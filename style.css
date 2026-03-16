@@ -15,6 +15,8 @@ html{
         display:none;
     }
 
+    .carousel::
+
     .items{
         flex: 0 0 50em;
         height: 12em;
