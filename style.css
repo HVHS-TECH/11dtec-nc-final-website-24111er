@@ -1,69 +1,28 @@
 
 html{
 
-    body{
-        /* This is a variable used throughout the carousel code */
-        --index: 0; 
-        display:grid;
-        place-items:center;
-        background-color: aliceblue;
 
-    }
 
-    .overall-content{
-        /* I am unsure if the repetitional code is necassery, but I will set it up and then see if I can simplify the code later*/
-        position:relative;
-        width:500px;
-        display:grid;
-        place-items:center;
-    }
+   
+    
 
-    .container{
-        /* I am using high contrasting colours, as it is early in the experimental process and first I want to make sure this code works. I will change the colours later. */
-        background-color: black;
-        width:100%;
-        max-width: calc (200px + 2rem);
-        height:100%;
-        color:aliceblue;
-        overflow:hidden;
+   
     }
 
     .carousel{
-        /* I am using flexbox just for the image carousel element, again just experemanital I might change it later */
+        margin: 3em auto;
         display: flex;
-        align-items: flex-start;
-        gap: 1rem;
-        overflow:visible;
-        /* This function will move the elements along the X axis relative to its current position without affecting the layout of other elements. This calculation uses the already named varible --index to move the objects. */
-        transform: translateX(calc((var (--index) * -200px) - (var (--index) * 3rem)));
-        /* This ensures that the transition is smooth, and sets the time of the transition */
-        transition: all 250ms ease-in-out;
+        gap: 1em;
+ 
     }
 
     .items{
-        min-width: 200px;
-        height: 250px;
-        background-color: blueviolet;
-        dispaly: flex;
-        align-items: center;
-        justify-content: center;
+        height: 12em;
+        background-color;
+   
     }
 
-    button{
-        position:absolute;
-        top:50%;
-        transform: translateY(-50%);
-        background-color: brown;
-        border:none;
-    }
 
-    .prev{
-        left:0%;
-    }
-
-    .next{
-        right:0%;
-    }
 
 
 
