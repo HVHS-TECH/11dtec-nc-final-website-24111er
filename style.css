@@ -27,6 +27,10 @@ html{
         padding:0.5em;
     }
 
+    .carousel::scroll-button(left) {
+
+    }
+
     .items{
         flex: 0 0 50em;
         height: 12em;
