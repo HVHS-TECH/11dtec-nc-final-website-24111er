@@ -28,11 +28,30 @@ html{
         position-anchor: --carousel;
         position-area: right center;
         translate: -50%;
+        scroll-marker-group:after;
         /* background-color:cadetblue;
         font-size: 3rem;
         color:rgb(0, 0, 0);
         border-radius:50%;
         padding:0.5em; */
+    }
+
+    .carousel::scroll-marker-group {
+        display:flex;
+        justify-content: center;
+        gap: .5em;
+    }
+
+    .items::scroll-marker {
+        content:'';
+        height: 1em;
+        width: 1em;
+        background-color: rgb(165, 31, 31);
+        border-radius: 50%;
+    }
+
+    .items::scroll-marker:target-current {
+        background-color:cadetblue;
     }
 
     .carousel::scroll-button(left) {
@@ -54,6 +73,7 @@ html{
     .items{
         scroll-snap-align: start;
         flex: 0 0 20em;
+        /* aspect-ratio: ; */
         height: 12em;
         background-color:black;
         padding: 1em;
@@ -63,6 +83,12 @@ html{
         color:white;
         
    
+    }
+
+    @media(max-width: 500px) {
+        .items {
+            flex: 0 0 100%;
+        }
     }
 
 
