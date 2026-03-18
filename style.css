@@ -44,11 +44,11 @@ html{
         Therefore if the size of the screen were to change the buttons would stay fixed in their relative position */
         position-area: right center;
         translate: -50%;
-        /* background-color:cadetblue;
+        background-color:#A5BE00;
         font-size: 3rem;
         color:rgb(0, 0, 0);
         border-radius:50%;
-        padding:0.5em; */
+        
     }
 
     .carousel::scroll-marker-group {
@@ -65,12 +65,12 @@ html{
         content:'';
         height: 1em;
         width: 1em;
-        background-color: rgb(165, 31, 31);
+        background-color: #679436;
         border-radius: 50%;
     }
 
     .items::scroll-marker:target-current {
-        background-color:cadetblue;
+        background-color: #A5BE00;
     }
 
     .carousel::scroll-button(left) {
