@@ -137,7 +137,7 @@ html{
 
     @media(min-width: 22em) {
         .items {
-            flex: 0 0 95%;
+            flex: 0 0 45%;
         }
     }
 
