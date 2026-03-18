@@ -4,9 +4,12 @@ html{
     /* https://www.youtube.com/watch?v=gmI5nvzv170 */
 
  body {
+ }
 
     main {
        background-color: #EBF2FA;
+       padding:.5em;
+    }
 
 
 /* This is the code for the interactive image carousel */
@@ -52,6 +55,10 @@ html{
         display:flex;
         justify-content: center;
         gap: .5em;
+        position: fixed;
+        position-anchor: --carousel;
+        position-area: center bottom;
+        padding:.5em;
     }
 
     .items::scroll-marker {
@@ -111,10 +118,10 @@ html{
         }
     }
 
-  } 
+  
 
 
- }
+ 
  
 
 
