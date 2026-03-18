@@ -77,7 +77,7 @@ html{
         border-radius:50%;
         padding-bottom: .15em;
         transform: translateX();
-        transition: 0.5s ease-in-out;
+        transition: 0.5s, 7.5em, ease-in-out;
        
     }
 
@@ -148,17 +148,17 @@ html{
         }
     }
 
-    @media {
+    /* @media {
         .carousel {
-            transform: translateX();
+            transform: translateX(7.5em);
             transition: 0.5s ease-in-out;
         }
 
         .items {
-            transform: translateX();
+            transform: translateX(7.5em);
             transition: 0.5s ease-in-out;
         }
-    }
+    } */
 
   
 
