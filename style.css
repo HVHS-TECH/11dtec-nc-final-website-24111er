@@ -125,6 +125,7 @@ html{
         color:white;
         aspect-ratio: 5,3;
         
+        
    
     }
 
@@ -132,12 +133,14 @@ html{
         .items {
             flex: 0 0 100%;
             
+            
         }
     }
 
     @media(min-width: 22em) {
         .items {
             flex: 0 0 45%;
+           
         }
     }
 
