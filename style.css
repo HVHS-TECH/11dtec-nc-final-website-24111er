@@ -46,6 +46,7 @@ html{
         display: flex;
         gap: 1em;
         min-width: 20em;
+        padding: 1em;
         scroll-behavior:smooth;
         anchor-name: --carousel; 
         /* This declares that this class is the parent element of an anchor group and declares the name of the group.
@@ -53,7 +54,7 @@ html{
         scroll-snap-type: x mandatory;
         scroll-marker-group:after;
         transition: 0.5s ease-in-out;
-        background-color: #EBF2FA;
+        background-color: #05668D;
  
     }
 
@@ -121,13 +122,15 @@ html{
         flex: 0 0 15em;
         /* aspect-ratio: ; */
         height: 30em;
-        background-color:#05668D;
+        background-color:#EBF2FA;
         padding: 1em;
         border-radius: .5em;
         text-align:center;
         align-content:center;
-        color:#05668D;
+        color:#000000;
         aspect-ratio: 5,3;
+        border-color:#427AA1;
+        border: .5em;
         
         
         
