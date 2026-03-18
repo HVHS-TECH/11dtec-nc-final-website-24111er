@@ -1,14 +1,21 @@
 html{
-    background-color: #427AA1;
+    background-color: #05668D;
 
     /* https://www.youtube.com/watch?v=gmI5nvzv170 */
 
- body {
- }
+  body {
+    background-color: #EBF2FA;
+       padding:.5em;
+       border-radius: .5em;
+  }
+
+    nav {
+        background-color: #427AA1;
+        padding: 2em;
+    }
 
     main {
-       background-color: #EBF2FA;
-       padding:.5em;
+       
     }
 
 
@@ -48,6 +55,7 @@ html{
         font-size: 3rem;
         color:rgb(0, 0, 0);
         border-radius:50%;
+        padding-bottom: .15em;
         
     }
 
