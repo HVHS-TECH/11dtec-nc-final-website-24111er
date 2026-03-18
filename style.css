@@ -76,6 +76,7 @@ html{
         color:rgb(0, 0, 0);
         border-radius:50%;
         padding-bottom: .15em;
+        transition: 0.5s ease-in-out;
        
     }
 
@@ -127,6 +128,7 @@ html{
         aspect-ratio: 5,3;
         
         
+        
    
     }
 
@@ -142,6 +144,16 @@ html{
         .items {
             flex: 0 0 45%;
            
+        }
+    }
+
+    @media {
+        .carousel {
+            transition: 0.5s ease-in-out;
+        }
+
+        .items {
+            transition: 0.5s ease-in-out;
         }
     }
 
