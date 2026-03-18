@@ -116,7 +116,7 @@ html{
   
 
     .items{
-        scroll-snap-align: start;
+        scroll-snap-align: center;
         flex: 0 0 15em;
         /* aspect-ratio: ; */
         height: 30em;
