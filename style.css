@@ -1,17 +1,22 @@
-
 html{
 
     /* https://www.youtube.com/watch?v=gmI5nvzv170 */
 
+ body {
 
+
+/* This is the code for the interactive image carousel */
     .carousel{
         width: 50%;
         overflow-x:auto;
         margin: 3em auto;
         display: flex;
         gap: 1em;
+        min-width: 20em;
         scroll-behavior:smooth;
-        anchor-name: --carousel;
+        anchor-name: --carousel; 
+        /* This declares that this class is the parent element of an anchor group and declares the name of the group.
+        Whenever the custom varible (--carousel) is used, that element's position will be anchored in relation to the carousel. */
         scroll-snap-type: x mandatory;
         scroll-marker-group:after;
  
@@ -27,6 +32,9 @@ html{
         cursor:pointer;
         position: fixed;
         position-anchor: --carousel;
+        /* This line of code above anchors the position of the buttons to the carousel. 
+        Whereas the code below states where in relation to the parent element the buttons will go.
+        Therefore if the size of the screen were to change the buttons would stay fixed in their relative position */
         position-area: right center;
         translate: -50%;
         /* background-color:cadetblue;
@@ -72,15 +80,16 @@ html{
 
     .items{
         scroll-snap-align: start;
-        flex: 0 0 20em;
+        flex: 0 0 15em;
         /* aspect-ratio: ; */
-        height: 12em;
+        height: 30em;
         background-color:black;
         padding: 1em;
         border-radius: .5em;
         text-align:center;
         align-content:center;
         color:white;
+        aspect-ratio: 5,3;
         
    
     }
@@ -88,17 +97,19 @@ html{
     @media(max-width: 500px) {
         .items {
             flex: 0 0 100%;
+            
+        }
+    }
+
+    @media(min-width: 22em) {
+        .items {
+            flex: 0 0 95%;
         }
     }
 
 
-
-
-
-    
-
-
-
+ }
+ 
 
 
 
