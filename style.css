@@ -52,6 +52,7 @@ html{
         Whenever the custom varible (--carousel) is used, that element's position will be anchored in relation to the carousel. */
         scroll-snap-type: x mandatory;
         scroll-marker-group:after;
+        transition: 0.5s ease-in-out;
  
     }
 
