@@ -53,6 +53,7 @@ html{
         scroll-snap-type: x mandatory;
         scroll-marker-group:after;
         transition: 0.5s ease-in-out;
+        background-color: #EBF2FA;
  
     }
 
@@ -120,12 +121,12 @@ html{
         flex: 0 0 15em;
         /* aspect-ratio: ; */
         height: 30em;
-        background-color:black;
+        background-color:#05668D;
         padding: 1em;
         border-radius: .5em;
         text-align:center;
         align-content:center;
-        color:white;
+        color:#05668D;
         aspect-ratio: 5,3;
         
         
