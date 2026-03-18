@@ -12,7 +12,16 @@ html{
     nav {
         background-color: #427AA1;
         padding: 2em;
+        border-radius: .5em;
+
+        a{
+            color:#EBF2FA;
+            text-decoration:none;
+            padding: 1em;
+            
+        }
     }
+
 
     main {
        
