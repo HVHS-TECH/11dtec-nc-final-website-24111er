@@ -1,9 +1,12 @@
 html{
-    background-color: ;
+    background-color: #427AA1;
 
     /* https://www.youtube.com/watch?v=gmI5nvzv170 */
 
  body {
+
+    main {
+       background-color: #EBF2FA;
 
 
 /* This is the code for the interactive image carousel */
@@ -107,6 +110,8 @@ html{
             flex: 0 0 95%;
         }
     }
+
+  } 
 
 
  }
