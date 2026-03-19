@@ -162,7 +162,25 @@ html{
         }
     } */
 
-  
+  .dropdown button {
+    background-color:#05668D;
+    border:none;
+    padding:.5em;
+    cursor:pointer;
+  }
+
+  .dropdown a {
+    display:block;
+    text-decoration:none;
+    padding:.5em;
+
+  }
+
+  .dropdown .regions {
+    position:absolute;
+    background-color:#427AA1;
+
+  }
 
 
  
