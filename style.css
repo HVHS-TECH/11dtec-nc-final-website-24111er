@@ -177,6 +177,7 @@ html{
   }
 
   .regions {
+    display:none;
     position:absolute;
     background-color:#427AA1;
     /* min-width */
