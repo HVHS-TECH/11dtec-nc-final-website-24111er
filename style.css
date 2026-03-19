@@ -169,15 +169,14 @@ html{
     cursor:pointer;
   }
 
-  .dropdown {
-    a{
+  .regions a {
     display:block;
     text-decoration:none;
     padding:.5em;
-    }
+    
   }
 
-  .dropdown .regions {
+  .regions {
     position:absolute;
     background-color:#427AA1;
     /* min-width */
