@@ -162,35 +162,24 @@ html{
         }
     } */
 
-  .dropdown button {
-    background-color:#05668D;
-    border:none;
-    padding:.5em;
-    cursor:pointer;
-  }
 
-  .regions a {
-    display:block;
-    text-decoration:none;
-    padding:.5em;
-    
-  }
+    .menu {
 
-  .regions {
-    overflow:hidden;
-    position:absolute;
-    background-color:#427AA1;
-    min-height:3em;
-    /* min-width */
-    box-shadow: 2px 2px 5px black;
-
-  }
-
-  button:hover {
-    .regions a{
-        display:block;
     }
-  }
+    
+    .content {
+        
+    }
+
+    .region {
+
+    }
+
+    .link {
+
+    }
+
+ 
 
 
  
