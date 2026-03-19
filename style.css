@@ -185,8 +185,13 @@ html{
 
   }
 
-  .dropdown:hover .regions {
-    
+  .dropdown:hover {
+    cursor:pointer;
+    .regions{
+        a{
+    display:block;
+        }
+    }
   }
 
 
