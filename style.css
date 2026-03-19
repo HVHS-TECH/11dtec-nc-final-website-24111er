@@ -169,11 +169,12 @@ html{
     cursor:pointer;
   }
 
-  .dropdown a {
+  .dropdown {
+    a{
     display:block;
     text-decoration:none;
     padding:.5em;
-
+    }
   }
 
   .dropdown .regions {
