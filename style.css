@@ -164,20 +164,27 @@ html{
 
 
     .menu {
+        background-color:#05668D;
+        box-shadow:2px 2px 5px black;
+        list-style:none;
+        position:absolute;
+        left:0;
 
     }
     
     .dropdown{
+        position:relative;
         
     }
 
     .region {
-        background-color:#05668D;
-        box-shadow:2px 2px 5px black;
+        
 
     }
 
     .link {
+        text-decoration:none;
+        color:#EBF2FA;
 
     }
 
