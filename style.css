@@ -200,15 +200,7 @@ html{
         }
     }
 
-    /* .region:hover, 
-    .dropdown:hover .region{
-        background-color:#A5BE00;
-    } */
-
-    .dropdown:hover,
-    .region:hover .dropdown {
-        background-color:#A5BE00
-    }
+   
 
     .link {
         text-decoration:none;
