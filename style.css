@@ -179,7 +179,8 @@ html{
 
     }
 
-    .dropdown:hover {
+    .dropdown:hover,
+    .region:hover {
         background-color:#A5BE00;
     }
 
