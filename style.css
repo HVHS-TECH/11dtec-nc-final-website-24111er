@@ -174,14 +174,23 @@ html{
     
     .dropdown{
         text-decoration:none;
-        
-        
+        background-color:#679436;
+        padding: 10px 15px;
+
+    }
+
+    .dropdown:hover {
+        background-color:#A5BE00;
     }
 
     .region {
         padding: 10px 15px;
         min-width: max-content;
 
+    }
+
+    .region:hover {
+        background-color:#427AA1;
     }
 
     .link {
