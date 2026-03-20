@@ -194,13 +194,14 @@ html{
         background-color:#679436;
     }
 
-    .region:hover, .dropdown:hover {
-        background-color:#679436;
-        .dropdown { 
-            background-color:#A5BE00;
+    /* .region:hover, 
+    .dropdown:hover .region{
+        background-color:#A5BE00;
+    } */
 
-        }
-        
+    .dropdown:hover,
+    .region:hover .dropdown {
+        background-color:#A5BE00
     }
 
     .link {
