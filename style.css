@@ -192,6 +192,11 @@ html{
 
     .region:hover, .dropdown:hover .region {
         background-color:#679436;
+        .dropdown { 
+            background-color:#A5BE00;
+
+        }
+        
     }
 
     .link {
