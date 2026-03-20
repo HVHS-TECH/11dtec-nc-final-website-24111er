@@ -168,16 +168,17 @@ html{
         box-shadow:2px 2px 5px black;
         list-style:none;
         position:absolute;
-        left:0;
+        
 
     }
     
     .dropdown{
-        position:relative;
+        
         
     }
 
     .region {
+        padding: 10px 15px;
         
 
     }
