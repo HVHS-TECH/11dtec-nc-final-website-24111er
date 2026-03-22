@@ -150,6 +150,8 @@ html{
         }
     }
 
+    /* This is the end of the code for the image carousel */
+
     /* @media {
         .carousel {
             transform: translateX(7.5em);
@@ -199,12 +201,10 @@ html{
         background-color:#A5BE00;
     }
    
-
+    /* The .region class is all of the individual divs used to seperate the regions */
     .region {
         padding: 10px 15px;
         min-width: max-content;
-        
-
     }
 
     .region:hover {
@@ -217,8 +217,7 @@ html{
         }
     }
 
-   
-
+    /* The .link class is specifically the link element of all of the regions */
     .link {
         text-decoration:none;
         color:#EBF2FA;
