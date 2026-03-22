@@ -172,7 +172,7 @@ html{
         }
     }
 
-
+       /* This is the class for the child element of the dropdown menu, it includes all of the regions. */
     .menu {
         background-color:#427AA1;
         box-shadow:2px 2px 5px black;
