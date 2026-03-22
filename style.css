@@ -168,10 +168,15 @@ html{
         }
     }
 
+    ul {
+        margin: 0;
+        list-style:none;
+    }
+
     .menu {
         background-color:#427AA1;
         box-shadow:2px 2px 5px black;
-        list-style:none;
+        
         position:absolute;
         margin-top:0%;
         display: none;
