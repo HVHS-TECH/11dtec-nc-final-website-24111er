@@ -185,6 +185,10 @@ html{
 
     }
 
+    .content {
+        margin-top: 5em;
+    }
+
 
     
     
@@ -194,6 +198,7 @@ html{
         padding: 10px 15px;
         color:#EBF2FA;
         position: relative;
+        
 
     }
 
