@@ -161,7 +161,12 @@ html{
             transition: 0.5s ease-in-out;
         }
     } */
-
+     
+    .dropdown:hover {
+        .menu {
+        display: block;
+        }
+    }
 
     .menu {
         background-color:#427AA1;
@@ -185,6 +190,8 @@ html{
     .dropdown:hover {
         background-color:#A5BE00;
     }
+
+   
 
     .region {
         padding: 10px 15px;
