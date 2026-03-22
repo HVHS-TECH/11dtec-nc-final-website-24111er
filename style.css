@@ -174,18 +174,22 @@ html{
         list-style:none;
         position:absolute;
         margin-top:0%;
+        
         display: none;
         height: 20em;
         overflow-y: auto;
         
 
     }
+
+    
     
     .dropdown{
         text-decoration:none;
         background-color:#679436;
         padding: 10px 15px;
         color:#EBF2FA;
+        position: relative;
 
     }
 
@@ -193,11 +197,16 @@ html{
         background-color:#A5BE00;
     }
 
+    li {
+        margin-left: 0%;
+    }
+
    
 
     .region {
         padding: 10px 15px;
         min-width: max-content;
+        
 
     }
 
@@ -217,6 +226,7 @@ html{
         text-decoration:none;
         color:#EBF2FA;
         font-size:85%;
+        
 
     }
 
