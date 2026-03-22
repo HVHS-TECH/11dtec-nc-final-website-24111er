@@ -163,8 +163,8 @@ html{
     } */
 
     /* This is the code for the dropdown menu in pages: Libraries Near You, etc */
-       /* This code uses the pseudo-class :hover so that when the users mouse 
-       hovers over the main dropdown selector the rest of the menu will appear. 
+       /* This code uses the pseudo-class :hover so that when the users mouse hovers over 
+       the main dropdown selector the rest of the menu's display will be set to block and thus will appear. 
        This interactivity feature makes this website more engaging and interisting to the user. */
     .content:hover {
         .menu {
