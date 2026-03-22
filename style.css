@@ -185,9 +185,6 @@ html{
 
     }
 
-    .content {
-        width: 15em;
-    }
 
     
     
@@ -207,7 +204,7 @@ html{
 
     .region {
         padding: 10px 15px;
-        /* min-width: max-content; */
+        min-width: max-content;
         
 
     }
