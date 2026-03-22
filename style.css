@@ -177,7 +177,7 @@ html{
         display: none;
         height: 20em;
         overflow-y: auto;
-        text-align: left;
+
         
 
     }
@@ -197,9 +197,7 @@ html{
         background-color:#A5BE00;
     }
 
-    li {
-        margin-left: 0%;
-    }
+
 
    
 
