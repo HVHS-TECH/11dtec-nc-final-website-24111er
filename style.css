@@ -14,7 +14,7 @@ html{
         padding: 2em;
         border-radius: .5em;
 
-        a{
+        .nav_link{
             color:#EBF2FA;
             text-decoration:none;
             padding: 1em;
@@ -23,7 +23,7 @@ html{
   
         }
 
-        a:hover {
+        .nav_link:hover {
                 background-color: #EBF2FA;
                 color: #427AA1;
                 opacity: 50%;
