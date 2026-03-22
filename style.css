@@ -176,15 +176,16 @@ html{
     .menu {
         background-color:#427AA1;
         box-shadow:2px 2px 5px black;
-        
         position:absolute;
         margin-top:0%;
         display: none;
         height: 20em;
         overflow-y: auto;
 
-        
+    }
 
+    .content {
+        min-width: max-content;
     }
 
     
