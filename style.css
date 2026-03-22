@@ -185,7 +185,7 @@ html{
         
     }
 
-
+    /* This is the parent element for the dropdown menu, and is the main dropdown selector */
     .dropdown{
         text-decoration:none;
         background-color:#679436;
@@ -226,6 +226,8 @@ html{
         
 
     }
+
+    /* This is the end of the dropdown code */
 
  
 
