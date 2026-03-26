@@ -119,6 +119,7 @@ html{
         /* flex: 0 0 15em; */
         /* aspect-ratio: ; */
         height: fit-content;
+        width: fit-content;
         background-color:#EBF2FA; 
         padding: .5em;
         border-radius: .5em;
