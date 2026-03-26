@@ -38,7 +38,7 @@ html{
 
 /* This is the code for the interactive image carousel */
     .carousel{
-        width: 75%;
+        width: 65%;
         overflow-x: auto;
         margin: 3em auto;
         display: flex;
