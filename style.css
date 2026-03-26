@@ -43,7 +43,6 @@ html{
         margin: 3em auto;
         display: flex;
         gap: 1em;
-        min-width: 20em;
         padding: 1em;
         scroll-behavior:smooth;
         anchor-name: --carousel; 
@@ -117,18 +116,17 @@ html{
 
     .items{
         scroll-snap-align: start;
-        flex: 0 0 15em;
+        /* flex: 0 0 15em; */
         /* aspect-ratio: ; */
-        height: 30em;
-        background-color:#EBF2FA;
+        height: fit-content;
+        background-color:#EBF2FA; 
         padding: 1em;
         border-radius: .5em;
         text-align:center;
         align-content:center;
         color:#000000;
-        aspect-ratio: 5,3;
         border-color:#427AA1;
-        border: .5em;
+
         
         
         
@@ -167,7 +165,7 @@ html{
     /* This is the code for the dropdown menu in pages: Libraries Near You, etc */
        /* This code uses the pseudo-class :hover so that when the users mouse hovers over 
        the main dropdown selector the rest of the menu's display will be set to block and thus will appear. 
-       This interactivity feature makes this website more engaging and interesting to the user. */
+       This interactivity feature makes this website more engaging and interisting to the user. */
     .content:hover {
         .menu {
         display: block;
@@ -179,6 +177,7 @@ html{
         background-color:#427AA1;
         box-shadow:2px 2px 5px black;
         list-style: none;
+        /* The position:absolute; function works in  */
         position:absolute;
         margin-top:0%;
         display: none;
@@ -187,7 +186,7 @@ html{
         
     }
 
-    /* This is the parent element for the dropdown menu, and is the main dropdown selector */
+
     .dropdown{
         text-decoration:none;
         background-color:#679436;
@@ -201,10 +200,12 @@ html{
         background-color:#A5BE00;
     }
    
-    /* The .region class is all of the individual divs used to seperate the regions */
+
     .region {
         padding: 10px 15px;
         min-width: max-content;
+        
+
     }
 
     .region:hover {
@@ -217,7 +218,8 @@ html{
         }
     }
 
-    /* The .link class is specifically the link element of all of the regions */
+   
+
     .link {
         text-decoration:none;
         color:#EBF2FA;
@@ -226,9 +228,7 @@ html{
 
     }
 
-    /* This is the end of the dropdown code */
-
- 
+ /* This is the end of the dropdown menu code */
 
 
  
