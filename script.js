@@ -1,3 +1,7 @@
 const icon = document.getElementById("icon");
 
-icon.addEventListener
+function handleClick() {
+    
+}
+
+icon.addEventListener('click', handleClick)
