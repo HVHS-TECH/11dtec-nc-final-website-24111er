@@ -90,7 +90,12 @@ html{
 
     }
 
-    .carousel::scroll-button(left):disabled,.carousel::scroll-button(right):disabled {
+    .carousel::scroll-button(left):disabled {
+        opacity: 75%;
+        cursor:default;
+    }
+
+   .carousel::scroll-button(right):disabled {
         opacity: 75%;
         cursor:default;
     }
