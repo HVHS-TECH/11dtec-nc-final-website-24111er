@@ -77,13 +77,18 @@ html{
         padding-bottom: .15em;
         transform: translateX();
         transition: 0.5s, 7.5em, ease-in-out;
+
+   
        
     }
 
-    .carousel::scroll-button(right):disabled {
+
+         /* .carousel::scroll-button(right):disabled {
         opacity: 50%;
         cursor: default;
-    }
+    } */
+
+    
 
       .carousel::scroll-button(left) {
         content:'←';
