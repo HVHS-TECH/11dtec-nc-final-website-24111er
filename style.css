@@ -90,8 +90,9 @@ html{
 
     }
 
-    .carousel::scroll-button(left):disabled, .carousel::scroll-button(right):disabled {
-        display:none;
+    .carousel::scroll-button(left):disabled,.carousel::scroll-button(right):disabled {
+        opacity: 75%;
+        cursor:default;
     }
 
     .carousel::scroll-marker-group {
