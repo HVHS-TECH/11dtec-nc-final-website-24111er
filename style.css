@@ -90,6 +90,10 @@ html{
 
     }
 
+    .carousel::scroll-button(left):disabled, .carousel::scroll-button(right):disabled {
+        display:none;
+    }
+
     .carousel::scroll-marker-group {
         display:flex;
         justify-content: center;
