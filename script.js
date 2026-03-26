@@ -1,1 +1,1 @@
-cont 
+const icon = document.getElementById("icon");
