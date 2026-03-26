@@ -80,6 +80,11 @@ html{
        
     }
 
+    .carousel::scroll-button(right):disabled {
+        opacity: 50%;
+        cursor: default;
+    }
+
       .carousel::scroll-button(left) {
         content:'←';
         position: fixed;
@@ -95,10 +100,7 @@ html{
         cursor:default;
     }
 
-   .carousel::scroll-button(right):disabled {
-        opacity: 75%;
-        cursor:default;
-    }
+   
 
     .carousel::scroll-marker-group {
         display:flex;
