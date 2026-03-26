@@ -120,7 +120,7 @@ html{
         /* aspect-ratio: ; */
         height: fit-content;
         background-color:#EBF2FA; 
-        padding: 1em;
+        padding: .5em;
         border-radius: .5em;
         text-align:center;
         align-content:center;
