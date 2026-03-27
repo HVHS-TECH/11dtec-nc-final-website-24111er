@@ -1,5 +1,3 @@
-import java.swing.JOptionPane;
-
 const icon = document.getElementById("icon");
 const message = document.getElementById("message");
 
