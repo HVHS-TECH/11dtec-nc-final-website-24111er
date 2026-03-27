@@ -168,6 +168,13 @@ html{
 
     /* This is the end of the code for the image carousel */
 
+    .popup-content {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto;
+
+    }
+
     /* @media {
         .carousel {
             transform: translateX(7.5em);
