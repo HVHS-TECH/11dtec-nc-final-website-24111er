@@ -172,11 +172,22 @@ html{
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto auto auto;
+        gap: .5em;
     }
 
     .popup-images {
         grid-row-start: 1;
         grid-row-end: 6;
+    }
+
+    .popup-overview {
+        grid-row-start:2;
+        grid-row-end:4;
+    }
+
+    .popup-titles {
+        grid-column-start:1;
+        grid-column-end:3;
     }
 
     /* @media {
@@ -269,3 +280,4 @@ html{
 
 
 }
+/* https://www.google.com/search?q=how+to+make+a+simple+java+pop+up+when+a+button+is+clicked+in+a+website&sca_esv=4e0bfa84728bf4dd&rlz=1CAJYDF_enNZ1095&biw=1366&bih=681&ei=nNPFabnsAZCTseMP6_edoA8&ved=0ahUKEwi5qp7B7b6TAxWQSWwGHet7B_QQ4dUDCBE&uact=5&oq=how+to+make+a+simple+java+pop+up+when+a+button+is+clicked+in+a+website&gs_lp=Egxnd3Mtd2l6LXNlcnAiRmhvdyB0byBtYWtlIGEgc2ltcGxlIGphdmEgcG9wIHVwIHdoZW4gYSBidXR0b24gaXMgY2xpY2tlZCBpbiBhIHdlYnNpdGVIsihQmw9YvCdwAXgAkAEAmAGpA6ABwhuqAQgyLTExLjEuMbgBA8gBAPgBAZgCBKACvwjCAg4QABiABBiwAxiGAxiKBcICCBAAGLADGO8FwgILEAAYsAMYogQYiQXCAgUQIRigAcICBxAhGKABGAqYAwCIBgGQBgeSBwkxLjAuMS4xLjGgB8AdsgcHMi0xLjEuMbgHswjCBwUyLTEuM8gHJIAIAA&sclient=gws-wiz-serp&safe=active&ssui=on */
