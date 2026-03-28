@@ -1,7 +1,7 @@
 const icon = document.getElementById("icon");
 const message = document.getElementById("message");
 const popupN = document.getElementById("NarniaPopup");
-const close = document.getElementsByClassName("close-button");
+var close = document.getElementsByClassName("close-button");
 
 icon.onclick = function() {
     popupN.style.display = "block";
