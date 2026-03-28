@@ -226,7 +226,7 @@ html{
         grid-column-end:3;
     } 
 
-    .close-button {
+    #close-button {
         cursor: pointer;
     }
 

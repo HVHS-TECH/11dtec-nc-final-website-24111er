@@ -1,7 +1,7 @@
 const icon = document.getElementById("icon");
 const message = document.getElementById("message");
 const popupN = document.getElementById("NarniaPopup");
-var close = document.getElementsByClassName("close-button");
+const close = document.getElementsById("close-button");
 
 icon.onclick = function() {
     popupN.style.display = "block";
@@ -12,11 +12,11 @@ close.onclick = function() {
 }
 
 window.onclick = function(event) {
-    if (event.target == popupN) {
-        popupN.style.display = "block";
-    } 
-}
+     if (event.target == popupN) {
+         popupN.style.display = "block";
+     } 
+ }
 
 
 
-// https://www.w3schools.com/howto/howto_css_modals.asp#:~:text=Converters,padding:%2020px;//
+// https://www.w3schools.com/howto/howto_css_modals.asp#:~:text=Converters,padding:%2020px;
