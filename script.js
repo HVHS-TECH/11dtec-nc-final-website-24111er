@@ -12,7 +12,9 @@ close.onclick = function() {
 }
 
 window.onclick = function(event) {
-    if (event.target == popupN) {
+    if (event.target == ) {
+        popupN.style.display = "block";
+    } else {
         popupN.style.display = "none";
     }
 }

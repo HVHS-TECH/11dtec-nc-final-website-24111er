@@ -167,7 +167,7 @@ html{
     }
 
     /* This is the end of the code for the image carousel */
-    .popup {
+    /* .popup {
         display: none;
         position: fixed;
         z-index: 1;
@@ -198,11 +198,11 @@ html{
             text-decoration: none;
             cursor: pointer;
         }
-    }
+    } */
 
 
 
-    /* .popup-content {
+    .popup-content {
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto auto auto;
@@ -223,7 +223,7 @@ html{
     .popup-titles {
         grid-column-start:1;
         grid-column-end:3;
-    } */
+    } 
 
     
 
