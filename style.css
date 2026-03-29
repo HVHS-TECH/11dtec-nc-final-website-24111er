@@ -203,6 +203,8 @@ html{
  
     #icon {
         border:none;
+        background-color: #EBF2FA;
+        
     }
     .popup-content {
         background-color: blueviolet;
