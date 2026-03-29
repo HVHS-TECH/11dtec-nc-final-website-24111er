@@ -1,9 +1,9 @@
-const icon = document.getElementById("icon");
-const message = document.getElementById("message");
-const popupN = document.getElementById("NarniaPopup");
-const close = document.getElementsById("close-button");
+var icon = document.getElementById("icon");
+var message = document.getElementById("message");
+var popupN = document.getElementById("NarniaPopup");
+var close = document.getElementsById("close-button");
 
- icon.addEventListener('click',handleClick)
+ icon.addEventListener('click',handleClick);
 // icon.onclick = function() {
 // //     popupN.style.display = "block";
 // message.textContent = "the button was cliked";
