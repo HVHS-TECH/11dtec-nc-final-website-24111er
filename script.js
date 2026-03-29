@@ -1,9 +1,21 @@
-var icon = document.getElementById("icon").innerHTML;
-var message = document.getElementById("message").innerHTML;
-var popupN = document.getElementById("NarniaPopup").innerHTML;
-var close = document.getElementsById("close-button");
 
-icon.addEventListener("click", function(){ alert("Hello World!"); });
+const icon = document.getElementById("icon");
+const message = document.getElementById("message");
+
+function handleClick() {
+    message.textContent = 'The button was clicked';
+}
+
+icon.addEventListener('click', handleClick);
+
+
+
+// var icon = document.getElementById("icon").innerHTML;
+// var message = document.getElementById("message").innerHTML;
+// var popupN = document.getElementById("NarniaPopup").innerHTML;
+// var close = document.getElementsById("close-button");
+
+// icon.addEventListener("click", function(){ alert("Hello World!"); });
 //  icon.addEventListener('click',handleClick);
 // icon.onclick = function() {
 // //     popupN.style.display = "block";
