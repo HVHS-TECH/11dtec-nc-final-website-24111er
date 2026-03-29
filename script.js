@@ -8,7 +8,7 @@ const close = document.getElementsById("close-button");
 // message.textContent = "the button was cliked";
 //  }
 
-function handleClick {
+function handleClick() {
     message.textContent = "the button was clicked";
 }
 
