@@ -3,8 +3,8 @@ var message = document.getElementById("message").innerHTML;
 var popupN = document.getElementById("NarniaPopup").innerHTML;
 var close = document.getElementsById("close-button");
 
-
- icon.addEventListener('click',handleClick);
+icon.addEventListener("click", function(){ alert("Hello World!"); });
+//  icon.addEventListener('click',handleClick);
 // icon.onclick = function() {
 // //     popupN.style.display = "block";
 // message.textContent = "the button was cliked";
@@ -13,9 +13,9 @@ var close = document.getElementsById("close-button");
 //     message.textContent = "this button was clicked";
 
  //}
- function handleClick() {
-     message.textContent = "the button was clicked";
-}
+//  function handleClick() {
+//      message.textContent = "the button was clicked";
+// }
 
 
 
