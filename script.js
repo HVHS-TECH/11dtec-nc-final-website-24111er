@@ -4,18 +4,19 @@ const popupN = document.getElementById("NarniaPopup");
 const close = document.getElementsById("close-button");
 
 icon.onclick = function() {
-    popupN.style.display = "block";
-}
-
-close.onclick = function() {
-    popupN.style.display = "none";
-}
-
-window.onclick = function(event) {
-     if (event.target == popupN) {
-         popupN.style.display = "block";
-     } 
+//     popupN.style.display = "block";
+message.textContent = "the button was cliked";
  }
+
+// close.onclick = function() {
+//     popupN.style.display = "none";
+// }
+
+// window.onclick = function(event) {
+//      if (event.target == popupN) {
+//          popupN.style.display = "block";
+//      } 
+//  }
 
 
 

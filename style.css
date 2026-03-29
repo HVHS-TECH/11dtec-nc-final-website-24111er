@@ -202,18 +202,21 @@ html{
 
     #icon {
         border:none;
-        background-color:none;
+        background-color: #EBF2FA;
+        cursor:pointer;
     }
 
     .popup-content {
-        display: grid;
+        background-color: blueviolet;
+        /* display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto auto auto;
-        gap: .5em;
+        gap: .5em; */
+        
         
     }
 
-    .popup-images {
+    /* .popup-images {
         grid-row-start: 1;
         grid-row-end: 6;
     }
@@ -230,7 +233,7 @@ html{
 
     #close-button {
         cursor: pointer;
-    } 
+    }  */
 
     
 
