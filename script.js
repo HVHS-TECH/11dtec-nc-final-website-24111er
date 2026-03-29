@@ -1,16 +1,20 @@
-var icon = document.getElementById("icon");
-var message = document.getElementById("message");
-var popupN = document.getElementById("NarniaPopup");
+var icon = document.getElementById("icon").innerHTML;
+var message = document.getElementById("message").innerHTML;
+var popupN = document.getElementById("NarniaPopup").innerHTML;
 var close = document.getElementsById("close-button");
+
 
  icon.addEventListener('click',handleClick);
 // icon.onclick = function() {
 // //     popupN.style.display = "block";
 // message.textContent = "the button was cliked";
-//  }
+ //}
+// function myfunction() {
+//     message.textContent = "this button was clicked";
 
-function handleClick() {
-    message.textContent = "the button was clicked";
+ //}
+ function handleClick() {
+     message.textContent = "the button was clicked";
 }
 
 
