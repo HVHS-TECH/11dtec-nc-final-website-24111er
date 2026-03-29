@@ -200,7 +200,11 @@ html{
         }
     }  */
 
- 
+    #NarniaPopup {
+        display:none;
+        z-index: 1;
+    }
+
     #icon {
         border:none;
         background-color: #EBF2FA;
@@ -208,6 +212,7 @@ html{
     }
     .popup-content {
         background-color: blueviolet;
+        
         /* display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto auto auto;

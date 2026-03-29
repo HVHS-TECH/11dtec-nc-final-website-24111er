@@ -2,13 +2,14 @@
 const icon = document.getElementById("icon");
 const message = document.getElementById("message");
 const close = document.getElementById("close-button");
+const npopup = document.getElementById("NarniaPopup")
 
 function handleClick() {
-    message.textContent = 'The button was clicked';
+    npopup.style.display = "block";
 }
 
 function handleClose() {
-    message.textContent = 'The button was unclicked';
+    npopup.style.display = "none";
 }
 
 icon.addEventListener('click', handleClick);
