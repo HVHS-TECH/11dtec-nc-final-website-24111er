@@ -204,7 +204,7 @@ html{
     #icon {
         border:none;
         background-color: #EBF2FA;
-        
+        cursor: pointer;
     }
     .popup-content {
         background-color: blueviolet;

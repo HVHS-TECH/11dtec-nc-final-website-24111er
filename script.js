@@ -1,12 +1,18 @@
 
 const icon = document.getElementById("icon");
 const message = document.getElementById("message");
+const close = document.getElementById("close-button");
 
 function handleClick() {
     message.textContent = 'The button was clicked';
 }
 
+function handleClose() {
+    message.textContent = 'The button was unclicked';
+}
+
 icon.addEventListener('click', handleClick);
+close.addEventListener('click',handleClose);
 
 
 
