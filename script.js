@@ -3,6 +3,7 @@ const message = document.getElementById("message");
 const popupN = document.getElementById("NarniaPopup");
 const close = document.getElementsById("close-button");
 
+ icon.addEventListener('click',handleClick)
 // icon.onclick = function() {
 // //     popupN.style.display = "block";
 // message.textContent = "the button was cliked";
@@ -12,7 +13,7 @@ function handleClick() {
     message.textContent = "the button was clicked";
 }
 
- icon.addEventListener('click',handleClick)
+
 
 // close.onclick = function() {
 //     popupN.style.display = "none";
