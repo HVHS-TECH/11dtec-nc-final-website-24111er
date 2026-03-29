@@ -201,7 +201,9 @@ html{
     }  */
 
  
-
+    #icon {
+        border:none;
+    }
     .popup-content {
         background-color: blueviolet;
         /* display: grid;
