@@ -239,15 +239,13 @@ html{
         border: none;
         background-color: #EBF2FA;
         cursor: pointer;
+        width: 100%;
         
     }
 
 
     .icon img {
         max-width: 15%;
-        position-anchor: --popupimage;
-        position-area: right bottom;
-        translate: -50%;
     }
 
     
