@@ -1,19 +1,19 @@
 
-const icon = document.getElementById("icon");
+const NarniaIcon = document.getElementById("NarniaIcon");
 const message = document.getElementById("message");
-const close = document.getElementById("close-button");
+const NarniaClosebutton = document.getElementById("NarniaClosebutton");
 const npopup = document.getElementById("NarniaPopup")
 
-function handleClick() {
+function NarniaClick() {
     npopup.style.display = "block";
 }
 
-function handleClose() {
+function NarniaClose() {
     npopup.style.display = "none";
 }
 
-icon.addEventListener('click', handleClick);
-close.addEventListener('click',handleClose);
+NarniaIcon.addEventListener('click', NarniaClick);
+NarniaClosebutton.addEventListener('click',NarniaClose);
 
 
 
