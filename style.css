@@ -44,7 +44,7 @@ html{
         margin: 3em auto;
         display: flex;
         gap: 1em;
-        padding: 1em;
+        padding: 1em; 
         scroll-behavior:smooth;
         anchor-name: --carousel; 
         /* This declares that this class is the parent element of an anchor group and declares the name of the group.
@@ -137,7 +137,7 @@ html{
         /* flex: 0 0 15em; */
         /* aspect-ratio: ; */
         height: fit-content;
-        width: fit-content;
+        min-width: fit-content;
         background-color:#EBF2FA; 
         padding: .5em;
         border-radius: .5em;
@@ -158,7 +158,7 @@ html{
         }
     }
 
-    @media(min-width: 22em) {
+    @media(min-width: 15em) {
         .items {
             flex: 0 0 45%;
            
@@ -191,26 +191,33 @@ html{
 
     .items-content {
         position: relative;
-    }
+        justify-content: center;
+        align-content: center;
+    } 
+
+    /* .carouselImages {
+        padding: .25em;
+    }  */
 
     .overlay {
         position: absolute;
         top: 0;
         bottom: 0;
-        right: 0;
-        left: 0;
         width: 75%;
-        height: 100%;
+        height: 99.2%;
+        left: 12.65%;
         background-color:#679436;
         opacity: 0;
-        justify-content: center;
-        align-items: center;
+        align-content: center;
+        
+       
+        
 
     }
 
     .items-content:hover {
         .overlay {
-            opacity: 0.75;
+            opacity: 0.95;
         }
     }
 
@@ -218,18 +225,19 @@ html{
         width : 90%;
         height: 90vh;
         box-shadow: 0vw 0vh 45vw 10vw black;
-        align-items: center;
-        justify-content: center;
         background-color: blueviolet;
         position: fixed;
+        z-index: 10;
         top: 5%;
         left: 5%;
         right: 5%;
         bottom: 5%;
         display: none;
         overflow-y: auto;
-        
-
+        grid-template-columns: auto auto;
+        grid-template-rows: 10% 90%;
+        justify-content: center;
+        text-align: left;
     } 
 
     .close {
@@ -240,15 +248,23 @@ html{
 
     .icon {
         border: none;
-        background-color: #EBF2FA;
+        background-color: #679436;
         cursor: pointer;
         width: 100%;
+        height: 100%;
+        
         
     }
 
 
     .icon img {
-        max-width: 15%;
+        max-width: 25%;
+        opacity: 1;
+    }
+
+    .popup-titles {
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
 
     
