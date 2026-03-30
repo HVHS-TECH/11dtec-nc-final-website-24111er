@@ -168,40 +168,9 @@ html{
     }
 
     /* This is the end of the code for the image carousel */
-     /* .popup {
-        display: none;
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-
-    }
-
-    .popup-content {
-        margin: 15% auto;
-        padding: 20px;
-    }
-
-    .close-button {
-        float: right;
-        color: grey;
-        font-size: 28px;
-        font-weight: bold;
-
-    }
-
-    .close-button:hover {
-        .close-button:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
-    }  */
-
-    #NarniaPopup {
+  
+   /* This is the styling for the book information pop ups */
+    /* #NarniaPopup {
         display:none;
         position: relative;
         z-index: 9999 !important;
@@ -217,32 +186,17 @@ html{
     .popup-content {
         background-color: blueviolet;
         
-        /* display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto auto auto auto auto;
-        gap: .5em; */
+    
         
         
+    } */
+
+    .popup-content {
+        display: flex;
+        widt
+
     }
 
-    /* .popup-images {
-        grid-row-start: 1;
-        grid-row-end: 6;
-    }
-
-    .popup-overview {
-        grid-row-start:2;
-        grid-row-end:4;
-    }
-
-    .popup-titles {
-        grid-column-start:1;
-        grid-column-end:3;
-    } 
-
-    #close-button {
-        cursor: pointer;
-    }  */
 
     
 
