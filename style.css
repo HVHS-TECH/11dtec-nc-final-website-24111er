@@ -220,14 +220,12 @@ html{
         
     }
 
-    #NarniaImage {
-        anchor-name
-    }
 
     .icon img {
         max-width: 15%;
         position-anchor: --popupimage;
         position-area: right bottom;
+        translate: -50%;
     }
 
     
