@@ -194,7 +194,7 @@ html{
     .popup-content {
         width : 90%;
         height: 90vh;
-        box-shadow: 5vw 5vh 5vw 0.5vw black;
+        box-shadow: 0vw 0vh 15vw 0.7 black;
         align-items: center;
         justify-content: center;
         background-color: blueviolet;
