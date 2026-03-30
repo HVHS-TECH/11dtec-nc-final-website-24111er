@@ -1,101 +1,96 @@
 <!DOCTYPE html>
 <html lang=en>
 
-<head>
-    <meta charset = "UTF-8">
-<title>Books</title>
-<link rel="stylesheet" href="style.css">
-<script src="script.js" defer></script>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Books</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
 
-</head>
+    </head>
 
-<body>
+    <body>
     
 
-    <nav>
-        <a href="index.html" class="nav_link">Home</a>
-        <a href="libraries.html" class="nav_link">Libraries Near You</a>
-        <a href="other.html" class="nav_link">The Page That I haven't Come Up With A Name For (Yet)</a>
-    </nav>
+        <nav>
+            <a href="index.html" class="nav_link">Home</a>
+            <a href="libraries.html" class="nav_link">Libraries Near You</a>
+            <a href="other.html" class="nav_link">The Page That I haven't Come Up With A Name For (Yet)</a>
+        </nav>
     
 
-    <header>
-        <h1></h1>
+        <header>
+            <h1></h1>
+        </header>
 
-    </header>
+        <main>
+            <!-- This is my experimental code for makeing an interactive image carousel. This is just the wireframing for it, I will improve and add the images later. -->
+            <h2>Classic Reads</h2>
+            <div class="carousel">
+                <div class="items">
+                    <div>
+                        <img src="Images/Narnia.jpg" alt="The Narnia Chronicles: The Lion, The Witch and The Wardrobe Book Cover" width="75%">
+                    </div>
+                    <div>
+                        <h4>The Narnia Chronicles: The Lion, The Witch and The Wardrobe</h4>
+                    </div>
+                    <div>
+                        <button id="icon"><img src="Images/info.png" alt="Information Icon"></button>
+                        <p id="message"></p>
+                    </div>
 
-    <main>
-        <!-- This is my experimental code for makeing an interactive image carousel. This is just the wireframing for it, I will improve and add the images later. -->
-        <h2>Classic Reads</h2>
-        <div class="carousel">
-            <div class="items">
-                <div>
-                   <img src="Images/Narnia.jpg" alt="The Narnia Chronicles: The Lion, The Witch and The Wardrobe Book Cover" width="75%">
-                </div>
-                <div>
-                   <h4>The Narnia Chronicles: The Lion, The Witch and The Wardrobe</h4>
-                </div>
-                <div>
-                    <button id="icon"><img src="Images/info.png" alt="Information Icon"></button>
-                    <p id="message"></p>
+                <div class="items">
+                    <img src="Images/WizardoOz.jpg" alt="The Wizard of Oz Book Cover" width="75%">
                 </div>
 
                 <div class="items">
-                        <img src="Images/WizardoOz.jpg" alt="The Wizard of Oz Book Cover" width="75%">
-                    </div>
-
-                    <div class="items">
-                        <img src="Images/Charlotte'sWeb.jpg" alt="Charlotte's Web Book Cover" width="75%">
-                    </div>
-
-                    <div class="items">
-                        <img src="Images/Famous5.jpg" alt="The Famous Five Book Cover" width="75%">
-                    </div>
-
-                    <div class="items">
-                        <img src="Images/AIW.jpg" alt="Alice in Wonderland Book Cover" width="75%">
-                    </div>
-
-                    <div class="items">
-                        <img src="Images/LittleWomen.jpg" alt="Little Women Book Cover" width="75%">
-                    </div>
-
-                    <div class="items">
-                        <img src="Images/PeterR.jpg" alt="Peter Rabbit Book Cover" width="75%">
-                    </div>
-
-                    <div class="items">
-                        <img src="Images/WTP.jpg" alt="Winnie the Pooh Book Cover" width="75%">
-                    </div>
-
-                    <div class="items">
-                        <img src="Images/AoGG.jpg" alt="Anne of Green Gables Book Cover" width="75%">
-                    </div>
-
-                    <div class="items">
-                        <img src="Images/Hobbit.jpg" alt="The Hobbit Book Cover" width="75%">
-                    </div>
-
+                    <img src="Images/Charlotte'sWeb.jpg" alt="Charlotte's Web Book Cover" width="75%">
                 </div>
 
-                
-                   
-                
-                 <div class="popup-content" id="NarniaPopup">
-                            <button id="close-button">&times;</button>
-                            <h3 class="popup-titles">The Chronicles of Narnia: The Lion, The Witch and The Wardrobe by C.S.Lewis</h3>
-                            <img class="popup-images" src="Images/Narnia.jpg" alt="The Chronicles of Narnia: The Lion, The Witch and The Wardrobe Book Cover" width="80%">
-                            <p>Genre:</p>
-                            <p>Others in the Series:</p>
-                            <p class="popup-overview">Overview:</p>
-                        
+                <div class="items">
+                    <img src="Images/Famous5.jpg" alt="The Famous Five Book Cover" width="75%">
+                </div>
 
-                         </div>
+                <div class="items">
+                    <img src="Images/AIW.jpg" alt="Alice in Wonderland Book Cover" width="75%">
+                </div>
+
+                <div class="items">
+                    <img src="Images/LittleWomen.jpg" alt="Little Women Book Cover" width="75%">
+                </div>
+
+                <div class="items">
+                    <img src="Images/PeterR.jpg" alt="Peter Rabbit Book Cover" width="75%">
+                </div>
+
+                <div class="items">
+                    <img src="Images/WTP.jpg" alt="Winnie the Pooh Book Cover" width="75%">
+                </div>
+
+                <div class="items">
+                    <img src="Images/AoGG.jpg" alt="Anne of Green Gables Book Cover" width="75%">
+                </div>
+
+                <div class="items">
+                    <img src="Images/Hobbit.jpg" alt="The Hobbit Book Cover" width="75%">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="popup-content" id="NarniaPopup">
+            <button id="close-button">&times;</button>
+            <h3 class="popup-titles">The Chronicles of Narnia: The Lion, The Witch and The Wardrobe by C.S.Lewis</h3>
+            <img class="popup-images" src="Images/Narnia.jpg" alt="The Chronicles of Narnia: The Lion, The Witch and The Wardrobe Book Cover" width="80%">
+            <p>Genre:</p>
+            <p>Others in the Series:</p>
+            <p class="popup-overview">Overview:</p>
+        </div>
       
 
 
 
-    </main>
+</main>
 
 
     <footer>
