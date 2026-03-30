@@ -146,9 +146,6 @@ html{
         color:#000000;
         border-color:#427AA1;
         display: grid;
-
-        
-        
         
    
     }
@@ -206,12 +203,15 @@ html{
         bottom: 5%;
         display: none;
         overflow-y: auto;
+        
 
     } 
 
     .close {
         cursor: pointer;
     }
+
+
 
     .icon {
         border: none;
@@ -220,8 +220,14 @@ html{
         
     }
 
+    #NarniaImage {
+        anchor-name
+    }
+
     .icon img {
         max-width: 15%;
+        position-anchor: --popupimage;
+        position-area: right bottom;
     }
 
     
