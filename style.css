@@ -220,6 +220,10 @@ html{
         
     }
 
+    .icon img {
+        max-width: 15%;
+    }
+
     
 
 
