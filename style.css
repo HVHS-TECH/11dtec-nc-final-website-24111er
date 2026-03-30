@@ -145,7 +145,7 @@ html{
         align-content:center;
         color:#000000;
         border-color:#427AA1;
-        display: grid;
+        
         
    
     }
@@ -188,6 +188,10 @@ html{
         
         
     } */
+
+    .items-content {
+        position: relative;
+    }
 
     .popup-content {
         width : 90%;
