@@ -243,7 +243,8 @@ html{
 
     .close {
         padding: 1em;
-        text-align: center;
+        justify-content: center;
+        align-items: center;
         padding-bottom: .5em;
         padding-top: .5em;
         border-radius: 50%;
