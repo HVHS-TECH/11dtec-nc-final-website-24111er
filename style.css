@@ -270,11 +270,16 @@ html{
         
     }
 
+    .close {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
     .popup-images {
         grid-row-start:2;
-        grid-column-start: 0;
+        grid-column-start: 1;
         grid-row-end:3;
-        grid-column-end: 1;
+        grid-column-end: 2;
 
     }
 
@@ -285,7 +290,7 @@ html{
     }
 
     .popup-titles {
-        grid-column-start: 0;
+        grid-column-start: 1;
         grid-column-end: 3;
     }
 
