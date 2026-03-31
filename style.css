@@ -268,8 +268,9 @@ html{
         
     }
 
-    .carouselImages {
-        
+    .popup-images {
+        grid-row-start:2;
+
     }
 
 
