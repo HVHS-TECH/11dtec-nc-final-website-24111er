@@ -232,7 +232,6 @@ html{
         right: 5%;
         bottom: 5%;
         display: none;
-        display: grid;
         grid-template-rows: 10% 90%;
         grid-template-columns:47% 47% 6%;
         grid-template-areas: "header header closebutton" "image main main"; 
