@@ -261,6 +261,10 @@ html{
     } */
 
 
+    .items img {
+        border-radius: .5em;
+
+    }
 
     .icon {
         border: none;
