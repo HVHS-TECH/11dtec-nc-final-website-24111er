@@ -272,7 +272,9 @@ html{
 
     .popup-images {
         grid-row-start:2;
-        grid-column-start: 1;
+        grid-column-start: 0;
+        grid-row-end:3;
+        grid-column-end: 1;
 
     }
 
