@@ -290,8 +290,8 @@ html{
     }
 
     .popup-titles {
-        grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-start: 1 !important;
+        grid-column-end: 3 !important;
     }
 
     
