@@ -234,7 +234,7 @@ html{
         bottom: 5%;
         display: none;
         display: grid;
-        grid-template-areas: "header header" "menu content";
+        grid-template-rows: 90% 10%;
         grid-template-columns:47% 47% 6%;
         grid-gap: 5%;
         /* justify-content: center;
@@ -292,8 +292,9 @@ html{
     }
 
     .popup-titles {
-        grid-area: header header;
-        text-align: center;
+        grid-column: 1
+        /* grid-area: header header;
+        text-align: center; */
         /* grid-column-start: 1 !important;
         grid-column-end: 3 !important; */
     }
