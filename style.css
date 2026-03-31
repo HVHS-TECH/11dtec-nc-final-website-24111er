@@ -284,6 +284,14 @@ html{
         
 
     }
+    
+    .popup-titles {
+        grid-column: 1 /span 2
+        /* grid-area: header header;
+        text-align: center; */
+        /* grid-column-start: 1 !important;
+        grid-column-end: 3 !important; */
+    }
 
 
     .icon img {
@@ -291,13 +299,7 @@ html{
         opacity: 1;
     }
 
-    .popup-titles {
-        grid-column: 1 / span 2
-        /* grid-area: header header;
-        text-align: center; */
-        /* grid-column-start: 1 !important;
-        grid-column-end: 3 !important; */
-    }
+    
 
     
 
