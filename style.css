@@ -234,12 +234,17 @@ html{
         bottom: 5%;
         display: none;
         /* overflow-y: auto; */
+        
+        
+    } 
+
+    .popupinfo {
+        display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: 10% 90%;
         justify-content: center;
         text-align: left;
-        
-    } 
+    }
 
     .close {
         border: none;
