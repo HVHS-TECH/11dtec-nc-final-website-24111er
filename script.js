@@ -5,7 +5,7 @@ const NarniaClosebutton = document.getElementById("NarniaClosebutton");
 const npopup = document.getElementById("NarniaPopup")
 
 function NarniaClick() {
-    npopup.style.display = "block";
+    npopup.style.display = "grid";
 }
 
 function NarniaClose() {

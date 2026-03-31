@@ -233,7 +233,6 @@ html{
         right: 5%;
         bottom: 5%;
         display: none;
-        display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: 10% 90%;
         justify-content: center;
