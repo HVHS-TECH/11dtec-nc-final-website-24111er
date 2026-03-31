@@ -238,10 +238,13 @@ html{
         grid-template-rows: 10% 90%;
         justify-content: center;
         text-align: left;
+        anchor-name: --popup;
     } 
 
     .close {
         cursor: pointer;
+        position-anchor: --popup;
+        position-area: right top;
     }
 
 
