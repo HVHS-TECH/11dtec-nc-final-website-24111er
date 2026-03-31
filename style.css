@@ -233,18 +233,24 @@ html{
         right: 5%;
         bottom: 5%;
         display: none;
-        overflow-y: auto;
+        /* overflow-y: auto; */
         grid-template-columns: auto auto;
         grid-template-rows: 10% 90%;
         justify-content: center;
         text-align: left;
-        anchor-name: --popup;
+        
     } 
 
     .close {
+        padding: 1em;
+        text-align: center;
+        padding-bottom:.5em;
+        border-radius: 50%;
         cursor: pointer;
-        position-anchor: --popup;
-        position-area: right top;
+        position: absolute;
+        left: 99%;
+        top: -2%;
+
     }
 
 
