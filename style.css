@@ -236,15 +236,15 @@ html{
         display: grid;
         grid-template-rows: 10% 90%;
         grid-template-columns:47% 47% 6%;
-        grid-template-areas: "header header closebutton" "image menu menu"; 
+        grid-template-areas: "header header closebutton" "image main main"; 
         /* justify-content: center;
         text-align: left; */
         /* overflow-y: auto; */
         
         
     } 
-/* 
-    .close {
+ 
+    /*.close {
         border: none;
         padding: 1em;
         justify-content: center;
@@ -272,23 +272,29 @@ html{
         
     }
 
-    .close {
-        grid-column-start: 2;
-        grid-column-end: 3;
+    .popupbutton {
+        grid-area: closebutton;
+        /* grid-column-start: 2;
+        grid-column-end: 3; */
     }
 
     .popup-images {
-        grid-row-start: 2;
+        grid-area: image;
+        /* grid-row-start: 2;
         grid-column-start: 1;
-        grid-row-end:3;
+        grid-row-end:3; */
         
 
+    }
+
+    .maintext {
+        grid-area: main;
     }
 
     .popup-titles {
         /* grid-column: 1/3 */
         grid-area: header;
-        text-align: center; */
+        text-align: center;
         /* grid-column-start: 1 !important;
         grid-column-end: 3 !important; */
     }
