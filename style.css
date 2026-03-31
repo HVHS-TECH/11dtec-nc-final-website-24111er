@@ -244,7 +244,8 @@ html{
     .close {
         padding: 1em;
         text-align: center;
-        padding-bottom:.5em;
+        padding-bottom: .5em;
+        padding-top: .5em;
         border-radius: 50%;
         cursor: pointer;
         position: absolute;
