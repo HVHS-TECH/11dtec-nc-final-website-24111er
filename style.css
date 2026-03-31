@@ -235,6 +235,7 @@ html{
         display: none;
         grid-template-columns:47% 47% 6%;
         grid-template-rows: 90% 10%;
+        grid-gap: 5%;
         /* justify-content: center;
         text-align: left; */
         /* overflow-y: auto; */
