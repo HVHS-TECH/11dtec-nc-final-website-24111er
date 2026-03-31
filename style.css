@@ -233,6 +233,7 @@ html{
         right: 5%;
         bottom: 5%;
         display: none;
+        display: grid;
         grid-template-areas: "header header" "menu content";
         grid-template-columns:47% 47% 6%;
         grid-gap: 5%;
