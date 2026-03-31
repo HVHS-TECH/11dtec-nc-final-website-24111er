@@ -292,7 +292,7 @@ html{
     }
 
     .popup-titles {
-        grid-column: 1
+        grid-column: 1 / span 2
         /* grid-area: header header;
         text-align: center; */
         /* grid-column-start: 1 !important;
