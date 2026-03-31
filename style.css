@@ -242,6 +242,7 @@ html{
     } 
 
     .close {
+        border: none;
         padding: 1em;
         justify-content: center;
         align-items: center;
@@ -250,8 +251,8 @@ html{
         border-radius: 50%;
         cursor: pointer;
         position: absolute;
-        left: 99%;
-        top: -2%;
+        left: 98%;
+        top: -1%;
 
     }
 
@@ -267,6 +268,10 @@ html{
         
     }
 
+    .carouselImages {
+        
+    }
+
 
     .icon img {
         max-width: 25%;
@@ -274,8 +279,8 @@ html{
     }
 
     .popup-titles {
-        grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-start: 0;
+        grid-column-end: 2;
     }
 
     
