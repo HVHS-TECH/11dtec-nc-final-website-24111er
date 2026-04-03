@@ -1,17 +1,20 @@
 html{
-    background-color: #05668D;
+    background-color: #997B66;
+    /* background-color: #05668D; */
 
     /* https://www.youtube.com/watch?v=gmI5nvzv170 */
 
   body {
-    background-color: #EBF2FA;
-       padding:.5em;
-       border-radius: .5em;
+    background-color: #F1DCA7; 
+    /* background-color: #EBF2FA; */
+    padding:.5em;
+    border-radius: .5em;
        
    }
 
     nav {
-        background-color: #427AA1;
+        background-color: #D08C60;
+        /* background-color: #427AA1; */
         padding: 2em;
         border-radius: .5em;
 
@@ -40,10 +43,13 @@ html{
 /* This is the code for the interactive image carousel */
     .carousel{
         width: 65%;
+        height: fit-content;
         overflow-x: auto;
         margin: 3em auto;
         display: flex;
-        gap: 1em;
+        /* gap: 1em; */
+        background-image: url(Images/Bookshelf-wide.png);
+        background-size: 300%;
         padding: 1em; 
         scroll-behavior:smooth;
         anchor-name: --carousel; 
@@ -52,7 +58,7 @@ html{
         scroll-snap-type: x mandatory;
         scroll-marker-group:after;
         transition: 0.5s ease-in-out;
-        background-color: #05668D;
+        background-color: #B58463;
  
     }
 
@@ -71,7 +77,7 @@ html{
         Therefore if the size of the screen were to change the buttons would stay fixed in their relative position */
         position-area: right center;
         translate: -50%;
-        background-color:#A5BE00;
+        background-color:#797D62;
         font-size: 3rem;
         color:rgb(0, 0, 0);
         border-radius:50%;
@@ -122,12 +128,12 @@ html{
         content:'';
         height: 1em;
         width: 1em;
-        background-color: #679436;
+        background-color: #9B9B7A;
         border-radius: 50%;
     }
 
     .items::scroll-marker:target-current {
-        background-color: #A5BE00;
+        background-color: #797D62;
     }
 
   
@@ -136,15 +142,18 @@ html{
         scroll-snap-align: start;
         /* flex: 0 0 15em; */
         /* aspect-ratio: ; */
-        height: fit-content;
-        min-width: fit-content;
-        background-color:#EBF2FA; 
+        /* height: fit-content; */
+        /* min-width: fit-content; */
+        /* background-color:#D9AE94;  */
+        /* background-image: url(Images/Bookshelf.jpg);
+        background-size: cover;
+        height: 70%; */
         padding: .5em;
-        border-radius: .5em;
+        /*border-radius: .5em; */
         text-align:center;
         align-content:center;
         color:#000000;
-        border-color:#427AA1;
+        /* border-color:#427AA1; */
         
         
    
@@ -205,7 +214,7 @@ html{
         bottom: 0;
         width: 75%;
         height: 99.2%;
-        left: 12.65%;
+        left: 12.55%;
         background-color:#679436;
         opacity: 0;
         align-content: center;
@@ -220,11 +229,10 @@ html{
         }
     }
 
-    .popup-content {
-        width : 90%;
-        height: 90vh;
-        box-shadow: 0vw 0vh 45vw 10vw black;
-        background-color: blueviolet;
+    /* .popup {
+        align-content: center;
+        justify-content: center;
+        background-color: #997B66;
         position: fixed;
         z-index: 10;
         top: 5%;
@@ -232,9 +240,25 @@ html{
         right: 5%;
         bottom: 5%;
         display: none;
+    } */
+
+    .popup-content {
+        width : 90%;
+        height: 90vh;
+        border: .5em solid #997B66;
+        box-shadow: 0vw 0vh 45vw 10vw black;
+        background-color: #997B66;
+        position: fixed;
+        top: 5%;
+        left: 5%;
+        right: 5%;
+        bottom: 5%;
+        z-index: 11;
+        display: none;
         grid-template-rows: 10% 90%;
-        grid-template-columns:47% 47% 6%;
-        grid-template-areas: "header header closebutton" "image main main"; 
+        grid-template-columns:50% 50%;
+        grid-template-areas: "header header" "image main"; 
+        row-gap: .5em;
         /* justify-content: center;
         text-align: left; */
         /* overflow-y: auto; */
@@ -257,7 +281,10 @@ html{
 
     } */
 
-
+    .popup-content div {
+        background-color:#FFCB69;
+    }
+    
     .items img {
         border-radius: .5em;
 
@@ -265,7 +292,7 @@ html{
 
     .icon {
         border: none;
-        background-color: #679436;
+        background-color: #FFCB69;
         cursor: pointer;
         width: 100%;
         height: 100%;
@@ -274,14 +301,29 @@ html{
         
     }
 
-    .popupbutton {
-        grid-area: closebutton;
-        /* grid-column-start: 2;
-        grid-column-end: 3; */
+   
+
+    .popupbutton button {
+        cursor: pointer;
+        border-radius: 50%; 
+        position: absolute;
+        top: -2%;
+        right: -1%;
+        border-color: black;
+        border-width: .25em;
+        /* padding: 1.5em; */
+        padding-bottom: 1.25em;
+        padding-top: 1.25em;
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+        font-weight: 5px;
     }
 
     .popup-images {
         grid-area: image;
+        align-content: center;
+        justify-content: center;
+        
         /* grid-row-start: 2;
         grid-column-start: 1;
         grid-row-end:3; */
@@ -292,6 +334,7 @@ html{
     .maintext {
         grid-area: main;
         text-align: left;
+        align-content: center;
     }
 
     .popup-titles {
