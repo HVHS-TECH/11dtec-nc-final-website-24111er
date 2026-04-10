@@ -13,15 +13,6 @@ function NarniaClose() {
 }
 
 
-window.onclick = function(event) {
-    if (event.target == npopup) {
-        npopup.style.display = "grid";
-    }
-    
-    if (event.target !== npopup) {
-      npopup.style.display = "none";
-    }
-}
 
 NarniaIcon.addEventListener('click', NarniaClick);
 NarniaClosebutton.addEventListener('click',NarniaClose);
@@ -53,6 +44,15 @@ NarniaClosebutton.addEventListener('click',NarniaClose);
 //     popupN.style.display = "none";
 // }
 
+//window.onclick = function(event) {
+//     if (event.target == npopup) {
+//         npopup.style.display = "grid";
+//     }
+    
+//     if (event.target !== npopup) {
+//       npopup.style.display = "none";
+//     }
+// }
 
 
 
