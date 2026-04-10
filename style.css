@@ -439,6 +439,7 @@ html{
  /* This is the end of the dropdown menu code */
    
     .collapsible_title {
+        margin-top: 2em;
         border-style: none;
         cursor: pointer;
         background-color:#D08C60;
