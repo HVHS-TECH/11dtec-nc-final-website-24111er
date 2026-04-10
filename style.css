@@ -457,12 +457,7 @@ html{
         /* transition: max-height 0.2s ease-out; */
     }
 
-    .collapsible:hover {
-        .collapsible_title {
-            background-color:#B58463;
-        }
-
-    }
+ 
     
 
 
