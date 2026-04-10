@@ -6,6 +6,12 @@ const npopup = document.getElementById("NarniaPopup")
 var coll = document.getElementsByClassName("collapsible_title");
 var i;
 
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        
+    })
+}
+
 function NarniaClick() {
     npopup.style.display = "grid";
 }
