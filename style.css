@@ -464,7 +464,9 @@ html{
     }
 
     .collapsible_title:after {
-        
+        content: '/002B';
+        float: right;
+        font-weight: bold;
     }
 
  
