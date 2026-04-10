@@ -491,6 +491,7 @@ html{
     background-color:#9B9B7A;
     margin-bottom: 2px;
     display: grid;
+    grid-template-columns: 50% 50%;
     
    }
 
