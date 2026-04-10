@@ -449,7 +449,9 @@ html{
    }
 
    .expandable-open {
-    
+    .expandable-content {
+        grid-template-rows: 1fr;
+    }
    }
 
    .expandable_head {
