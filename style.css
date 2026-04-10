@@ -454,9 +454,13 @@ html{
         overflow: hidden;
     }
 
-    .collapsible_title:hover {
-        
+    .collapsible:hover {
+        .collapsible_title {
+            background-color:#B58463;
+        }
+
     }
+    
 
 
  
