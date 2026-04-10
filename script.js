@@ -12,8 +12,10 @@ for (i = 0; i < coll.length; i++) {
         var content = this.nextElementSibling;
         if (content.style.maxheight) {
             content.style.maxheight = null;
+        } else {
+            content.style.maxheight = content.scrollheight + "px";
         }
-    })
+    });
 }
 
 function NarniaClick() {
