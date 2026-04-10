@@ -497,6 +497,12 @@ html{
     align-items: center;
     
    }
+   
+   .adress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
 
    
 
