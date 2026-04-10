@@ -492,8 +492,13 @@ html{
     margin-bottom: 2px;
     display: grid;
     grid-template-columns: 50% 50%;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
     
    }
+
+   
 
    .expandable-content {
     display: grid;
