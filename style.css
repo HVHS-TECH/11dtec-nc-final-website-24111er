@@ -469,6 +469,12 @@ html{
         font-weight: bold;
     }
 
+    .active:after {
+        content: "-";
+        float: right;
+        font-weight: bold;
+    }
+
  
     
 
