@@ -14,20 +14,22 @@ function NarniaClose() {
     npopup.style.display = "none";
 }
 
-for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener('click', Collapsible);
-}
 
-function Collapsible() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "grid") {
-        content.style.display = "none";
-    } else {
-        content.style.display = "grid";
-    }
+for (i = 0; i < coll.length)
+// for (i = 0; i < coll.length; i++) {
+//     coll[i].addEventListener('click', Collapsible);
+// }
 
-}
+// function Collapsible() {
+//     this.classList.toggle("active");
+//     var content = this.nextElementSibling;
+//     if (content.style.display === "grid") {
+//         content.style.display = "none";
+//     } else {
+//         content.style.display = "grid";
+//     }
+
+// }
 
 
 
