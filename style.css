@@ -454,6 +454,10 @@ html{
     }
    }
 
+   .expandable_icon {
+    transition: 
+   }
+
    .expandable_head {
     display: flex;
     align-items: center;
