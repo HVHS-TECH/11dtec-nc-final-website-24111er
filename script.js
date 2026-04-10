@@ -12,6 +12,12 @@ function NarniaClose() {
     npopup.style.display = "none";
 }
 
+window.onclick = function(event) {
+      if (event.target == npopup) {
+          npopup.style.display = "block";
+      } 
+  }
+
 NarniaIcon.addEventListener('click', NarniaClick);
 NarniaClosebutton.addEventListener('click',NarniaClose);
 
@@ -42,11 +48,7 @@ NarniaClosebutton.addEventListener('click',NarniaClose);
 //     popupN.style.display = "none";
 // }
 
-// window.onclick = function(event) {
-//      if (event.target == popupN) {
-//          popupN.style.display = "block";
-//      } 
-//  }
+
 
 
 
