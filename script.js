@@ -15,7 +15,7 @@ function NarniaClose() {
 window.onclick = function(event) {
     if (event.target == npopup) {
         npopup.style.display = "grid";
-    } else if (event.target == window) {
+    } else if (event.target ==! npopup) {
       npopup.style.display = "none";
     }
 }
