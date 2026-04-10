@@ -471,6 +471,7 @@ html{
     border: 1px solid black;
     border-top: none;
     border-radius: 0 0 .5em .5em;
+    overflow: hidden;
    }
 
  
