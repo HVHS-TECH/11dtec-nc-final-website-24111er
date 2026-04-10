@@ -452,9 +452,9 @@ html{
         width: 50%;
         background-color:#679436;
         display:none;
-        max-height: 0;
+        /* max-height: 0; */
         overflow: hidden;
-        transition: max-height 0.2s ease-out;
+        /* transition: max-height 0.2s ease-out; */
     }
 
     .collapsible:hover {
