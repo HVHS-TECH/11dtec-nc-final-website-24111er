@@ -464,11 +464,13 @@ html{
     font-weight: bold;
    }
 
-   .expandable_content {
+   .expandable_main {
     padding: 0 18px;
     line-height: 1.4;
     font-size: 0.85em;
     border: 1px solid black;
+    border-top: none;
+    border-radius: 0 0 .5em .5em;
    }
 
  
