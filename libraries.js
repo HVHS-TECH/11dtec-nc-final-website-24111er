@@ -1,7 +1,10 @@
 document.body.addEventListener("click", (ev) => {
     const isExpandableTitle = !!ev.target.closest(".expandable_head");
     const expandable = ev.target.closest(".expandable");
+    if (!isExpandableTitle) {
+        
+    }
 
-    console.log(expandable);
+    // console.log(expandable);
 
 });
