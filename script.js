@@ -12,10 +12,13 @@ function NarniaClose() {
     npopup.style.display = "none";
 }
 
+
 window.onclick = function(event) {
     if (event.target == npopup) {
         npopup.style.display = "grid";
-    } else if (event.target ==! npopup) {
+    }
+    
+    if (event.target !== npopup) {
       npopup.style.display = "none";
     }
 }
