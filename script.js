@@ -13,7 +13,7 @@ for (i = 0; i < coll.length; i++) {
         if (content.style.maxheight) {
             content.style.maxheight = null;
         } else {
-            content.style.maxheight = content.scrollheight + "px";
+            content.style.maxheight = content.scrollHeight + "px";
         }
     });
 }
