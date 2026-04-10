@@ -475,7 +475,8 @@ html{
    }
 
    .expandable-content {
-    
+    display: grid;
+    grid-template-rows: 0fr;
 
    }
 
