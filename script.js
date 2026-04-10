@@ -13,10 +13,12 @@ function NarniaClose() {
 }
 
 window.onclick = function(event) {
-      if (event.target == npopup) {
-          npopup.style.display = "block";
-      } 
-  }
+    if (event.target == npopup) {
+        npopup.style.display = "grid";
+    } else if (event.target == window) {
+      npopup.style.display = "none";
+    }
+}
 
 NarniaIcon.addEventListener('click', NarniaClick);
 NarniaClosebutton.addEventListener('click',NarniaClose);
