@@ -442,8 +442,17 @@ html{
         border-style: none;
         cursor: pointer;
         background-color:#D08C60;
+        width: 50%;
+        padding: 18px;
 
     }
+
+    .collapsible_content {
+        width: 50%;
+        background-color:#679436;
+    }
+
+    .collapsible_title:hover {}
 
 
  
