@@ -450,9 +450,13 @@ html{
     .collapsible_content {
         width: 50%;
         background-color:#679436;
+        display:none;
+        overflow: hidden;
     }
 
-    .collapsible_title:hover {}
+    .collapsible_title:hover {
+        
+    }
 
 
  
