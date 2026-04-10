@@ -442,7 +442,7 @@ html{
 
  /* This is the end of the dropdown menu code */
    
-   /* .expandable {
+   .expandable {
     max-width: 500px;
     margin: 1em 0;
     font-size: 16px;
@@ -485,8 +485,8 @@ html{
     grid-template-rows: 0fr;
     transition: grid-template-rows 0.3s ease-out;
 
-   } */
-  .collapsible_title {
+   }
+  /* .collapsible_title {
         margin-top: 2em;
         border-style: none;
         outline: none;
@@ -518,7 +518,7 @@ html{
     .active:after {
         content: "-";
         float: right;
-        font-weight: bold;
+        font-weight: bold;} */
 
  
     
