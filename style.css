@@ -490,6 +490,7 @@ html{
     overflow: hidden;
     background-color:#9B9B7A;
     margin-bottom: 2px;
+    display: grid;
     
    }
 
