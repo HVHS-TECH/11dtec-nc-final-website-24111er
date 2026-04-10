@@ -441,11 +441,17 @@ html{
     .collapsible_title {
         margin-top: 2em;
         border-style: none;
+        outline: none;
         cursor: pointer;
         background-color:#D08C60;
         width: 50%;
         padding: 18px;
+        text-align: left;
 
+    }
+
+    .collapsible_title:hover {
+        background-color:#797D62;
     }
 
     .collapsible_content {
