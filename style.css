@@ -12,6 +12,13 @@ html{
        
    }
 
+   main {
+    h2{
+        background-color:#997B66;
+        color: rgb(213, 213, 213);
+    }
+   }
+
     nav {
         top:0;
         left:0;
@@ -27,6 +34,7 @@ html{
         grid-template-columns: 20% 20% 60%;
         overflow: none;
         align-items: center;
+        z-index: 9;
 
         .nav_link {
             display: grid;
@@ -546,6 +554,10 @@ html{
 
    }
 
+   .expandable_main img {
+    width: 100%;
+   }
+
    /* @media(min-width: 22em) {
         .expandable {
             flex: 0 0 50%;
@@ -622,6 +634,12 @@ html{
         display: block;
         padding-bottom: 2em;
         padding-top: 2em;
+    }
+
+
+    .quicklinks a:hover {
+        background-color:#A5BE00;
+         
     }
 
 
