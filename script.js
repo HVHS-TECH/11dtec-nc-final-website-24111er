@@ -3,8 +3,7 @@ const NarniaIcon = document.getElementById("NarniaIcon");
 const message = document.getElementById("message");
 const NarniaClosebutton = document.getElementById("NarniaClosebutton");
 const npopup = document.getElementById("NarniaPopup")
-var coll = document.getElementsByClassName("collapsible_title");
-var i;
+
 
 
 
