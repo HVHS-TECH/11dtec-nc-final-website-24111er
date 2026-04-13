@@ -21,6 +21,9 @@ html{
 
    header {
     margin-top: 12.5%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
    } 
 
     nav {
