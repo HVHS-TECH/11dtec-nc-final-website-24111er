@@ -394,6 +394,10 @@ html{
         opacity: 1;
     }
 
+    .popupOpen {
+        display: grid;
+    }
+
     
 
     

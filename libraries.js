@@ -18,7 +18,7 @@ document.body.addEventListener("click", (ev) => {
         return;
     }
 
-    PopUp.classList.toggle("expandable-open")
+    PopUp.classList.toggle("popupOpen")
 
     // console.log(expandable);
 
