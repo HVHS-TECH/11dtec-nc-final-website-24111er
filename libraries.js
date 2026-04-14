@@ -13,12 +13,12 @@ document.body.addEventListener("click", (ev) => {
 
 document.body.addEventListener("click", (ev) => {
     const IconButton = !!ev.target.closest(".icon");
-    const  = ev.target.closest(".popup-content");
-    if (!isExpandableTitle) {
+    const PopUp = ev.target.closest(".popup-content");
+    if (!IconButton) {
         return;
     }
 
-    expandable.classList.toggle("expandable-open")
+    PopUp.classList.toggle("expandable-open")
 
     // console.log(expandable);
 
