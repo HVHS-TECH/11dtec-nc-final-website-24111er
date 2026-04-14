@@ -77,12 +77,12 @@ html{
             }
     }
 
-    @media (max-width: 1px) {
+    /* @media (max-width: 1px) {
         .nav_gap {
             width: 5%;
         }
 
-    }
+    } */
 
 
    
