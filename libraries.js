@@ -11,15 +11,3 @@ document.body.addEventListener("click", (ev) => {
 
 });
 
-document.body.addEventListener("click", (ev) => {
-    const IconButton = !!ev.target.closest(".icon");
-    const PopUp = ev.target.closest(".popup-content");
-    if (!IconButton) {
-        return;
-    }
-
-    PopUp.classList = ("popupOpen");
-
-    // console.log(expandable);
-
-});
