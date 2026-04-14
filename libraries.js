@@ -5,7 +5,7 @@ document.body.addEventListener("click", (ev) => {
         return;
     }
 
-    expandable.classList.toggle("expandable-open")
+    expandable.classList.toggle("expandable-open");
 
     // console.log(expandable);
 
@@ -18,7 +18,7 @@ document.body.addEventListener("click", (ev) => {
         return;
     }
 
-    PopUp.classList.toggle("popupOpen")
+    PopUp.classList = ("popupOpen");
 
     // console.log(expandable);
 
