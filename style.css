@@ -21,6 +21,7 @@ html{
 
    header {
         margin-top: 9%;
+        position: relative;
         .Libraryheader {
             display: flex;
             justify-content:space-between;
@@ -89,6 +90,7 @@ html{
     
     .banner {
         width: 100%;
+        position: absolute;
 
     }
 
