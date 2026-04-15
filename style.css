@@ -118,7 +118,7 @@ html{
         border-radius:0 0 .5em .5em;
         display:grid;
         grid-template-columns: 20vw 70vw;
-        grid-template-rows: 40vh 60vh;
+        grid-template-rows: 40% 60%;
         column-gap: 10vw;
         overflow: none;
         align-items: center;
@@ -145,7 +145,7 @@ html{
         .nav_link a{
             color:#EBF2FA;
             text-decoration:none;
-            padding: 1em 2.5em;
+            padding: 10% 25%;
             border-radius: .5em;
             font-size: 1.90vw;
   
@@ -391,7 +391,7 @@ html{
         z-index: 11;
         display: none;
         grid-template-rows: 10% 90%;
-        grid-template-columns:50% 50%;
+        grid-template-columns: 50% 50%;
         grid-template-areas: "header header" "image main"; 
         row-gap: .5em;
         /* justify-content: center;
