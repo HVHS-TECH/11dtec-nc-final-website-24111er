@@ -63,6 +63,10 @@ html{
         background-image: url(bannerimages/Waikato.png);
     }
 
+    #BayofPlentyheader {
+        background-image: url(bannerimages/BayOfPlenty.png);
+    }
+
     #marlboroughheader {
         background-image: url(bannerimages/Marlborough.png);
     }
