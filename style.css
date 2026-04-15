@@ -31,9 +31,12 @@ html{
         margin-top: 10%;
         height: 40vh;
         width: 100%;
-        background-position: 25%;
+        background-position: 0% 20%;
+        text-align: center;
+        justify-content: center;
+        color: white;
 
-   } 
+    } 
 
    /* .banner {
         width: 100%;
