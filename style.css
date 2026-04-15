@@ -36,6 +36,10 @@ html{
         align-items: center;
         color: white;
 
+        h1 {
+            font-size: 3vw;
+        }
+
     } 
 
     #Librariesheader {
