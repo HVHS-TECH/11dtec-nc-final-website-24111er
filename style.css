@@ -59,6 +59,10 @@ html{
         background-image: url(Images/Auckland.png);
     }
 
+    #marlboroughheader {
+        background-image: url(Images/Marlborough.png);
+    }
+
     nav {
         top:0;
         left:0;
