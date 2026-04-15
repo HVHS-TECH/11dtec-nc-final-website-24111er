@@ -67,8 +67,12 @@ html{
         background-image: url(bannerimages/BayOfPlenty.png);
     }
 
-    #HawkesBay {
-        background-image: url(bannerimages/Hawke'sBay.png);
+    #HawkesBayheader {
+        background-image: url(bannerimages/HawkesBay.png);
+    }
+
+    #Taranakiheader {
+        background-image: url(bannerimages/Taranaki.png);
     }
 
     #marlboroughheader {
