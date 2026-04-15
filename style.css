@@ -23,15 +23,13 @@ html{
    header {
         margin-top: 9%;
         height: fit-content;
-        .Libraryheader {
-            display: flex;
-            justify-content:space-between;
-            align-items: center;
-        }
    } 
 
    .banner {
         width: 100%;
+    }
+    
+    .Bannertitle {
         
 
     }
