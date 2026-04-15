@@ -75,8 +75,32 @@ html{
         background-image: url(bannerimages/Taranaki.png);
     }
 
+    #Manawatuheader {
+        background-image: url(bannerimages/Manawatu.png);
+    }
+
+    #Wellingtonheader {
+        background-image: url(bannerimages/Manawatu.png);
+    }
+
     #marlboroughheader {
         background-image: url(bannerimages/Marlborough.png);
+    }
+
+    #WestCoastheader {
+        background-image: url(bannerimages/WestCoast.png);
+    }
+
+    #Canterburyheader {
+        background-image: url(bannerimages/Canterbury.png);
+    }
+
+    #Otagoheader {
+        background-image: url(bannerimages/Otago.png);
+    }
+
+    #Southlandheader {
+        background-image: url(bannerimages/Southland.png);
     }
 
     nav {
