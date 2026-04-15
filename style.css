@@ -117,8 +117,9 @@ html{
         padding-top: 1em;
         border-radius:0 0 .5em .5em;
         display:grid;
-        grid-template-columns: "image links";
-        grid-template-rows: "image nothing";
+        grid-row-areas: 
+        grid-template-columns: 20vw 70vw;
+        grid-template-rows: 40vh 60vh;
         column-gap: 10vw;
         overflow: none;
         align-items: center;
