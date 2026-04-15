@@ -11,7 +11,7 @@ html{
         padding:.5em;
         border-radius: .5em;
         display:grid;
-        width:100%;
+        width: 100%;
         overflow-x: hidden;
         margin-left: 0;
         padding: 0;
@@ -32,7 +32,7 @@ html{
         margin-top: 10%;
         height: 40vh;
         width: 100%;
-        background-position: 0% 20%;
+        background-position: 20% 20%;
         text-align: center;
         align-items: center;
         color: white;
