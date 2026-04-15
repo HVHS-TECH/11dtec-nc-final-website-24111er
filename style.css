@@ -1,6 +1,5 @@
 html{
-    margin-left:0;
-    width: 100%;
+    
     /* background-color: #997B66; */
     /* background-color: #05668D; */
 
@@ -14,7 +13,8 @@ html{
         display:grid;
         width:100%;
         overflow-x: hidden;
-        margin-left:0;
+        margin-left: 0;
+        padding: 0;
     
        
     }
