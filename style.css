@@ -5,25 +5,27 @@ html{
     /* https://www.youtube.com/watch?v=gmI5nvzv170 */
 
   body {
-    background-color: #F1DCA7; 
-    /* background-color: #EBF2FA; */
-    padding:.5em;
-    border-radius: .5em;
+        background-color: #F1DCA7; 
+        /* background-color: #EBF2FA; */
+        padding:.5em;
+        border-radius: .5em;
        
    }
 
    main {
-    h2{
-        background-color:#997B66;
-        color: rgb(213, 213, 213);
-    }
+        h2{
+            background-color:#997B66;
+            color: rgb(213, 213, 213);
+        }
    }
 
    header {
-    margin-top: 9%;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+        margin-top: 9%;
+        .Libraryheader {
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+        }
    } 
 
     nav {
@@ -69,12 +71,13 @@ html{
         }
 
         .nav_link a:hover {
-                background-color: #EBF2FA;
-                color: #427AA1;
-                opacity: 50%;
+            background-color: #EBF2FA;
+            color: #427AA1;
+            opacity: 50%;
                 
 
-            }
+        }
+        
     }
 
     /* @media (max-width: 1px) {
@@ -83,6 +86,11 @@ html{
         }
 
     } */
+    
+    .banner {
+        width: 100%;
+
+    }
 
 
    
