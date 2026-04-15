@@ -34,7 +34,7 @@ html{
 
    } 
 
-   .banner {
+   /* .banner {
         width: 100%;
     }
     
@@ -44,6 +44,10 @@ html{
         top: 30%;
         left: 20%;
 
+    } */
+
+    #northlandheader {
+        background-image: url(Images/Northland.png);
     }
 
     nav {
