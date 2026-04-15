@@ -117,21 +117,25 @@ html{
         padding-top: 1em;
         border-radius:0 0 .5em .5em;
         display:grid;
-        grid-template-columns: 20vw 70vw;
+        grid-template-columns: "image links";
+        grid-template-rows: "image nothing";
         column-gap: 10vw;
         overflow: none;
         align-items: center;
         z-index: 9;
 
         .nav_link {
+            grid-area: links;
             display: grid;
             grid-template-columns: auto auto auto;
             text-align: center;
         } 
 
         .nav_img {
+            grid-area: image;
             width: 100%;
             height: auto;
+            
         } 
 
         .nav_link span {
