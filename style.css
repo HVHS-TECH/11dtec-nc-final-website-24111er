@@ -59,6 +59,10 @@ html{
         background-image: url(Images/Auckland.png);
     }
 
+    #waikatoheader {
+        background-image: url(Images/Waikato.png);
+    }
+
     #marlboroughheader {
         background-image: url(Images/Marlborough.png);
     }
