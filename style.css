@@ -114,7 +114,7 @@ html{
         width: 100vw;
         /* background-color: #427AA1; */
         padding: .5em;
-        padding-top: 1em;
+        /* padding-top: 1em; */
         border-radius:0 0 .5em .5em;
         display:grid;
         grid-template-columns: 20vw 70vw;
@@ -140,13 +140,13 @@ html{
 
         .nav_link span {
             width: 100%;
+            border-radius: 0 0 .5em .5em;
         }
 
         .nav_link a{
             color:#EBF2FA;
             text-decoration:none;
             padding: 10% 25%;
-            border-radius: .5em;
             font-size: 1.90vw;
   
         }
