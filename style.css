@@ -9,6 +9,7 @@ html{
         /* background-color: #EBF2FA; */
         padding:.5em;
         border-radius: .5em;
+        display:grid;
        
    }
 
