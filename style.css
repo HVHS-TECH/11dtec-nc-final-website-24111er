@@ -127,7 +127,7 @@ html{
         .nav_link {
             grid-area: 1 / 2 / 2 / 3;
             display: grid;
-            grid-template-columns: auto auto auto;
+            grid-template-columns: 30% 30% 30%;
             text-align: center;
         } 
 
@@ -140,8 +140,8 @@ html{
 
         .nav_link span {
             width: 100%;
-            padding: 10% 15%;
-            border-radius: 0 0 .5em .5em;
+            border-radius: 0 0.5em 0 0.5em;
+            height: 100%;
         }
 
         .nav_link a{
@@ -149,14 +149,18 @@ html{
             text-decoration:none;
             padding: 10% 15%;
             font-size: 1.75vw;
-            padding-top: 10%;
+            
   
         }
 
         .nav_link span:hover {
             background-color: white;
-            color: #D08C60;
             opacity: 50%;
+            a {
+                color: #D08C60;
+            }
+            
+            
                 
 
         }
