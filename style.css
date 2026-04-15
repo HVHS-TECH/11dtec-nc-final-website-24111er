@@ -151,7 +151,7 @@ html{
   
         }
 
-        .nav_link a:hover {
+        .nav_link span:hover {
             background-color: #EBF2FA;
             color: #427AA1;
             opacity: 50%;
