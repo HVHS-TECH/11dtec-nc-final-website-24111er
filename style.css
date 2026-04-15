@@ -29,6 +29,12 @@ html{
         }
    } 
 
+   .banner {
+        width: 100%;
+        position: absolute;
+
+    }
+
     nav {
         top:0;
         left:0;
@@ -88,11 +94,7 @@ html{
 
     } */
     
-    .banner {
-        width: 100%;
-        position: absolute;
-
-    }
+    
 
 
    
