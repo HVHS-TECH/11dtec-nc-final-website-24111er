@@ -32,7 +32,6 @@ html{
         margin-top: 10%;
         height: 40vh;
         width: 100%;
-        background-position: 70% 20%;
         text-align: center;
         align-items: center;
         color: white;
@@ -40,7 +39,7 @@ html{
     } 
 
     .northislandlibraries {
-        background-position: 70% 20%;
+        background-position: 70% 30%;
     }
 
     .southislandlibraries {
