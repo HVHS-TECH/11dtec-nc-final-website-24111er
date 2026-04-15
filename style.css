@@ -52,19 +52,19 @@ html{
     } */
 
     #northlandheader {
-        background-image: url(Images/Northland.png);
+        background-image: url(bannerimages/Northland.png);
     }
 
     #aucklandheader {
-        background-image: url(Images/Auckland.png);
+        background-image: url(bannerimages/Auckland.png);
     }
 
     #waikatoheader {
-        background-image: url(Images/Waikato.png);
+        background-image: url(bannerimages/Waikato.png);
     }
 
     #marlboroughheader {
-        background-image: url(Images/Marlborough.png);
+        background-image: url(bannerimages/Marlborough.png);
     }
 
     nav {
@@ -140,7 +140,7 @@ html{
         margin: 3em auto;
         display: flex;
         /* gap: 1em; */
-        background-image: url(Images/Bookshelf-wide.png);
+        background-image: url(indeximages/Bookshelf-wide.png);
         background-size: 300%;
         padding: 1em; 
         scroll-behavior:smooth;
@@ -237,7 +237,7 @@ html{
         /* height: fit-content; */
         /* min-width: fit-content; */
         /* background-color:#D9AE94;  */
-        /* background-image: url(Images/Bookshelf.jpg);
+        /* background-image: url(indeximages/Bookshelf.jpg);
         background-size: cover;
         height: 70%; */
         padding: .5em;
