@@ -140,14 +140,16 @@ html{
 
         .nav_link span {
             width: 100%;
+            padding: 10% 15%;
             border-radius: 0 0 .5em .5em;
         }
 
         .nav_link a{
             color:#EBF2FA;
             text-decoration:none;
-            padding: 10% 25%;
+            padding: 10% 15%;
             font-size: 1.75vw;
+            padding-top: 10%;
   
         }
 
