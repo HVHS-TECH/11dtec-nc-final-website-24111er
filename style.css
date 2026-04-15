@@ -39,17 +39,13 @@ html{
 
     } 
 
-   /* .banner {
-        width: 100%;
+    .northislandlibraries {
+        background-position: 70% 20%;
     }
-    
-    .Bannertitle {
-        position: absolute;
-        z-index: 8;
-        top: 30%;
-        left: 20%;
 
-    } */
+    .southislandlibraries {
+
+    }
 
     #northlandheader {
         background-image: url(bannerimages/Northland.png);
