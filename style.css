@@ -187,7 +187,7 @@ html{
         margin-top: 4.35%;
         display:grid;
         grid-template-areas: "NotesLeft Maincontent NotesRight";
-        grid-template-columns: 15% 70% 15%;
+        grid-template-columns: 20% 60% 20%;
         
     }
 
@@ -201,7 +201,6 @@ html{
         grid-template-rows: auto auto auto;
         row-gap: 1vh;
         background-color: #B58463;
-        border-radius: 0 0.5em 0.5em 0;
     }
 
     .Notes img {
