@@ -25,6 +25,8 @@ html{
         h2{
             background-color:#997B66;
             color: rgb(213, 213, 213);
+            padding: 1em 3em;
+            text-align: center;
         }
     }
 
