@@ -21,7 +21,6 @@ html{
 
    main {
         margin-left: 2.5%;
-        overflow-y: auto;
         h2{
             background-color:#997B66;
             color: rgb(213, 213, 213);
