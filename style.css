@@ -8,13 +8,11 @@ html{
   body {
         background-color: #F1DCA7; 
         /* background-color: #EBF2FA; */
-        padding:.5em;
         border-radius: .5em;
         display:grid;
         width: 100%;
         overflow-x: hidden;
         margin-left: 0;
-        padding: 0;
      
     }
 
@@ -793,6 +791,9 @@ html{
 
     footer {
         background-color: #D08C60;
+        width: 100%;
+
+
     }
 
 
