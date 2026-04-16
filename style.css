@@ -27,6 +27,14 @@ html{
         }
     }
 
+    #Indexmain {
+        display:grid;
+        grid-template-areas: "Notes1 Maincontent Notes2";
+        grid-template-columns: 10% 80% 10%;
+    }
+
+    
+
    header {
         display: grid;
         margin-top: 10%;
