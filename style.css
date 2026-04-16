@@ -43,6 +43,18 @@ html{
         grid-template-areas: "Note1" "Note2" "Note3";
     }
 
+    .note1 {
+        grid-area: Note1;
+    }
+
+    .note2 {
+        grid-area: Note2;
+    }
+
+    .note3 {
+        grid-area: Note3;
+    }
+
     .Notes img {
         width: 25%;
     }
