@@ -15,60 +15,72 @@ html{
         overflow-x: hidden;
         margin-left: 0;
         padding: 0;
-    
-       
+     
     }
 
-   main {
-        margin-left: 2.5%;
-        margin-top: 7.5%;
-        h2{
-            background-color:#997B66;
-            color: rgb(213, 213, 213);
-            padding: 1em 3em;
-            text-align: center;
-        }
-    }
-
-    #Indexmain {
-        margin-left: 0;
-        margin-top: 4.35%;
+    nav {
+        top:0;
+        left:0;
+        right:0;
+        background-color: #D08C60;
+        position: fixed;
+        width: 100vw;
+        /* background-color: #427AA1; */
+        padding: .5em;
+        /* padding-top: 1em; */
+        border-radius:0 0 .5em .5em;
         display:grid;
-        grid-template-areas: "NotesLeft Maincontent NotesRight";
-        grid-template-columns: 15% 70% 15%;
-        height: fit-content;
+        grid-template-columns: 20vw 70vw;
+        grid-template-rows: 40% 60%;
+        column-gap: 10vw;
+        overflow: none;
+        align-items: center;
+        z-index: 9;
+
+        .nav_link {
+            grid-area: 1 / 2 / 2 / 3;
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            text-align: center;
+        } 
+
+        .nav_img {
+            grid-area: 1 / 1 / 3 / 2;
+            width: 100%;
+            height: auto;
+            
+        } 
+
+        .nav_link span {
+            width: 100%;
+            border-radius: 0 0.5em 0 0.5em;
+            height: 100%;
+        }
+
+        .nav_link a{
+            color:#EBF2FA;
+            text-decoration:none;
+            padding: 10% 15%;
+            font-size: 1.75vw;
+            
+  
+        }
+
+        .nav_link span:hover {
+            background-color: white;
+            opacity: 50%;
+            a {
+                color: #D08C60;
+            }
+            
+            
+                
+
+        }
+        
     }
 
-    #Left {
-        grid-area: NotesLeft;
-
-    }
-
-    .Notes {
-        display: grid;
-        grid-template-rows: auto auto auto;
-        row-gap: 15%;
-        background-color: #B58463;
-        height: fit-content;
-        border-radius: 0 0.5em 0.5em 0;
-    }
-
-    .Notes img {
-        width: 100%;
-    }
-
-    .Middle {
-        grid-area: Maincontent;
-
-    }
-
-    #Right {
-        grid-area: NotesRight;
-    }
-
-
-
-   header {
+    header {
         display: grid;
         margin-top: 10%;
         height: 75%;
@@ -156,66 +168,51 @@ html{
         background-image: url(bannerimages/Southland.png);
     }
 
-    nav {
-        top:0;
-        left:0;
-        right:0;
-        background-color: #D08C60;
-        position: fixed;
-        width: 100vw;
-        /* background-color: #427AA1; */
-        padding: .5em;
-        /* padding-top: 1em; */
-        border-radius:0 0 .5em .5em;
-        display:grid;
-        grid-template-columns: 20vw 70vw;
-        grid-template-rows: 40% 60%;
-        column-gap: 10vw;
-        overflow: none;
-        align-items: center;
-        z-index: 9;
-
-        .nav_link {
-            grid-area: 1 / 2 / 2 / 3;
-            display: grid;
-            grid-template-columns: 30% 30% 30%;
+    main {
+        margin-left: 2.5%;
+        margin-top: 7.5%;
+        h2{
+            background-color:#997B66;
+            color: rgb(213, 213, 213);
+            padding: 1em 3em;
             text-align: center;
-        } 
-
-        .nav_img {
-            grid-area: 1 / 1 / 3 / 2;
-            width: 100%;
-            height: auto;
-            
-        } 
-
-        .nav_link span {
-            width: 100%;
-            border-radius: 0 0.5em 0 0.5em;
-            height: 100%;
         }
+    }
 
-        .nav_link a{
-            color:#EBF2FA;
-            text-decoration:none;
-            padding: 10% 15%;
-            font-size: 1.75vw;
-            
-  
-        }
+    #Indexmain {
+        margin-left: 0;
+        margin-top: 4.35%;
+        display:grid;
+        grid-template-areas: "NotesLeft Maincontent NotesRight";
+        grid-template-columns: 15% 70% 15%;
+        height: fit-content;
+    }
 
-        .nav_link span:hover {
-            background-color: white;
-            opacity: 50%;
-            a {
-                color: #D08C60;
-            }
-            
-            
-                
+    #Left {
+        grid-area: NotesLeft;
 
-        }
-        
+    }
+
+    .Notes {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        row-gap: 15%;
+        background-color: #B58463;
+        height: fit-content;
+        border-radius: 0 0.5em 0.5em 0;
+    }
+
+    .Notes img {
+        width: 100%;
+    }
+
+    .Middle {
+        grid-area: Maincontent;
+
+    }
+
+    #Right {
+        grid-area: NotesRight;
     }
 
     /* @media (max-width: 1px) {
