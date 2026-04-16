@@ -761,7 +761,8 @@ html{
 
     .AtoZ {
         display: grid;
-        grid-template-columns: "links main";
+        grid-template-areas: "links main";
+        grid-template-columns: 5% 95% ;
         scroll-behavior: smooth;
         grid-column-gap: 5em;
     }
