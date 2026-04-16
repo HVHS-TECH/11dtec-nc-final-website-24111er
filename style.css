@@ -38,6 +38,10 @@ html{
 
     }
 
+    .Left img, .Right img {
+        width: 25%;
+    }
+
     .Middle {
         grid-area: Maincontent;
 
