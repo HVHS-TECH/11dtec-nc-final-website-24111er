@@ -170,6 +170,7 @@ html{
         margin-left: 2.5%;
         margin-top: 7.5%;
         background-color: #F1DCA7; 
+        height: fit-content;
         h2{
             background-color:#997B66;
             color: rgb(213, 213, 213);
