@@ -33,12 +33,12 @@ html{
         grid-template-columns: 10% 80% 10%;
     }
 
-    .Left {
+    #Left {
         grid-area: Notes1;
 
     }
 
-    .Left img, .Right img {
+    .Notes img {
         width: 25%;
     }
 
@@ -47,7 +47,7 @@ html{
 
     }
 
-    .Right {
+    #Right {
         grid-area: Notes2;
     }
 
