@@ -29,9 +29,11 @@ html{
     }
 
     #Indexmain {
+        margin-left: 0;
         display:grid;
         grid-template-areas: "NotesLeft Maincontent NotesRight";
         grid-template-columns: 15% 70% 15%;
+        height: fit-content;
     }
 
     #Left {
