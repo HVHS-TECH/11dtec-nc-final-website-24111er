@@ -33,7 +33,21 @@ html{
         grid-template-columns: 10% 80% 10%;
     }
 
-    
+    .Left {
+        grid-area: Notes1;
+
+    }
+
+    .Middle {
+        grid-area: Maincontent;
+
+    }
+
+    .Right {
+        grid-area: Notes2;
+    }
+
+
 
    header {
         display: grid;
