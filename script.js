@@ -40,35 +40,6 @@ const HobbitIcon = document.getElementById("HobbitIcon");
 const HobbitClosebutton = document.getElementById("HobbitClosebutton");
 const HobbitPopup = document.getElementById("HobbitPopup");
 
-NarniaIcon.addEventListener('click', NarniaClick);
-NarniaClosebutton.addEventListener('click',NarniaClose);
-
-OzIcon.addEventListener('click', OzClick);
-OzClosebutton.addEventListener('click',OzClose);
-
-CharlotteIcon.addEventListener('click', CharlotteClick);
-CharlotteClosebutton.addEventListener('click',CharlotteClose);
-
-FiveIcon.addEventListener('click', FiveClick);
-FiveClosebutton.addEventListener('click',FiveClose);
-
-AliceIcon.addEventListener('click', AliceClick);
-AliceClosebutton.addEventListener('click',AliceClose);
-
-LittleWomenIcon.addEventListener('click', LittleWomenClick);
-LittleWomenClosebutton.addEventListener('click',LittleWomenClose);
-
-PeterIcon.addEventListener('click', PeterClick);
-PeterClosebutton.addEventListener('click',PeterClose);
-
-WinnieIcon.addEventListener('click', WinnieClick);
-WinnieClosebutton.addEventListener('click',WinnieClose);
-
-AnneIcon.addEventListener('click', AnneClick);
-AnneClosebutton.addEventListener('click',AnneClose);
-
-HobbitIcon.addEventListener('click', HobbitClick);
-HobbitClosebutton.addEventListener('click',HobbitClose);
 
 
 function NarniaClick() {
@@ -150,6 +121,36 @@ function HobbitClick() {
 function HobbitClose() {
     HobbitPopup.style.display = "none";
 }
+
+NarniaIcon.addEventListener('click', NarniaClick);
+NarniaClosebutton.addEventListener('click',NarniaClose);
+
+OzIcon.addEventListener('click', OzClick);
+OzClosebutton.addEventListener('click',OzClose);
+
+CharlotteIcon.addEventListener('click', CharlotteClick);
+CharlotteClosebutton.addEventListener('click',CharlotteClose);
+
+FiveIcon.addEventListener('click', FiveClick);
+FiveClosebutton.addEventListener('click',FiveClose);
+
+AliceIcon.addEventListener('click', AliceClick);
+AliceClosebutton.addEventListener('click',AliceClose);
+
+LittleWomenIcon.addEventListener('click', LittleWomenClick);
+LittleWomenClosebutton.addEventListener('click',LittleWomenClose);
+
+PeterIcon.addEventListener('click', PeterClick);
+PeterClosebutton.addEventListener('click',PeterClose);
+
+WinnieIcon.addEventListener('click', WinnieClick);
+WinnieClosebutton.addEventListener('click',WinnieClose);
+
+AnneIcon.addEventListener('click', AnneClick);
+AnneClosebutton.addEventListener('click',AnneClose);
+
+HobbitIcon.addEventListener('click', HobbitClick);
+HobbitClosebutton.addEventListener('click',HobbitClose);
 
 // for (i = 0; i < coll.length; i++) {
 //     coll[i].addEventListener("click", function() {
