@@ -49,6 +49,7 @@ html{
         grid-template-rows: auto auto auto;
         row-gap: 15%;
         background-color: #B58463;
+        border-radius: 0 0.5em 0.5em 0;
     }
 
 
