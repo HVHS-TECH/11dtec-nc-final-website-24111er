@@ -45,6 +45,7 @@ html{
 
     #Indexheader {
         background-image: url(bannerimages/Index.png);
+        background-position: 0% 50%;
     }
 
     #Librariesheader {
