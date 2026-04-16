@@ -199,7 +199,7 @@ html{
     .Notes {
         display: grid;
         grid-template-rows: auto auto auto;
-        row-gap: 15%;
+        /* row-gap: 15%; */
         background-color: #B58463;
         height: fit-content;
         border-radius: 0 0.5em 0.5em 0;
