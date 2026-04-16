@@ -169,6 +169,7 @@ html{
     main {
         margin-left: 2.5%;
         margin-top: 7.5%;
+        padding-bottom: 15%;
         background-color: #F1DCA7; 
         height: fit-content;
         h2{
@@ -208,7 +209,8 @@ html{
 
     .Middle {
         grid-area: Maincontent;
-
+        justify-content: center;
+        align-items: center;
     }
 
     #Right {
@@ -794,6 +796,8 @@ html{
     footer {
         background-color: #D08C60;
         width: 100%;
+        margin-bottom: 0;
+        padding: 5em;
 
 
     }
