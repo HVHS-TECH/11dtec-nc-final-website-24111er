@@ -188,7 +188,7 @@ html{
         display:grid;
         grid-template-areas: "NotesLeft Maincontent NotesRight";
         grid-template-columns: 15% 70% 15%;
-        height: fit-content;
+        height: 100%;
     }
 
     #Left {
