@@ -8,11 +8,11 @@ html{
   body {
         
         /* background-color: #EBF2FA; */
-        border-radius: .5em;
         display:grid;
         width: 100%;
         overflow-x: hidden;
         margin-left: 0;
+        height: fit-content;
      
     }
 
