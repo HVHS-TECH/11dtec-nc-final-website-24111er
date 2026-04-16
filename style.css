@@ -43,6 +43,10 @@ html{
 
     } 
 
+    #Indexheader {
+        background-image: url(bannerimages/Index.png);
+    }
+
     #Librariesheader {
         background-image: url(bannerimages/LibrariesNearYou.png);
         background-position: 0% 20%;
