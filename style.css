@@ -6,7 +6,7 @@ html{
     /* https://www.youtube.com/watch?v=gmI5nvzv170 */
 
   body {
-        background-color: #F1DCA7; 
+        
         /* background-color: #EBF2FA; */
         border-radius: .5em;
         display:grid;
@@ -169,6 +169,7 @@ html{
     main {
         margin-left: 2.5%;
         margin-top: 7.5%;
+        background-color: #F1DCA7; 
         h2{
             background-color:#997B66;
             color: rgb(213, 213, 213);
