@@ -665,13 +665,13 @@ html{
         
         #leftlibraryimage {
             grid-area: image1;
-            width: 75%;
+            width: 80%;
             
         }
 
         #leftlibrarytext {
             grid-area: text1;
-            width: 75%;
+            width: 80%;
             border-radius: 0 0 0.5em 0.5em;
             background-color: #B58463;
             
@@ -708,19 +708,19 @@ html{
         grid-area: library3;
         display: grid;
         grid-template-areas: "nothing3" "image3" "text3";
-        grid-template-rows: 20% 40% 40%;
+        grid-template-rows: 10% 45% 45%;
         row-gap: 1vh;
         justify-content: center;
         align-items: center;
 
         #rightlibraryimage {
             grid-area: image3;
-            width: 82.5%;
+            width: 85%;
         }
 
         #rightlibrarytext {
             grid-area: text3;
-            width: 82.5%;
+            width: 85%;
             border-radius: 0 0 0.5em 0.5em;
             background-color: #B58463;
         }
