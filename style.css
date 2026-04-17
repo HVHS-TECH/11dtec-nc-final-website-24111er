@@ -24,6 +24,7 @@ html{
         background-color: #D08C60;
         position: fixed;
         width: 100vw;
+        height: 20vh;
         /* background-color: #427AA1; */
         padding: .5em;
         /* padding-top: 1em; */
@@ -81,7 +82,7 @@ html{
 
     header {
         display: grid;
-        margin-top: 10%;
+        margin-top: 20vh;
         height: 75%;
         width: 100%;
         text-align: center;
