@@ -806,8 +806,7 @@ html{
 
    .quicklinks {
         width: 25%;
-        margin: 1em 0;
-        font-size: 16px;
+        grid-area: links;
         transform: rotate(90deg);
    }
 
