@@ -698,7 +698,7 @@ html{
         justify-content: space-between;
         padding: 18px;
         user-select: none;
-        background-color:#D08C60;
+        background-color: #B58463;
         border-radius: .5em .5em 0 0;
         cursor: pointer;
 
@@ -716,8 +716,8 @@ html{
         border-top: none;
         border-radius: 0 0 .5em .5em;
         overflow: hidden;
-        background-color:#B58463;
-        color: white;
+        background-color:#F1DCA7;
+        color: black;
         margin-bottom: 2px;
         display: grid;
         grid-template-columns: 50% 50%;
