@@ -760,11 +760,9 @@ html{
     } */
 
     .AtoZ {
-        /* display: grid;
+        display: grid;
         grid-template-areas: "links main";
-        grid-template-columns: 50% 50% ; */
-        scroll-behavior: smooth;
-        /* grid-column-gap: 5em; */
+        
     }
 
     .booklist {
@@ -772,6 +770,14 @@ html{
         grid-area: main;
     }
 
+    .quicklinks {
+        grid-area: links;
+        position: fixed;
+        left: 0;
+        display: block;
+        overflow: auto;
+    }
+/* 
    .quicklinks {
         width: 100%;
         position: fixed;
@@ -841,7 +847,7 @@ html{
         grid-template-rows: 0fr;
         transition: grid-template-rows 0.3s ease-out;
 
-    }
+    } */
 
 
     footer {
