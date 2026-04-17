@@ -772,26 +772,29 @@ html{
         grid-area: main;
     }
 
-    .quicklinks {
-        position: fixed;
-        height: 100vh;
-        width: 10%;
-        overflow: auto;
-        grid-area: links;
+    .quicklinks-content {
+    display: grid;
+    grid-template-columns: 0fr;
+    transition: grid-template-columns 0.3s ease-out;
 
+   }
+
+
+    .quicklinks-open {
+        .quicklinks-content {
+            grid-template-columns: 1fr;
+        }
     }
 
-    .quicklinks a{
-        display: block;
-        padding-bottom: 2em;
-        padding-top: 2em;
+   .quicklinks-open {
+        .quicklinks_icon {
+            transform: rotate(-90deg);
+        }
     }
 
-
-    .quicklinks a:hover {
-        background-color:#A5BE00;
-         
-    }
+   .quicklinks_icon {
+    transition: transform 0.3s;
+   }
 
 
     footer {
