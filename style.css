@@ -179,7 +179,7 @@ html{
         /* margin-left: 2.5%; */
         margin-top: 0; 
         background-color: #F1DCA7; 
-        height: 100%;
+        height: fit-content;
         h2{
             background-color:#997B66;
             color: rgb(213, 213, 213);
@@ -189,6 +189,7 @@ html{
     }
 
     #Indexmain {
+        height: 100%;
         margin-left: 0;
         display:grid;
         grid-template-areas: "NotesLeft Maincontent NotesRight";
