@@ -776,6 +776,7 @@ html{
         width: 100%;
         position: fixed;
         left: 5%;
+        font-size: 16;
         transform: rotate(90deg);
     }
 
