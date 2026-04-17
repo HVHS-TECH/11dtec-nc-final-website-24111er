@@ -229,6 +229,11 @@ html{
         grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
     }
 
+    .dropdown {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
     .libraryheads {
         grid-column-start: 1;
         grid-column-end: 3;
