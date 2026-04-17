@@ -177,7 +177,7 @@ html{
 
     main {
         /* margin-left: 2.5%; */
-         margin-top: 0; 
+        margin-top: 0; 
         background-color: #F1DCA7; 
         height: 100%;
         h2{
@@ -190,7 +190,6 @@ html{
 
     #Indexmain {
         margin-left: 0;
-        margin-top: 4.35%;
         display:grid;
         grid-template-areas: "NotesLeft Maincontent NotesRight";
         grid-template-columns: 20% 60% 20%;
