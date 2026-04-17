@@ -716,7 +716,8 @@ html{
         border-top: none;
         border-radius: 0 0 .5em .5em;
         overflow: hidden;
-        background-color:#9B9B7A;
+        background-color:#B58463;
+        color: white;
         margin-bottom: 2px;
         display: grid;
         grid-template-columns: 50% 50%;
@@ -800,7 +801,10 @@ html{
     .AtoZ {
         display: flex;
         align-items: flex-start;
-        color: white;
+        h3 {
+            color: white;
+        }
+        
     }
 
     .booklist {
