@@ -762,19 +762,16 @@ html{
     
     } */
 
-    /* .AtoZ {
-        /* display: grid;
-        grid-template-columns: "links main"; 
-        scroll-behavior: smooth;
-        grid-column-gap: 5em;
-    } */
+    .AtoZ {
+        display: flex;
+        justify-content: space-between;
+    }
 
     .booklist {
         position: sticky;
         top: 20%;
         margin-left: 10%;
         overflow: auto;
-        /* grid-area: main; */
     }
 
     .quicklinks {
@@ -783,7 +780,6 @@ html{
         height: 100vh;
         width: 10%;
         overflow: auto;
-        /* grid-area: links; */
 
     }
 
