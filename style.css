@@ -805,9 +805,11 @@ html{
    } */
 
    .quicklinks {
-        width: 50%;
+        width: 25%;
         margin: 1em 0;
         font-size: 16px;
+        display: grid;
+        grid-template-columns: 1fr .5fr ;
    }
 
    .quicklinks-open {
