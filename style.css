@@ -760,11 +760,11 @@ html{
     } */
 
     .AtoZ {
-        display: grid;
+        /* display: grid;
         grid-template-areas: "links main";
-        grid-template-columns: 50% 50% ;
+        grid-template-columns: 50% 50% ; */
         scroll-behavior: smooth;
-        grid-column-gap: 5em;
+        /* grid-column-gap: 5em; */
     }
 
     .booklist {
@@ -775,9 +775,9 @@ html{
    .quicklinks {
         width: 100%;
         position: fixed;
-        left:0;
+        left: 5%;
         transform: rotate(90deg);
-   }
+    }
 
    .quicklinks-open {
     .quicklinks-content {
