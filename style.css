@@ -225,7 +225,7 @@ html{
 
     .librarymains {
         display: grid;
-        
+        grid-template-areas: "dropdown dropdown" "header header" "expandable expandable"
     }
 
     /* @media (max-width: 1px) {
