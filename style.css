@@ -646,75 +646,19 @@ html{
         justify-content: center;
         align-items: center;
 
+        div {
+            background-color: ;
+        }
+
         img {
             border-radius: 0.5em 0.5em 0 0;
             width: 100%;
             height: auto;
         }
 
-        h3, p {
-            margin: 1vh;
-        }
     }
 
     
-
-    /* .leftlibrary {
-        width:100%;
-        
-        #leftlibraryimage {
-            grid-area: image1;
-            
-            
-            
-        }
-
-        #leftlibrarytext {
-            grid-area: text1;
-           
-            border-radius: 0 0 0.5em 0.5em;
-            background-color: #B58463;
-            
-        }
-    }
-
-    
-
-    .middlelibrary {
-        width:100%;
-     
-
-        #middlelibraryimage {
-            grid-area: image2;
-            
-
-        }
-
-        #middlelibrarytext {
-            grid-area: text2;
-            border-radius: 0 0 0.5em 0.5em;
-            background-color: #B58463;
-
-        }
-    }
-
-    .rightlibrary {
-        width:100%;
-        
-
-        #rightlibraryimage {
-            grid-area: image3;
-           
-        }
-
-        #rightlibrarytext {
-            grid-area: text3;
-           
-            border-radius: 0 0 0.5em 0.5em;
-            background-color: #B58463;
-        }
-    }
-    */
    .expandable {
         width: 50%;
         margin: 1em 0;
