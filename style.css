@@ -106,6 +106,10 @@ html{
         background-position: 0% 20%;
     }
 
+    #Bookstoresheader {
+        background-image: url(bannerimages/Bookstores.jpg);
+    }
+
 
     .northislandlibraries {
         background-position: 70% 30%;
