@@ -646,15 +646,20 @@ html{
         justify-content: center;
         align-items: center;
 
-        div {
-            background-color: ;
-        }
-
         img {
             border-radius: 0.5em 0.5em 0 0;
             width: 100%;
             height: auto;
         }
+
+    }
+
+    .librarytext {
+        background-color: #B58463;
+        border-radius: 0 0 0.5em 0.5em;
+        text-align: left;
+        width: 100%;
+        height: 100%;
 
     }
 
