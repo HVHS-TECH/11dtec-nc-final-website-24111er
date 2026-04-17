@@ -83,6 +83,8 @@ html{
     header {
         display: grid;
         margin-top: 20vh;
+        margin-bottom: 0;
+        padding-bottom: 0;
         height: 35vh;
         width: 100%;
         text-align: center;
