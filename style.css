@@ -777,7 +777,9 @@ html{
         grid-template-columns: 0fr;
         transition: grid-template-columns 0.3s ease-out;
 
-   }
+    }
+
+    .quicklinks_head
 
 
 
