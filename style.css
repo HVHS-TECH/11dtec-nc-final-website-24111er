@@ -225,7 +225,13 @@ html{
 
     .librarymains {
         display: grid;
-        grid-template-areas: "dropdown dropdown" "header header" "expandable expandable"
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    }
+
+    .libraryheads {
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
 
     /* @media (max-width: 1px) {
