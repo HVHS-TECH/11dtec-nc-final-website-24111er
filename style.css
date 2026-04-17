@@ -809,12 +809,13 @@ html{
         margin: 1em 0;
         font-size: 16px;
         display: grid;
-        grid-template-columns: 1fr .5fr ;
+        grid-template-columns: 0fr 1fr ;
    }
 
    .quicklinks-open {
     .quicklinks-content {
         grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
     }
    }
 
@@ -866,7 +867,8 @@ html{
    .quicklinks-content {
         display: grid;
         grid-template-rows: 0fr;
-        transition: grid-template-rows 0.3s ease-out;
+        grid-template-columns: 0fr;
+        transition: grid-template-columns 0.3s ease-out;
 
     }
 
