@@ -761,8 +761,9 @@ html{
 
     .AtoZ {
         display: grid;
-        grid-template-areas: "links main";
-        
+        grid-template-columns: "links main";
+        scroll-behavior: smooth;
+        grid-column-gap: 5em;
     }
 
     .booklist {
@@ -771,11 +772,24 @@ html{
     }
 
     .quicklinks {
-        grid-area: links;
         position: fixed;
-        left: 0;
-        display: block;
+        height: 100vh;
+        width: 10%;
         overflow: auto;
+        grid-area: links;
+
+    }
+
+    .quicklinks a{
+        display: block;
+        padding-bottom: 2em;
+        padding-top: 2em;
+    }
+
+
+    .quicklinks a:hover {
+        background-color:#A5BE00;
+         
     }
 /* 
    .quicklinks {
