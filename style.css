@@ -541,9 +541,6 @@ html{
         opacity: 1;
     }
 
-    .popupOpen {
-        display: grid;
-    }
 
     
 
@@ -636,6 +633,14 @@ html{
     }
 
  /* This is the end of the dropdown menu code */
+
+    .toplibraries {
+        display: grid;
+        grid-template-areas:"nothing1 library1 nothing2" "library2 nothing3 library3" ;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: center;
+        align-items: center;
+    }
    
    .expandable {
         width: 50%;
