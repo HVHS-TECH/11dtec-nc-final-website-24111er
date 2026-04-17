@@ -774,7 +774,8 @@ html{
 
    .quicklinks {
         width: 100%;
-        grid-area: links;
+        position: fixed;
+        left:0;
         transform: rotate(90deg);
    }
 
