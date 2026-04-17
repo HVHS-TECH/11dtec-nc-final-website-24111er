@@ -764,7 +764,7 @@ html{
 
     .AtoZ {
         display: flex;
-        justify-content: space-between;
+        align-items: flex-start
     }
 
     .booklist {
@@ -772,6 +772,7 @@ html{
         top: 20%;
         margin-left: 10%;
         overflow: auto;
+
     }
 
     .quicklinks {
