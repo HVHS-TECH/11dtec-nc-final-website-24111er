@@ -671,7 +671,10 @@ html{
             width: 75%;
             border-radius: 0 0 0.5em 0.5em;
             background-color: #B58463;
-            margin: 1vw
+            
+            p, h3 {
+                margin: 1vh;
+            }
         }
     }
 
