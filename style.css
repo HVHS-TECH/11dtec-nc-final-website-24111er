@@ -779,7 +779,12 @@ html{
 
     }
 
-    .quicklinks_head
+    .quicklinks_head {
+        width: fit-content;
+        padding: 1em 1.5em;
+        display: flex;
+        justify-content: space-between;
+    }
 
 
 
