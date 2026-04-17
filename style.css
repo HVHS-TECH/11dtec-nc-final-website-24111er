@@ -824,12 +824,15 @@ html{
         display: block;
         padding-bottom: 2em;
         padding-top: 2em;
+        text-decoration: none;
+        color:#EBF2FA;
         
     }
 
 
     .quicklinks a:hover {
-        background-color:#A5BE00;
+        background-color: #EBF2FA;
+        color:#B58463;
          
     }
 
