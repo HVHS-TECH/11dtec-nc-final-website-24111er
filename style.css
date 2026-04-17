@@ -641,11 +641,18 @@ html{
         column-gap: 1vw;
         justify-content: center;
         align-items: center;
+
+        img {
+            border-radius: 0.5em 0.5em 0 0;
+            width: 100%;
+        }
+
+        h3, p {
+            margin: 1vh;
+        }
     }
 
-    .toplibraries img {
-        width: 100%;
-    }
+    
 
     .leftlibrary {
         grid-area: library1;
@@ -660,10 +667,6 @@ html{
             grid-area: image1;
             width: 75%;
             
-
-            img {
-                border-radius: 0.5em 0.5em 0 0;
-            }
         }
 
         #leftlibrarytext {
@@ -672,9 +675,6 @@ html{
             border-radius: 0 0 0.5em 0.5em;
             background-color: #B58463;
             
-            p, h3 {
-                margin: 1vh;
-            }
         }
     }
 
@@ -682,10 +682,48 @@ html{
 
     .middlelibrary {
         grid-area: library2;
+        display: grid;
+        grid-template-areas: "image2" "text2" "nothing2";
+        grid-template-rows: 45% 45% 10%;
+        row-gap: 1vh;
+        justify-content: center;
+        align-items: center;
+
+        #middlelibraryimage {
+            grid-area: image2;
+            width: 95%;
+
+        }
+
+        #middlelibrarytext {
+            grid-area: text2;
+            width: 95%;
+            border-radius: 0 0 0.5em 0.5em;
+            background-color: #B58463;
+
+        }
     }
 
     .rightlibrary {
         grid-area: library3;
+        display: grid;
+        grid-template-areas: "nothing3" "image3" "text3";
+        grid-template-rows: 20% 40% 40%;
+        row-gap: 1vh;
+        justify-content: center;
+        align-items: center;
+
+        #rightlibraryimage {
+            grid-area: image3;
+            width: 82.5%;
+        }
+
+        #rightlibrarytext {
+            grid-area: text3;
+            width: 82.5%;
+            border-radius: 0 0 0.5em 0.5em;
+            background-color: #B58463;
+        }
     }
    
    .expandable {
