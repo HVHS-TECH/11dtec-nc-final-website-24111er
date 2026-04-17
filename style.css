@@ -645,6 +645,7 @@ html{
         height:max-content;
         justify-content: center;
         align-items: center;
+        margin-bottom: 5%;
 
         img {
             border-radius: 0.5em 0.5em 0 0;
