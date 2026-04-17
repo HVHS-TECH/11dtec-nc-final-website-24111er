@@ -799,7 +799,8 @@ html{
 
     .AtoZ {
         display: flex;
-        align-items: flex-start
+        align-items: flex-start;
+        color: white;
     }
 
     .booklist {
@@ -825,7 +826,7 @@ html{
         padding-bottom: 2em;
         padding-top: 2em;
         text-decoration: none;
-        color:#EBF2FA;
+        color: white;
         
     }
 
