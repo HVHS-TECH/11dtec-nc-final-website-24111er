@@ -777,11 +777,11 @@ html{
     .quicklinks {
         position: sticky;
         top: 20%;
-        margin-left: 0;
         height: 100vh;
         width: 10%;
         overflow: auto;
         background-color: #B58463;
+        text-align: center;
 
     }
 
@@ -789,6 +789,7 @@ html{
         display: block;
         padding-bottom: 2em;
         padding-top: 2em;
+        
     }
 
 
