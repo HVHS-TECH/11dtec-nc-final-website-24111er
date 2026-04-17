@@ -832,6 +832,7 @@ html{
 
     .quicklinks a:hover {
         background-color: #EBF2FA;
+        opacity: 0.5;
         color:#B58463;
          
     }
