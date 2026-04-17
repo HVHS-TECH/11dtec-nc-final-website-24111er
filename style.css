@@ -687,7 +687,7 @@ html{
 
     
    .expandable {
-        width: 50%;
+        width: 100%;
         margin: 1em 0;
         font-size: 16px;
    }
@@ -772,9 +772,8 @@ html{
     } */
 
     @media(max-width: 750px) {
-        .expandable {
-            width: 100%;
-            
+        .librarymains {
+            grid-template-columns: 100%;
             
         }
     }
