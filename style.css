@@ -260,9 +260,8 @@ html{
         margin: 3em auto;
         display: flex;
         /* gap: 1em; */
-        background-image: url(indeximages/Bookshelf-wide.png);
-        background-size: 300%;
-        padding: 1em; 
+        /* background-image: url(indeximages/Bookshelf-wide.png); */
+        /* padding: 1em;  */
         scroll-behavior:smooth;
         anchor-name: --carousel; 
         /* This declares that this class is the parent element of an anchor group and declares the name of the group.
@@ -271,6 +270,7 @@ html{
         scroll-marker-group:after;
         transition: 0.5s ease-in-out;
         background-color: #B58463;
+         
  
     }
 
@@ -352,10 +352,11 @@ html{
 
     .items{
         scroll-snap-align: start;
-        padding: .5em;
+        /* padding: .5em; */
         text-align:center;
         align-content:center;
-        color:#000000;    
+        color:#000000;   
+        
    
     }
 
@@ -367,9 +368,15 @@ html{
 
 
     .items-content {
+        width: 100%;
+        height: 100%;
         position: relative;
         justify-content: center;
         align-content: center;
+        background-image: url(indeximages/Shelf\(test\).png);
+        background-position: 0% 100%;
+        background-size: cover; 
+        /* background-color: black; */
     } 
 
     .carouselImages {
@@ -389,7 +396,6 @@ html{
         align-content: center;
         border-radius: .5em;
         
-
     }
 
     .items-content:hover {
@@ -474,22 +480,27 @@ html{
         cursor: pointer;
         border-radius: 50%; 
         position: absolute;
-        top: -2%;
-        right: -1%;
-        border-color: black;
-        border-width: .25em;
-        /* padding: 1.5em; */
+        top: -3%;
+        right: -2%;
+        border-style: none;
+        outline: none;
         padding-bottom: 1.25em;
         padding-top: 1.25em;
         padding-right: 1.5em;
         padding-left: 1.5em;
         font-weight: 5px;
+        background-color: #9B9B7A;
+    }
+
+    .popupbutton button:hover {
+        background-color: #797D62;
     }
 
     .popup-images {
         grid-area: image;
         align-content: center;
         justify-content: center;
+        margin: 5%;
     }
 
     .popup-images img {
@@ -501,6 +512,11 @@ html{
         grid-area: main;
         text-align: left;
         align-content: center;
+        margin: 5%;
+
+        p {
+            margin: 2.5%;
+        }
     }
 
     .popup-titles {

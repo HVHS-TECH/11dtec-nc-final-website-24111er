@@ -1,6 +1,5 @@
-
 const NarniaIcon = document.getElementById("NarniaIcon");
-const message = document.getElementById("message");
+// const message = document.getElementById("message");
 const NarniaClosebutton = document.getElementById("NarniaClosebutton");
 const npopup = document.getElementById("NarniaPopup")
 
@@ -151,87 +150,6 @@ NarniaClosebutton.addEventListener('click',NarniaClose);
 
  HobbitIcon.addEventListener('click', HobbitClick);
  HobbitClosebutton.addEventListener('click',HobbitClose);
-
-
-
-//  for (i = 0; i < coll.length; i++) {
-//      coll[i].addEventListener("click", function() {
-//         this.classList.toggle("active");
-//         var content = this.nextElementSibling;
-//         if (content.style.display === "block") {
-//             content.style.diplay = "none";
-//         } else {
-//             content.style.display = "block";
-//         }
-    
-//     });
-// }
-// for (i = 0; i < coll.length; i++) {
-//     coll[i].addEventListener('click', Collapsible);
-// }
-
-// function Collapsible() {
-//     this.classList.toggle("active");
-//     var content = this.nextElementSibling;
-//     if (content.style.display === "grid") {
-//         content.style.display = "none";
-//     } else {
-//         content.style.display = "grid";
-//     }
-
-// }
-
-
-
-
-
-
-
-// var icon = document.getElementById("icon").innerHTML;
-// var message = document.getElementById("message").innerHTML;
-// var popupN = document.getElementById("NarniaPopup").innerHTML;
-// var close = document.getElementsById("close-button");
-
-// icon.addEventListener("click", function(){ alert("Hello World!"); });
-//  icon.addEventListener('click',handleClick);
-// icon.onclick = function() {
-// //     popupN.style.display = "block";
-// message.textContent = "the button was cliked";
- //}
-// function myfunction() {
-//     message.textContent = "this button was clicked";
-
- //}
-//  function handleClick() {
-//      message.textContent = "the button was clicked";
-// }
-
-// for (i = 0; i < coll.length; i++) {
-//     coll[i].addEventListener('click', function() {
-//         this.classList.toggle("active");
-//         var content = this.nextElementSibling;
-//         if (content.style.maxheight) {
-//             content.style.maxheight = null;
-//         } else {
-//             content.style.maxheight = content.scrollHeight + "px";
-//         }
-//     });
-// }
-
-// close.onclick = function() {
-//     popupN.style.display = "none";
-// }
-
-//window.onclick = function(event) {
-//     if (event.target == npopup) {
-//         npopup.style.display = "grid";
-//     }
-    
-//     if (event.target !== npopup) {
-//       npopup.style.display = "none";
-//     }
-// }
-
 
 
 
