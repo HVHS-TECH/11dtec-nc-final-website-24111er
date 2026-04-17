@@ -659,7 +659,7 @@ html{
 
     
 
-    .leftlibrary {
+    /* .leftlibrary {
         width:100%;
         
         #leftlibraryimage {
@@ -714,7 +714,7 @@ html{
             background-color: #B58463;
         }
     }
-   
+    */
    .expandable {
         width: 50%;
         margin: 1em 0;
