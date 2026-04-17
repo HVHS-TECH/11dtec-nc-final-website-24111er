@@ -14,6 +14,10 @@ html{
         margin-left: 0;
         height: fit-content;
         margin-bottom: 0;
+
+        p {
+            font-size: 18px;
+        }
      
     }
 
@@ -61,7 +65,7 @@ html{
             color:#EBF2FA;
             text-decoration:none;
             padding: 1em 2em;
-            font-size: 1.75vw;
+            font-size: 1.9vw;
             
   
         }
@@ -180,6 +184,7 @@ html{
         margin-top: 0; 
         background-color: #F1DCA7; 
         height: fit-content;
+        width: 100%;
         h2{
             background-color:#997B66;
             color: rgb(213, 213, 213);
@@ -240,12 +245,6 @@ html{
         grid-column-end: 3;
     }
 
-    /* @media (max-width: 1px) {
-        .nav_gap {
-            width: 5%;
-        }
-
-    } */
     
     
 
@@ -353,63 +352,19 @@ html{
 
     .items{
         scroll-snap-align: start;
-        /* flex: 0 0 15em; */
-        /* aspect-ratio: ; */
-        /* height: fit-content; */
-        /* min-width: fit-content; */
-        /* background-color:#D9AE94;  */
-        /* background-image: url(indeximages/Bookshelf.jpg);
-        background-size: cover;
-        height: 70%; */
         padding: .5em;
-        /*border-radius: .5em; */
         text-align:center;
         align-content:center;
-        color:#000000;
-        /* border-color:#427AA1; */
-        
-        
+        color:#000000;    
    
     }
 
-    @media(max-width: 750px) {
-        .items {
-            flex: 0 0 100%;
-            
-            
-        }
-    }
-
-    @media(min-width: 750px) {
-        .items {
-            flex: 0 0 45%;
-           
-        }
-    }
+ 
 
     /* This is the end of the code for the image carousel */
   
    /* This is the styling for the book information pop ups */
-    /* #NarniaPopup {
-        display:none;
-        position: relative;
-        z-index: 9999 !important;
-        
-       
-    }
 
-    #icon {
-        border:none;
-        background-color: #EBF2FA;
-        cursor: pointer;
-    }
-    .popup-content {
-        background-color: blueviolet;
-        
-    
-        
-        
-    } */
 
     .items-content {
         position: relative;
@@ -567,17 +522,6 @@ html{
 
     
 
-    /* @media {
-        .carousel {
-            transform: translateX(7.5em);
-            transition: 0.5s ease-in-out;
-        }
-
-        .items {
-            transform: translateX(7.5em);
-            transition: 0.5s ease-in-out;
-        }
-    } */
 
     /* This is the code for the dropdown menu in pages: Libraries Near You, etc */
        /* This code uses the pseudo-class :hover so that when the users mouse hovers over 
@@ -764,59 +708,10 @@ html{
         width: 100%;
     }
 
-   /* @media(min-width: 22em) {
-        .expandable {
-            flex: 0 0 50%;
-            
-            
-        }
-    } */
-
-    @media(max-width: 750px) {
-        .librarymains {
-            display: block;
-            
-        }
-    }
-  /* .collapsible_title {
-        margin-top: 2em;
-        border-style: none;
-        outline: none;
-        cursor: pointer;
-        background-color:#D08C60;
-        width: 50%;
-        padding: 18px;
-        text-align: left;
-
-    }
-
-    .collapsible_title:hover {
-        background-color:#797D62;
-    }
-
-    .collapsible_content {
-        padding: 0 18px;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
-    }
-
-    .collapsible_title:after {
-        content: "+";
-        float: right;
-        font-weight: bold;
-    }
-
-    .active:after {
-        content: "-";
-        float: right;
-        font-weight: bold;
-    
-    } */
-
     .AtoZ {
         display: flex;
         align-items: flex-start;
+        color:#000000;
         h3 {
             color: white;
         }
@@ -861,88 +756,57 @@ html{
     .booklistHead {
         scroll-margin-top: 24vh;
     }
-/* 
-   .quicklinks {
-        width: 100%;
-        position: fixed;
-        left: 5%;
-        font-size: 16;
-        transform: rotate(90deg);
-    }
-
-   .quicklinks-open {
-    .quicklinks-content {
-        grid-template-rows: 1fr;
-    }
-   }
-
-   .quicklinks-open {
-    .quicklinks_icon {
-        transform: rotate(-90deg);
-    }
-   }
-
-   .quicklinks_icon {
-        transition: transform 0.3s;
-   }
-
-   .quicklinks_head {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 18px;
-        user-select: none;
-        background-color:#D08C60;
-        border-radius: .5em .5em 0 0;
-        cursor: pointer;
-
-    }
-
-   .quicklinks_title {
-        font-weight: bold;
-    }
-
-   .quicklinks_main {
-        
-        padding: 0 18px;
-        line-height: 1.4;
-        font-size: 0.85em;
-        border: 1px solid black;
-        border-top: none;
-        border-radius: 0 0 .5em .5em;
-        overflow: hidden;
-        background-color:#9B9B7A;
-        margin-bottom: 2px;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        text-align: left;
-        justify-content: center;
-        align-items: center;
-        grid-column-gap: .5em;
-    
-    }
-
-    .quicklinks_main a {
-        transform: rotate(-90deg);
-    }
-   
-   .quicklinks-content {
-        display: grid;
-        grid-template-rows: 0fr;
-        transition: grid-template-rows 0.3s ease-out;
-
-    } */
-
 
     footer {
         background-color: #D08C60;
-        width: 100%;
         margin-bottom: 0;
         padding: 5em;
 
 
     }
 
+    @media screen and (max-width: 750px) {
+        .librarymains {
+            display: block;
+            
+        }
+
+        .items {
+            flex: 0 0 100%;
+             
+        }
+
+        nav {
+            display: block;
+            
+            
+            .nav_link {
+                display: block;
+
+                a {
+                    font-size: 18px;
+                }
+                
+            }
+
+            .nav_img {
+                height: 50%;
+                width: auto;
+                
+
+            }
+        } 
+            
+    }
+    
+
+
+    @media screen and (min-width: 750px) {
+        .items {
+            flex: 0 0 45%;
+           
+        }
+    }
 
 
 
