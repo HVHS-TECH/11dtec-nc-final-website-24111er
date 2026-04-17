@@ -774,7 +774,7 @@ html{
 
     @media(max-width: 750px) {
         .librarymains {
-            grid-template-columns: 100%;
+            display: block;
             
         }
     }
