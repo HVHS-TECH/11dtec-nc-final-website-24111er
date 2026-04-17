@@ -579,7 +579,6 @@ html{
        /* This is the class for the child element of the dropdown menu, it includes all of the regions. */
     .menu {
         background-color:#427AA1;
-        box-shadow: 2em 2em 2em  black;
         list-style: none;
         /* The position:absolute; function works in  */
         position:absolute;
