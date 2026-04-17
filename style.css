@@ -637,9 +637,25 @@ html{
     .toplibraries {
         display: grid;
         grid-template-areas:"library1 library2 library3";
-        grid-template-columns: 30% 30% 30%;
+        grid-template-columns: 30vw 30vw 30vw;
         justify-content: center;
         align-items: center;
+    }
+
+    .toplibraries img {
+        width: 100%;
+    }
+
+    .leftlibrary {
+        grid-area: library1;
+    }
+
+    .middlelibrary {
+        grid-area: library2;
+    }
+
+    .rightlibrary {
+        grid-area: library3;
     }
    
    .expandable {
