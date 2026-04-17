@@ -844,7 +844,7 @@ html{
     }
 
    .quicklinks_main {
-    transform: rotate(90deg);
+        
         padding: 0 18px;
         line-height: 1.4;
         font-size: 0.85em;
@@ -861,6 +861,10 @@ html{
         align-items: center;
         grid-column-gap: .5em;
     
+    }
+
+    .quicklinks_main a {
+        transform: rotate(-90deg);
     }
    
    .quicklinks-content {
