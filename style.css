@@ -223,6 +223,11 @@ html{
         grid-area: NotesRight;
     }
 
+    .librarymains {
+        display: grid;
+        
+    }
+
     /* @media (max-width: 1px) {
         .nav_gap {
             width: 5%;
