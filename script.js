@@ -152,16 +152,7 @@ NarniaClosebutton.addEventListener('click',NarniaClose);
  HobbitIcon.addEventListener('click', HobbitClick);
  HobbitClosebutton.addEventListener('click',HobbitClose);
 
- document.body.addEventListener("click", (ev) => {
-    const isExpandableTitle = !!ev.target.closest(".expandable_head");
-    const expandable = ev.target.closest(".expandable");
-    if (!isExpandableTitle) {
-        return;
-    }
 
-    expandable.classList.toggle("expandable-open");
-
-});
 
 //  for (i = 0; i < coll.length; i++) {
 //      coll[i].addEventListener("click", function() {
