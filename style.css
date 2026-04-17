@@ -83,7 +83,7 @@ html{
     header {
         display: grid;
         margin-top: 20vh;
-        height: 75%;
+        height: 35vh;
         width: 100%;
         text-align: center;
         align-items: center;
@@ -175,7 +175,7 @@ html{
 
     main {
         /* margin-left: 2.5%; */
-        margin-top: 4.35%;
+        /* margin-top: 4.35%; */
         background-color: #F1DCA7; 
         height: 100%;
         h2{
