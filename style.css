@@ -638,6 +638,7 @@ html{
         display: grid;
         grid-template-areas:"library1 library2 library3";
         grid-template-columns: 30vw 30vw 30vw;
+        column-gap: 1vw;
         justify-content: center;
         align-items: center;
     }
@@ -648,7 +649,20 @@ html{
 
     .leftlibrary {
         grid-area: library1;
+        display: grid;
+        grid-template-areas: "nothing1" "image1" "text1";
+        grid-template-rows: 20% 40% 40%;
+        
+        #leftlibraryimage {
+            grid-area: image1;
+        }
+
+        #leftlibrarytext {
+            grid-area: text1;
+        }
     }
+
+    
 
     .middlelibrary {
         grid-area: library2;
