@@ -483,11 +483,11 @@
         align-content: center;
         margin: 5%; 
         background-color: #F1DCA7;
-        
+    
+    }
 
-        p {
-            margin: 2.5%;
-        }
+    .maintext p {
+        margin: 2.5%;
     }
 
     .popup-titles {
