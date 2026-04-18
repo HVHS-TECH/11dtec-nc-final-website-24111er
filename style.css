@@ -427,7 +427,7 @@ html{
         height: 90vh;
         border: .5em solid #B58463;
         box-shadow: 0vw 0vh 45vw 10vw black;
-        background-color:#F1DCA7;
+        background-color:#B58463;
         position: fixed;
         top: 5%;
         left: 5%;
@@ -438,7 +438,8 @@ html{
         grid-template-rows: 10% 90%;
         grid-template-columns: 50% 50%;
         grid-template-areas: "header header" "image main"; 
-        row-gap: .5em;
+        row-gap: 1em;
+        column-gap: .5em;
         /* justify-content: center;
         text-align: left; */
         /* overflow-y: auto; */
@@ -503,6 +504,7 @@ html{
         align-content: center;
         justify-content: center;
         margin: 5%;
+        background-color: #F1DCA7;
         
     }
 
@@ -515,7 +517,8 @@ html{
         grid-area: main;
         text-align: left;
         align-content: center;
-        margin: 5%;
+        margin: 5%; 
+        background-color: #F1DCA7;
         
 
         p {
