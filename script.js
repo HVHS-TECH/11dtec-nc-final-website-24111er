@@ -129,26 +129,26 @@ OzClosebutton.addEventListener('click',OzClose);
 CharlotteIcon.addEventListener('click', CharlotteClick);
 CharlotteClosebutton.addEventListener('click',CharlotteClose);
 
- FiveIcon.addEventListener('click', FiveClick);
- FiveClosebutton.addEventListener('click',FiveClose);
+FiveIcon.addEventListener('click', FiveClick);
+FiveClosebutton.addEventListener('click',FiveClose);
 
- AliceIcon.addEventListener('click', AliceClick);
- AliceClosebutton.addEventListener('click',AliceClose);
+AliceIcon.addEventListener('click', AliceClick);
+AliceClosebutton.addEventListener('click',AliceClose);
 
- LittleWomenIcon.addEventListener('click', LittleWomenClick);
- LittleWomenClosebutton.addEventListener('click',LittleWomenClose);
+LittleWomenIcon.addEventListener('click', LittleWomenClick);
+LittleWomenClosebutton.addEventListener('click',LittleWomenClose);
 
- PeterIcon.addEventListener('click', PeterClick);
- PeterClosebutton.addEventListener('click',PeterClose);
+PeterIcon.addEventListener('click', PeterClick);
+PeterClosebutton.addEventListener('click',PeterClose);
 
- WinnieIcon.addEventListener('click', WinnieClick);
- WinnieClosebutton.addEventListener('click',WinnieClose);
+WinnieIcon.addEventListener('click', WinnieClick);
+WinnieClosebutton.addEventListener('click',WinnieClose);
 
- AnneIcon.addEventListener('click', AnneClick);
- AnneClosebutton.addEventListener('click',AnneClose);
+AnneIcon.addEventListener('click', AnneClick);
+AnneClosebutton.addEventListener('click',AnneClose);
 
- HobbitIcon.addEventListener('click', HobbitClick);
- HobbitClosebutton.addEventListener('click',HobbitClose);
+HobbitIcon.addEventListener('click', HobbitClick);
+HobbitClosebutton.addEventListener('click',HobbitClose);
 
 
 
