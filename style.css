@@ -1,4 +1,4 @@
-html{
+
 /* These are stylistic and format componants which provide a basis - that applys to all pages */
   body {
         display:grid;
@@ -7,12 +7,12 @@ html{
         margin-left: 0;
         height: fit-content;
         margin-bottom: 0;
-
-        p {
-            font-size: 18px;
-        }
-     
     }
+
+    p {
+        font-size: 18px;
+    }
+     
 
     /* The nav bar is in a fixed position which allow sit to stay at the top of the screen even when the 
     user scrolls down. This enables the user quick access to anywhere on the site without having to scroll
@@ -809,4 +809,4 @@ html{
         .items 
         {flex: 0 0 45%;}
     }
-}
+
