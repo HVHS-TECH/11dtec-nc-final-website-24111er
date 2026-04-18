@@ -568,7 +568,7 @@ html{
         background-color:#9B9B7A;
         list-style: none;
         /* The position:absolute; function works in  */
-        position:inherit;
+        position: absolute;
         margin-top:0%;
         display: none;
         height: 35%;
