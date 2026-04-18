@@ -592,6 +592,7 @@ html{
         display: none;
         height: 35%;
         overflow-y: auto;
+        overflow-x: hidden;
         
     }
 
