@@ -307,7 +307,7 @@ but it is different to the three other pages. This code applies to all of the li
 
     /* This is the code for the interactive image carousel */
 
-    .carousel{
+    .carousel {
         width: 85%;
         height: fit-content;
         overflow-x: auto; /*This creates a scrollbar which can be used to view the overfllow content and still 
