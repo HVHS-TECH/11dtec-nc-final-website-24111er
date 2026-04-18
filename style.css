@@ -266,14 +266,47 @@ but it is different to the three other pages. This code applies to all of the li
         grid-column-end: 3;
     }
 
-    
-    
+    /* This is the CSS code for the index.html page */
 
+    #Indexmain {
+        height: 100%;
+        margin-left: 0;
+        display:grid;
+        grid-template-areas: "NotesLeft Maincontent NotesRight"; /*This lables the three main areas for the grid.*/
+        grid-template-columns: 20% 60% 20%;
+        
+    }
 
-   
+    #Left {
+        /* This specifies the area this specific element will go into */
+        grid-area: NotesLeft;
 
+    }
 
-/* This is the code for the interactive image carousel */
+    .Notes {
+        /* This class includes both the left and right note quote columns. */
+        display: grid;
+        grid-template-rows: auto auto auto;
+        row-gap: 1vh;
+        background-color: #B58463;
+    }
+
+    .Notes img {
+        width: 100%;
+    }
+
+    .Middle {
+        grid-area: Maincontent;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Right {
+        grid-area: NotesRight;
+    }
+
+    /* This is the code for the interactive image carousel */
+
     .carousel{
         width: 85%;
         height: fit-content;
@@ -516,6 +549,7 @@ but it is different to the three other pages. This code applies to all of the li
     }
 
     /* This is the end of the code for the image carousel */
+    /* This is the end of the code for the index.html page */
 
 
     
