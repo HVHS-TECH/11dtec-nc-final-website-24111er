@@ -526,7 +526,7 @@ html{
     .popup-titles {
         grid-area: header;
         text-align: center;
-        background-color:#D08C60;
+        /* background-color:#D08C60; */
     }
 
 
