@@ -277,10 +277,11 @@ but is different to the three other pages. This code applies to all of the libra
     .carousel{
         width: 85%;
         height: fit-content;
-        overflow-x: auto; /*This means any overflow */
+        overflow-x: auto; /*This creates a scrollbar which can be used to view the overfllow content and still 
+        ensures the container will stay to its specified size. */
         margin: 3em auto;
         display: flex;
-        scroll-behavior:smooth;
+        scroll-behavior: smooth; /*This element makes the scrolling more smooth*/
         anchor-name: --carousel; 
         /* This declares that this class is the parent element of an anchor group and declares the name of the group.
         Whenever the custom varible (--carousel) is used, that element's position will be anchored in relation to the carousel. */
