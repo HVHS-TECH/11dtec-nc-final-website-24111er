@@ -207,7 +207,7 @@ up to the top of the page. */
 
 
 
-    /* This is the CSS code for the index.html page */
+    /* This is the CSS code for the home page (index.html) */
 
     #Indexmain {
         height: 100%;
@@ -480,8 +480,9 @@ up to the top of the page. */
     }
 
     /* This is the end of the code for the image carousel */
-    /* This is the end of the code for the index.html page */
+/* This is the end of the code for the home page */
 
+ /* This is the start of the code for the Libraries Near You page (libraries.html) */
 
     .toplibraries {
         display: grid;
@@ -500,6 +501,20 @@ up to the top of the page. */
             border-radius: 0.5em 0.5em 0 0;
             width: 100%;
             height: auto;
+        }
+
+    }
+
+    .librarytext {
+        background-color: #B58463;
+        border-radius: 0 0 0.5em 0.5em;
+        text-align: left;
+        width: 100%;
+        height: 100%;
+
+        p, h3 {
+            margin-left: 1em;
+
         }
 
     }
@@ -524,11 +539,11 @@ up to the top of the page. */
         grid-column-end: 3;
     }
 
+/* This is the start of the code for all the libraries (auckland.html, northland.html, etc) pages */
+    /* This is the code for the dropdown menu  */
 
-    /* This is the code for the dropdown menu in pages: Libraries Near You, etc */
-       /* This code uses the pseudo-class :hover so that when the users mouse hovers over 
-       the main dropdown selector the rest of the menu's display will be set to block and thus will appear. 
-       This interactivity feature makes this website more engaging and interisting to the user. */
+     /* This code uses the pseudo-class :hover so that when the users mouse hovers over 
+    the main dropdown selector the rest of the menu's display will be set to block and thus will appear. */
     .content:hover {
         .menu {
         display: block;
@@ -601,25 +616,10 @@ up to the top of the page. */
     }
 
     
- /* This is the end of the dropdown menu code */
+    /* This is the end of the dropdown menu code */
 
-    
+/* This is the end of the code for the Libraries Near You page */
 
-    .librarytext {
-        background-color: #B58463;
-        border-radius: 0 0 0.5em 0.5em;
-        text-align: left;
-        width: 100%;
-        height: 100%;
-
-        p, h3 {
-            margin-left: 1em;
-
-        }
-
-    }
-
-    
    .expandable {
         width: 100%;
         margin: 1em 0;
@@ -697,6 +697,10 @@ up to the top of the page. */
         width: 100%;
     }
 
+/* This is the end of the code for the libraries pages */
+
+/* This is the start of the code for the Bookstores A - Z page (bookstores.html) */
+
     .AtoZ {
         display: flex;
         align-items: flex-start;
@@ -750,6 +754,8 @@ up to the top of the page. */
         scroll-margin-top: 24vh;
     }
 
+/* This is the end of the code for the Bookstores A - Z page */
+
     footer {
         background-color: #D08C60;
         margin-bottom: 0;
@@ -757,7 +763,7 @@ up to the top of the page. */
 
     }
 
-    footer span {
+    footer div {
         display: flex;
         justify-content: space-between;
     }
@@ -768,6 +774,7 @@ up to the top of the page. */
         font-size: 11px;
     }
 
+/* This is the start of the @media code (which applies to all pages) */
     @media screen and (max-width: 750px) {
         .librarymains {
             display: block;
@@ -810,11 +817,5 @@ up to the top of the page. */
            
         }
     }
-
-
-
-
-
  
 }
-/* https://www.google.com/search?q=how+to+make+a+simple+java+pop+up+when+a+button+is+clicked+in+a+website&sca_esv=4e0bfa84728bf4dd&rlz=1CAJYDF_enNZ1095&biw=1366&bih=681&ei=nNPFabnsAZCTseMP6_edoA8&ved=0ahUKEwi5qp7B7b6TAxWQSWwGHet7B_QQ4dUDCBE&uact=5&oq=how+to+make+a+simple+java+pop+up+when+a+button+is+clicked+in+a+website&gs_lp=Egxnd3Mtd2l6LXNlcnAiRmhvdyB0byBtYWtlIGEgc2ltcGxlIGphdmEgcG9wIHVwIHdoZW4gYSBidXR0b24gaXMgY2xpY2tlZCBpbiBhIHdlYnNpdGVIsihQmw9YvCdwAXgAkAEAmAGpA6ABwhuqAQgyLTExLjEuMbgBA8gBAPgBAZgCBKACvwjCAg4QABiABBiwAxiGAxiKBcICCBAAGLADGO8FwgILEAAYsAMYogQYiQXCAgUQIRigAcICBxAhGKABGAqYAwCIBgGQBgeSBwkxLjAuMS4xLjGgB8AdsgcHMi0xLjEuMbgHswjCBwUyLTEuM8gHJIAIAA&sclient=gws-wiz-serp&safe=active&ssui=on */
