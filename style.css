@@ -583,7 +583,7 @@ html{
     }
 
     .dropdown:hover {
-        background-color:#A5BE00;
+        background-color:#797D62;
     }
    
 
@@ -600,7 +600,7 @@ html{
 
     .content:hover {
         .dropdown {
-            background-color:#A5BE00;
+            background-color:#797D62;
         }
     }
 
