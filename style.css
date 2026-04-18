@@ -425,9 +425,9 @@ html{
     .popup-content {
         width : 90%;
         height: 90vh;
-        /* border: .5em solid #997B66; */
+        border: .5em solid #997B66; */
         box-shadow: 0vw 0vh 45vw 10vw black;
-        background-color: #B58463;
+        background-color:#F1DCA7;
         position: fixed;
         top: 5%;
         left: 5%;
@@ -503,7 +503,7 @@ html{
         align-content: center;
         justify-content: center;
         margin: 5%;
-        background-color:#F1DCA7;
+        
     }
 
     .popup-images img {
@@ -516,7 +516,7 @@ html{
         text-align: left;
         align-content: center;
         margin: 5%;
-        background-color:#F1DCA7;
+        
 
         p {
             margin: 2.5%;
@@ -525,8 +525,6 @@ html{
 
     .popup-titles {
         grid-area: header;
-        text-align: center;
-        /* background-color:#D08C60; */
     }
 
 
