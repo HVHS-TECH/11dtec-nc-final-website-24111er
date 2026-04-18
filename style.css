@@ -373,7 +373,7 @@ html{
         position: relative;
         justify-content: center;
         align-content: center;
-        background-image: url(indeximages/Shelf\(test\).png);
+        background-image: url(indeximages/Shelf.png);
         background-position: 0% 100%;
         background-size: cover; 
         /* background-color: black; */
