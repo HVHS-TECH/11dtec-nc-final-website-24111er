@@ -203,68 +203,9 @@ up to the top of the page. */
         text-align: center;
         line-height: 200%;
     }
- /*The index main's layout is different to all the other pages. */
-    #Indexmain {
-        height: 100%;
-        margin-left: 0;
-        display:grid;
-        grid-template-areas: "NotesLeft Maincontent NotesRight"; /*This lables the three main areas for the grid.*/
-        grid-template-columns: 20% 60% 20%;
         
-    }
 
-    #Left {
-        /* This specifies the area this specific element will go into */
-        grid-area: NotesLeft;
 
-    }
-
-    .Notes {
-        /* This class includes both the left and right note quote columns. */
-        display: grid;
-        grid-template-rows: auto auto auto;
-        row-gap: 1vh;
-        background-color: #B58463;
-    }
-
-    .Notes img {
-        width: 100%;
-    }
-
-    .Middle {
-        grid-area: Maincontent;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #Right {
-        grid-area: NotesRight;
-    }
-
-/* The library pages (auckland, bay of plenty, etc) share a layout to each other, 
-but it is different to the three other pages. This code applies to all of the library pages */
-    .librarymains {
-        display: grid;
-        grid-template-columns: 47.5% 47.5%;
-        column-gap: 5%;
-        /* The layout for the library pages is simualr but not identical. 
-        Using auto (which is the default size) allows this code to work across all of the library pages */
-        grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
-    }
-
-    .dropdown {
-        /* This specifies that the dropdown menu should always span across 2 columns.  */
-        grid-column-start: 1;
-        grid-column-end: 3;
-    }
-
-    .libraryheads {
-        /* This specifies that the library sub-headings should always span across 2 columns. 
-        I have not defined the row this class should go in as some library pages have more 
-        than one sub-heading */
-        grid-column-start: 1;
-        grid-column-end: 3;
-    }
 
     /* This is the CSS code for the index.html page */
 
@@ -542,7 +483,46 @@ but it is different to the three other pages. This code applies to all of the li
     /* This is the end of the code for the index.html page */
 
 
-    
+    .toplibraries {
+        display: grid;
+        grid-template-areas:"image1 image2 image3" "text1 text2 text3";
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 50%;
+        column-gap: 1vw;
+        row-gap: 0;
+        height:max-content;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
+        box-shadow: 1em 2em 0.5 black;
+
+        img {
+            border-radius: 0.5em 0.5em 0 0;
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+    /* The library pages (auckland, bay of plenty, etc) share a layout to each other, 
+    but it is different to the three other pages. This code applies to all of the library pages */
+    .librarymains {
+        display: grid;
+        grid-template-columns: 47.5% 47.5%;
+        column-gap: 5%;
+        /* The layout for the library pages is simualr but not identical. 
+        Using auto (which is the default size) allows this code to work across all of the library pages */
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    }
+
+
+    .libraryheads {
+        /* This specifies that the library sub-headings should always span across 2 columns. 
+        I have not defined the row this class should go in as some library pages have more 
+        than one sub-heading */
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
 
 
     /* This is the code for the dropdown menu in pages: Libraries Near You, etc */
@@ -582,7 +562,8 @@ but it is different to the three other pages. This code applies to all of the li
         padding: 15px 30px;
         color:#EBF2FA;
         position: relative;
-        
+        grid-column-start: 1;
+        grid-column-end: 3;
         
     }
 
@@ -622,26 +603,7 @@ but it is different to the three other pages. This code applies to all of the li
     
  /* This is the end of the dropdown menu code */
 
-    .toplibraries {
-        display: grid;
-        grid-template-areas:"image1 image2 image3" "text1 text2 text3";
-        grid-template-columns: 30% 30% 30%;
-        grid-template-rows: 50%;
-        column-gap: 1vw;
-        row-gap: 0;
-        height:max-content;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 5%;
-        box-shadow: 1em 2em 0.5 black;
-
-        img {
-            border-radius: 0.5em 0.5em 0 0;
-            width: 100%;
-            height: auto;
-        }
-
-    }
+    
 
     .librarytext {
         background-color: #B58463;
