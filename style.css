@@ -1,13 +1,6 @@
 html{
-    /* padding-top: 10%; */
-    /* background-color: #997B66; */
-    /* background-color: #05668D; */
-
-    /* https://www.youtube.com/watch?v=gmI5nvzv170 */
-
+/* These are stylistic and format componants which provide a basis - that applys to all pages */
   body {
-        
-        /* background-color: #EBF2FA; */
         display:grid;
         width: 100%;
         overflow-x: hidden;
@@ -20,7 +13,7 @@ html{
         }
      
     }
-
+/* The nav bar is in a fixed position which allow sit to stay at the top of the screen even when the user scrolls down. This enables the user quick access to anywhere on the site without having to scroll up to the top of the page. */
     nav {
         top:0;
         left:0;
@@ -29,9 +22,7 @@ html{
         position: fixed;
         width: 100vw;
         height: 20vh;
-        /* background-color: #427AA1; */
         padding: .5em;
-        /* padding-top: 1em; */
         border-radius:0 0 .5em .5em;
         display:grid;
         grid-template-columns: 20vw 70vw;
