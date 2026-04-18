@@ -54,7 +54,7 @@ up to the top of the page. */
 
         .nav_link span {
             width: 100%;
-            border-radius: 0 0.5em 0 0.5em;
+            border-radius: 0 0.5em 0 0.5em; /*Format - border-radius: left-top right-top right-bottom left-bottom */
             height: 100%;
         }
 
@@ -66,7 +66,7 @@ up to the top of the page. */
             
   
         }
-
+        /* This is the code that makes the links style change when it is hovered over */
         .nav_link span:hover {
             background-color: white;
             opacity: 50%;
