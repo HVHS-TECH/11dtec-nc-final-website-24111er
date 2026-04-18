@@ -270,6 +270,10 @@ html{
         scroll-marker-group:after;
         transition: 0.5s ease-in-out;
         /* background-color: #B58463; */
+        background-image: url(indeximages/Shelf.png);
+        background-position: 0% 100%;
+        background-size: cover; 
+        background-repeat: 
          
  
     }
@@ -373,9 +377,9 @@ html{
         position: relative;
         justify-content: center;
         align-content: center;
-        background-image: url(indeximages/Shelf.png);
+        /* background-image: url(indeximages/Shelf.png);
         background-position: 0% 100%;
-        background-size: cover; 
+        background-size: cover;  */
         /* background-color: black; */
     } 
 
