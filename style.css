@@ -733,8 +733,11 @@ html{
     .AtoZ {
         display: flex;
         align-items: flex-start;
-        color:#000000;
+        
         h3 {
+            color: black;
+        }
+        h4 {
             color: white;
         }
         
