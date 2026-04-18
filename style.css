@@ -615,7 +615,6 @@ html{
     .region {
         padding: 10px 15px;
         width: 100%;
-        height: 10%;
     }
 
     .region:hover {
