@@ -80,6 +80,8 @@ up to the top of the page. */
         }
         
     }
+/* This is the end of the code for the navigation bar */
+
 /* This code applies to all of the headers */
     header {
         display: grid;
@@ -178,13 +180,15 @@ up to the top of the page. */
     #Southlandheader {
         background-image: url(bannerimages/Southland.png);
     }
+    /* This is the end of the code for the headers */
 
+    /* This code is the basis for the main elements. It includes main style elements, background color, etc*/
     main {
-        /* margin-left: 2.5%; */
         margin-top: 0; 
         background-color: #F1DCA7; 
         height: fit-content;
         width: 100%;
+
         h2{
             background-color:#997B66;
             color: rgb(213, 213, 213);
@@ -199,22 +203,24 @@ up to the top of the page. */
             line-height: 200%;
         }
     }
-
+ /* The index main's layout is different to all the other pages. */
     #Indexmain {
         height: 100%;
         margin-left: 0;
         display:grid;
-        grid-template-areas: "NotesLeft Maincontent NotesRight";
+        grid-template-areas: "NotesLeft Maincontent NotesRight"; /*This lables the three main areas for the grid.*/
         grid-template-columns: 20% 60% 20%;
         
     }
 
     #Left {
+        /* This specifies the area this specific element will go into */
         grid-area: NotesLeft;
 
     }
 
     .Notes {
+        /* This class includes both the left and right note quote columns. */
         display: grid;
         grid-template-rows: auto auto auto;
         row-gap: 1vh;
@@ -235,19 +241,27 @@ up to the top of the page. */
         grid-area: NotesRight;
     }
 
+/* The library pages (auckland, bay of plenty, etc) share a layout to each other, 
+but is different to the three other pages. This code applies to all of the library pages */
     .librarymains {
         display: grid;
         grid-template-columns: 47.5% 47.5%;
         column-gap: 5%;
+        /* The layout for the library pages is simualr but not identical. 
+        Using auto (which is the default size) allows this code to work across all of the library pages */
         grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
     }
 
     .dropdown {
+        /* This specifies that the dropdown menu should always span across 2 columns.  */
         grid-column-start: 1;
         grid-column-end: 3;
     }
 
     .libraryheads {
+        /* This specifies that the library sub-headings should always span across 2 columns. 
+        I have not defined the row this class should go in as some library pages have more 
+        than one sub-heading */
         grid-column-start: 1;
         grid-column-end: 3;
     }
@@ -263,12 +277,9 @@ up to the top of the page. */
     .carousel{
         width: 85%;
         height: fit-content;
-        overflow-x: auto;
+        overflow-x: auto; /*This means any overflow */
         margin: 3em auto;
         display: flex;
-        /* gap: 1em; */
-        /* background-image: url(indeximages/Bookshelf-wide.png); */
-        /* padding: 1em;  */
         scroll-behavior:smooth;
         anchor-name: --carousel; 
         /* This declares that this class is the parent element of an anchor group and declares the name of the group.
