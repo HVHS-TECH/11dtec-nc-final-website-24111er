@@ -382,7 +382,7 @@ but it is different to the three other pages. This code applies to all of the li
 
  
 
-    /* This is the end of the code for the image carousel */
+    
   
    /* This is the styling for the book information pop ups */
 
@@ -393,10 +393,7 @@ but it is different to the three other pages. This code applies to all of the li
         position: relative;
         justify-content: center;
         align-content: center;
-        /* background-image: url(indeximages/Shelf.png);
-        background-position: 0% 100%;
-        background-size: cover;  */
-        /* background-color: black; */
+
     } 
 
     .carouselImages {
@@ -423,19 +420,6 @@ but it is different to the three other pages. This code applies to all of the li
         }
     }
 
-    /* .popup {
-        align-content: center;
-        justify-content: center;
-        background-color: #997B66;
-        position: fixed;
-        z-index: 10;
-        top: 5%;
-        left: 5%;
-        right: 5%;
-        bottom: 5%;
-        display: none;
-    } */
-
     .popup-content {
         width : 90%;
         height: 90vh;
@@ -454,27 +438,8 @@ but it is different to the three other pages. This code applies to all of the li
         grid-template-areas: "header header" "image main"; 
         row-gap: 1em;
         column-gap: .5em;
-        /* justify-content: center;
-        text-align: left; */
-        /* overflow-y: auto; */
-        
         
     } 
- 
-    /*.close {
-        border: none;
-        padding: 1em;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: .5em;
-        padding-top: .5em;
-        border-radius: 50%;
-        cursor: pointer;
-        position: absolute;
-        left: 90%;
-        top: 5%;
-
-    } */
 
     
     .items img {
@@ -550,13 +515,8 @@ but it is different to the three other pages. This code applies to all of the li
         opacity: 1;
     }
 
+    /* This is the end of the code for the image carousel */
 
-    
-    .libraryheadtext {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
 
     
 
