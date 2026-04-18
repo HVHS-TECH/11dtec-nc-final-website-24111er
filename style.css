@@ -80,7 +80,7 @@ up to the top of the page. */
         }
         
     }
-
+/* This code applies to all of the headers */
     header {
         display: grid;
         margin-top: 20vh;
@@ -88,9 +88,9 @@ up to the top of the page. */
         padding-bottom: 0;
         height: 35vh;
         width: 100%;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+        text-align: center; 
+        align-items: center; /*This aligns this elements child elements horizontaly*/
+        justify-content: center; /*This aligns this elements child elements items verticaly*/
         color: white;
         background-size: cover;
 
@@ -99,6 +99,9 @@ up to the top of the page. */
         }
 
     } 
+
+    /* This is the code that implements the background images (banners) in the headers. 
+    Some headers required specific code (such as the position elements) I have used class and id to target this pages */
 
     #Indexheader {
         background-image: url(bannerimages/Index.png);
