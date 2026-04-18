@@ -1,4 +1,4 @@
-html{
+/* html{ */
 /* These are stylistic and format componants which provide a basis - that applys to all pages */
   body {
         display:grid;
@@ -820,6 +820,5 @@ html{
             flex: 0 0 45%;
         }
     }
-
-    
-}
+ 
+/* } */
