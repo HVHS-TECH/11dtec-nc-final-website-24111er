@@ -191,6 +191,12 @@ html{
             padding: 1em 3em;
             text-align: center;
         }
+
+        h4 {
+            font-size: 16px;
+            text-align: center;
+            text-
+        }
     }
 
     #Indexmain {
@@ -742,7 +748,7 @@ html{
         h3 {
             color: black;
         }
-        h4 {
+        h5 {
             color: white;
         }
         
