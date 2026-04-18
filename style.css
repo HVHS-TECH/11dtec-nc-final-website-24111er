@@ -783,36 +783,27 @@ html{
 /* This is the start of the @media code (which applies to all pages) */
     @media screen and (max-width: 750px) {
         .librarymains {
-            display: block;
-            
+            display: block;   
         }
 
         .items {
-            flex: 0 0 100%;
-             
+            flex: 0 0 100%; 
         }
 
         nav {
             display: block;
-            
-            
+
             .nav_link {
                 display: block;
-
                 a {
                     font-size: 18px;
                 }
-                
             }
-
             .nav_img {
                 height: 50%;
                 width: auto;
-                
-
             }
-        } 
-            
+        }     
     }
     
     @media screen and (min-width: 750px) {
@@ -820,5 +811,4 @@ html{
             flex: 0 0 45%;
         }
     }
- 
 }
