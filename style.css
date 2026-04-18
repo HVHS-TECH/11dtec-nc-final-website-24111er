@@ -13,9 +13,10 @@ html{
         }
      
     }
-/* The nav bar is in a fixed position which allow sit to stay at the top of the screen even when the 
-user scrolls down. This enables the user quick access to anywhere on the site without having to scroll
-up to the top of the page. */
+
+    /* The nav bar is in a fixed position which allow sit to stay at the top of the screen even when the 
+    user scrolls down. This enables the user quick access to anywhere on the site without having to scroll
+    up to the top of the page. */
     nav {
         top:0;
         left:0;
@@ -63,9 +64,9 @@ up to the top of the page. */
             text-decoration:none;
             padding: 1em 2em;
             font-size: 1.9vw;
-            
   
         }
+
         /* This is the code that makes the links style change when it is hovered over */
         .nav_link div:hover {
             background-color: white;
@@ -92,7 +93,7 @@ up to the top of the page. */
         width: 100%;
         text-align: center; 
         align-items: center; /*This aligns this elements child elements horizontaly*/
-        justify-content: center; /*This aligns this elements child elements items verticaly*/
+        justify-content: center; /*This aligns this elements child elements verticaly*/
         color: white;
         background-size: cover;
 
@@ -103,7 +104,7 @@ up to the top of the page. */
     } 
 
     /* This is the code that implements the background images (banners) in the headers. 
-    Some headers required specific code (such as the position elements) I have used class and id to target this pages */
+    Some headers required specific code (such as the position elements) I have used classes and ids to target these headers */
 
     #Indexheader {
         background-image: url(bannerimages/Index.png);
@@ -180,7 +181,7 @@ up to the top of the page. */
     #Southlandheader {
         background-image: url(bannerimages/Southland.png);
     }
-    /* This is the end of the code for the headers */
+/* This is the end of the code for the headers */
 
     /* This code is the basis for the main elements. It includes main style elements, background color, etc*/
     main {
@@ -198,6 +199,28 @@ up to the top of the page. */
         }
     }
 
+
+    footer {
+        background-color: #D08C60;
+        margin-bottom: 0;
+        padding: 5em;
+
+    }
+
+    footer div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer p, footer a {
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+    }
+
+/*This is the end of the code that applies to all of the pages */
+
+    /* This code applies the two head paragraphs in the Home and Libraries Near You pages*/
     .headparagraph {
         font-size: 20px;
         text-align: center;
@@ -207,8 +230,10 @@ up to the top of the page. */
 
 
 
-    /* This is the CSS code for the home page (index.html) */
+/* This is the CSS code that only applies to the home page (index.html) */
 
+   /* The home page has a different layout to the other pages and so I have used an id to target
+    all off the elements in the home pages <main> tags*/
     #Indexmain {
         height: 100%;
         margin-left: 0;
@@ -756,23 +781,6 @@ up to the top of the page. */
 
 /* This is the end of the code for the Bookstores A - Z page */
 
-    footer {
-        background-color: #D08C60;
-        margin-bottom: 0;
-        padding: 5em;
-
-    }
-
-    footer div {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    footer p, footer a {
-        text-decoration: none;
-        color: black;
-        font-size: 11px;
-    }
 
 /* This is the start of the @media code (which applies to all pages) */
     @media screen and (max-width: 750px) {
