@@ -333,7 +333,7 @@ html{
         position: fixed;
         position-anchor: --carousel;
         position-area: center bottom;
-        padding:.5em;
+        padding: .5em;
     }
 
     .items::scroll-marker {
