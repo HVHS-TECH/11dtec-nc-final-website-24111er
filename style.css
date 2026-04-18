@@ -339,6 +339,7 @@ html{
         position-anchor: --carousel;
         position-area: center bottom;
         padding: .5em;
+        translate: 0 75%;
     }
 
     .items::scroll-marker {
