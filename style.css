@@ -69,7 +69,7 @@
         }
 
         /* This is the code that makes the links style change when it is hovered over */
-        .nav_link div:hover, .nav_link a:hover{
+        .nav_link div:hover {
             background-color: white;
             opacity: 50%;
             color: #D08C60;       
@@ -94,11 +94,11 @@
         color: white;
         background-size: cover;
 
-        h1 {
-            font-size: 5vw;
-        }
-
     } 
+
+    h1 {
+        font-size: 5vw;
+    }
 
     /* This is the code that implements the background images (banners) in the headers. 
     Some headers required specific code (such as the position elements) I have used classes and ids to target these headers */
@@ -186,13 +186,14 @@
         height: fit-content;
         width: 100%;
 
-        h2{
-            background-color:#997B66;
-            color: rgb(213, 213, 213);
-            padding: 1em 3em;
-            text-align: center;
-            font-size: 30px;
-        }
+    }
+
+    h2{
+        background-color:#997B66;
+        color: rgb(213, 213, 213);
+        padding: 1em 3em;
+        text-align: center;
+        font-size: 30px;
     }
 
 
@@ -200,7 +201,6 @@
         background-color: #D08C60;
         margin-bottom: 0;
         padding: 5em;
-
     }
 
     footer div {
