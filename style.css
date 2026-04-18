@@ -197,6 +197,12 @@ up to the top of the page. */
             font-size: 30px;
         }
     }
+
+    .headparagraphs {
+        font-size: 20px;
+        text-align: center;
+        line-height: 200%;
+    }
  /* The index main's layout is different to all the other pages. */
     #Indexmain {
         height: 100%;
