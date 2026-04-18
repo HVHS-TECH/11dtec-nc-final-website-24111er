@@ -272,8 +272,9 @@ html{
         /* background-color: #B58463; */
         background-image: url(indeximages/Shelf.png);
         background-position: 0% 100%;
-        background-size: cover; 
-        background-repeat: 
+        /* background-size: cover;  */
+        background-repeat: repeat-x;
+        background-size:contain;
          
  
     }
