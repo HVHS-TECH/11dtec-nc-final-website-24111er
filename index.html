@@ -61,15 +61,16 @@
                     <div class ="items-content"> <!--This class includes all the images that can be seen initially and the code for the overlay (which appears when an image is hovered over)-->
                         <img class="carouselImages" src="indeximages/Narnia.jpg" alt="The Narnia Chronicles: The Lion, The Witch and The Wardrobe Book Cover">
                         <div class="overlay"> <!--This class includes the code for the overlay which appears when the image is hovered over--> 
-                            <button class="icon" id="NarniaIcon"><img src="indeximages/info.png" alt="Information Icon"></button>
+                            <button class="icon" id="NarniaIcon"><img src="indeximages/info.png" alt="Information Icon"></button><!--This is the button that makes the popup open. All of the "icon" buttons have unique ids which allows them to be targeted by the javascript code-->
                         </div>
                     </div> 
-                    <div class="popup-content" id="NarniaPopup">
+                    <div class="popup-content" id="NarniaPopup"><!--This is the class for the popups. Each popup has a unique id which allows it to be targeted by the javascript code-->
+                        <!-- The following divs include the popup content. Each element (heading, image, closebutton, text) is in seperate divs, as this allows the css code to format the layout -->
                         <div class="popup-titles">
                             <h2>The Chronicles of Narnia: The Lion, The Witch and The Wardrobe by C.S.Lewis</h2>
                         </div>
                         <div class="popupbutton">
-                            <button id="NarniaClosebutton" class="close">&times;</button>
+                            <button id="NarniaClosebutton" class="close">&times;</button><!--This is the close button for the popup. Again they all have unique id which allows them to be targeted by the javascript-->
                         </div>
                         <div class="popup-images">
                             <img src="indeximages/Narnia.jpg" alt="The Chronicles of Narnia: The Lion, The Witch and The Wardrobe Book Cover">
