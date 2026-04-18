@@ -806,5 +806,4 @@ html{
         }     
     }
     
-    @media screen and (min-width: 750px) {.items {flex: 0 0 45%; } }
-}
+    @media screen and (min-width: 750px) {.items {flex: 0 0 45%; }}}
