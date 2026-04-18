@@ -599,6 +599,7 @@ html{
         height: 35%;
         overflow-y: auto;
         overflow-x: hidden;
+        z-index: 9;
         
     }
 
