@@ -560,6 +560,7 @@ html{
     .content {
         width: 15vw;
         justify-self: center;
+        
     }
 
        /* This is the class for the child element of the dropdown menu, it includes all of the regions. */
@@ -567,7 +568,7 @@ html{
         background-color:#9B9B7A;
         list-style: none;
         /* The position:absolute; function works in  */
-        position:absolute;
+        position:inherit;
         margin-top:0%;
         display: none;
         height: 35%;
