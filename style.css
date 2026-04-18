@@ -36,6 +36,7 @@
         z-index: 9; /*The z index determines how this element is stacked on top or underneath of other 
         elements near it that have a different position than the default (e.g fixed, absolute, relative, sticky etc). 
         The highest z index number will be on top.*/
+    }
 
         .nav_link {
             grid-area: 1 / 2 / 2 / 3; /*The grid area function is a short-hand for row/column start/end 
@@ -68,19 +69,13 @@
         }
 
         /* This is the code that makes the links style change when it is hovered over */
-        .nav_link div:hover {
+        .nav_link a:hover {
             background-color: white;
             opacity: 50%;
-            a {
-                color: #D08C60;
-            }
-            
-            
-                
-
+            color: #D08C60;       
         }
         
-    }
+    
 /* This is the end of the code for the navigation bar */
 
 /* This code applies to all of the headers */
