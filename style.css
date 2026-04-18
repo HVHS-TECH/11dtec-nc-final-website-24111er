@@ -578,6 +578,7 @@ html{
     .content {
         width: 15vw;
         justify-self: center;
+        align-self: center;
         font-size: 16px;
         
     }
@@ -630,13 +631,6 @@ html{
         .dropdown {
             background-color:#797D62;
         }
-    }
-
-   
-
-    .link {
-        
-
     }
 
     
