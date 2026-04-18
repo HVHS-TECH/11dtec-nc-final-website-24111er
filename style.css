@@ -591,6 +591,7 @@ html{
         margin-top:0%;
         display: none;
         height: 35%;
+        width: 100%;
         overflow-y: auto;
         
     }
@@ -614,6 +615,10 @@ html{
 
     .region {
         padding: 10px 15px;
+        display: block;
+        text-decoration:none;
+        color:#EBF2FA;
+        font-size:85%;
         width: 100%;
     }
 
@@ -630,10 +635,7 @@ html{
    
 
     .link {
-        text-decoration:none;
-        color:#EBF2FA;
-        font-size:85%;
-        width: 100%;
+        
 
     }
 
