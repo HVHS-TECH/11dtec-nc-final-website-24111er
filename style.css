@@ -281,21 +281,18 @@ but is different to the three other pages. This code applies to all of the libra
         ensures the container will stay to its specified size. */
         margin: 3em auto;
         display: flex;
-        scroll-behavior: smooth; /*This element makes the scrolling more smooth*/
+        scroll-behavior: smooth; /*These two elements makes the scrolling more smooth*/
+        transition: 0.5s ease-in-out;
         anchor-name: --carousel; 
         /* This declares that this class is the parent element of an anchor group and declares the name of the group.
         Whenever the custom varible (--carousel) is used, that element's position will be anchored in relation to the carousel. */
-        scroll-snap-type: x mandatory;
-        scroll-marker-group:after;
-        transition: 0.5s ease-in-out;
-        /* background-color: #B58463; */
+        scroll-snap-type: x mandatory; 
+        scroll-marker-group: after;
         background-image: url(indeximages/Shelf.png);
         background-position: 0% 100%;
-        /* background-size: cover;  */
         background-repeat: repeat-x;
         background-size:contain;
          
- 
     }
 
     .carousel::-webkit-scrollbar{
