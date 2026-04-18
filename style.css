@@ -242,7 +242,7 @@ up to the top of the page. */
     }
 
 /* The library pages (auckland, bay of plenty, etc) share a layout to each other, 
-but is different to the three other pages. This code applies to all of the library pages */
+but it is different to the three other pages. This code applies to all of the library pages */
     .librarymains {
         display: grid;
         grid-template-columns: 47.5% 47.5%;
@@ -574,6 +574,7 @@ but is different to the three other pages. This code applies to all of the libra
     .content {
         width: 15vw;
         justify-self: center;
+        font-size: 16px;
         
     }
 
@@ -597,6 +598,7 @@ but is different to the three other pages. This code applies to all of the libra
         padding: 15px 30px;
         color:#EBF2FA;
         position: relative;
+        
         
     }
 
