@@ -5,15 +5,19 @@
     <meta charset = "UTF-8">
     <title>Home - FindABook</title>
     <link rel="stylesheet" href="style.css">
-    <!-- The script tag links the Javascript code to this page. Adding "defer" allows the page to load  -->
+    <!-- The script tag links the Javascript code to this page. 
+     Adding "defer" ensures the page loads in a reasonible time as 
+     it allows the jascript code to be downloaded in parallel with the HTML -->
     <script src="script.js" defer></script>
 </head>
 
 <body>
     
-
+    <!-- This is the code for the navigation bar -->
     <nav>
         <img class="nav_img" src="indeximages/FindABook.png" alt="FindABook Logo">
+        <!-- I use span and classes in the css page to format the nav bar 
+         (in this case spans work better than divs as they are an inline element) -->
         <span class="nav_link">
             <span>
                 <a href="index.html">Home</a>
@@ -27,12 +31,15 @@
         </span>
     </nav>
     
-
+    <!-- This is the code for the header. The id on the header allows the css to target this specific 
+     element when implementing the background banner -->
     <header id="Indexheader">
         <h1 class="Bannertitle">Home</h1> 
     </header>
-
+    
+    <!-- I have added an id to this specific main so that it can be targeted in css, as its layout is different to the other pages -->
     <main id="Indexmain">
+        <!-- This is the code for the sticky note quotes -->
         <div class="Notes" id="Left">
             <img src="indeximages/AliceBookNotes.png" alt="Sticky Note with Book Quote from Alice's Adventures in Wonderland">
             <img src="indeximages/LotRBookNotes.png" alt="Sticky Note with Book Quote from Lord of the Rings">
@@ -44,18 +51,19 @@
             books wherever they are in the country. Use the A - Z list of NZ BookSellors Bookstores or the pages 
             on New Zealand public libraries by region to further your book finding knowledge!</h4>
             
-            <!-- This is the code for the interactive image carousel. -->
+            
             <h2>Classic Reads</h2>
-            <div class="carousel"> 
+            <!-- This is the code for the interactive image carousel. -->
+            <div class="carousel"> <!--This div includes the entirety of the image carousel-->
+                <!-- All of the carousel "items" include the same structure and elements (it is only the content that is changed) -->
 
-                <div class="items">
-                    <div class ="items-content">
+                <div class="items"> <!--This class is attrabuited to all the indivduial image carousel items (the popups are included in this)-->
+                    <div class ="items-content"> <!--This class includes all the images that can be seen initially and the code for the overlay (which appears when an image is hovered over)-->
                         <img class="carouselImages" src="indeximages/Narnia.jpg" alt="The Narnia Chronicles: The Lion, The Witch and The Wardrobe Book Cover">
-                        <div class="overlay">
+                        <div class="overlay"> <!--This class includes the code for the overlay which appears when the image is hovered over--> 
                             <button class="icon" id="NarniaIcon"><img src="indeximages/info.png" alt="Information Icon"></button>
                         </div>
                     </div> 
-                    <!-- <div class="popup" id="NarniaPopup"> -->
                     <div class="popup-content" id="NarniaPopup">
                         <div class="popup-titles">
                             <h2>The Chronicles of Narnia: The Lion, The Witch and The Wardrobe by C.S.Lewis</h2>
