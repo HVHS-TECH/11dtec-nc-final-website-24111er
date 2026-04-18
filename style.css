@@ -723,14 +723,15 @@
         display: flex;
         align-items: flex-start;
         
-        h3 {
-            color: black;
-        }
-        p {
-            color: white;
-            font-size: 15px;
-        }
-        
+    }
+
+    .AtoZ h3 {
+        color: black;
+    }
+
+    .AtoZ p {
+        color: white;
+        font-size: 15px;
     }
 
     .booklist {
