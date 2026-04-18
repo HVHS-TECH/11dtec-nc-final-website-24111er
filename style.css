@@ -1,4 +1,4 @@
-/* html{ */
+html{
 /* These are stylistic and format componants which provide a basis - that applys to all pages */
   body {
         display:grid;
@@ -781,7 +781,7 @@
 
 
 /* This is the start of the @media code (which applies to all pages) */
-    @media screen and (max-width: 750px) {
+    /* @media screen and (max-width: 750px) {
         .librarymains {
             display: block;
             
@@ -819,6 +819,6 @@
         .items {
             flex: 0 0 45%;
         }
-    }
+    } */
  
-/* } */
+}
