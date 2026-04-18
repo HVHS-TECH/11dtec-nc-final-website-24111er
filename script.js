@@ -1,43 +1,42 @@
 const NarniaIcon = document.getElementById("NarniaIcon");
-// const message = document.getElementById("message");
 const NarniaClosebutton = document.getElementById("NarniaClosebutton");
 const npopup = document.getElementById("NarniaPopup")
 
- const OzIcon = document.getElementById("OzIcon");
- const OzClosebutton = document.getElementById("OzClosebutton");
- const OzPopup = document.getElementById("OzPopup");
+const OzIcon = document.getElementById("OzIcon");
+const OzClosebutton = document.getElementById("OzClosebutton");
+const OzPopup = document.getElementById("OzPopup");
 
- const CharlotteIcon = document.getElementById("CharlotteIcon");
- const CharlotteClosebutton = document.getElementById("CharlotteClosebutton");
- const CharlottePopup = document.getElementById("CharlottePopup");
+const CharlotteIcon = document.getElementById("CharlotteIcon");
+const CharlotteClosebutton = document.getElementById("CharlotteClosebutton");
+const CharlottePopup = document.getElementById("CharlottePopup");
 
- const FiveIcon = document.getElementById("Famous5Icon");
- const FiveClosebutton = document.getElementById("FiveClosebutton");
- const FivePopup = document.getElementById("FivePopup");
+const FiveIcon = document.getElementById("Famous5Icon");
+const FiveClosebutton = document.getElementById("FiveClosebutton");
+const FivePopup = document.getElementById("FivePopup");
 
- const AliceIcon = document.getElementById("AliceIcon");
- const AliceClosebutton = document.getElementById("AliceClosebutton");
- const AlicePopup = document.getElementById("AlicePopup");
+const AliceIcon = document.getElementById("AliceIcon");
+const AliceClosebutton = document.getElementById("AliceClosebutton");
+const AlicePopup = document.getElementById("AlicePopup");
 
- const LittleWomenIcon = document.getElementById("LittleWomenIcon");
- const LittleWomenClosebutton = document.getElementById("LittleWomenClosebutton");
- const LittleWomenPopup = document.getElementById("LittleWomenPopup");
+const LittleWomenIcon = document.getElementById("LittleWomenIcon");
+const LittleWomenClosebutton = document.getElementById("LittleWomenClosebutton");
+const LittleWomenPopup = document.getElementById("LittleWomenPopup");
 
- const PeterIcon = document.getElementById("PeterRIcon");
- const PeterClosebutton = document.getElementById("PeterClosebutton");
- const PeterPopup = document.getElementById("PeterPopup");
+const PeterIcon = document.getElementById("PeterRIcon");
+const PeterClosebutton = document.getElementById("PeterClosebutton");
+const PeterPopup = document.getElementById("PeterPopup");
 
- const WinnieIcon = document.getElementById("WinnieIcon");
- const WinnieClosebutton = document.getElementById("WinnieClosebutton");
- const WinniePopup = document.getElementById("WinniePopup");
+const WinnieIcon = document.getElementById("WinnieIcon");
+const WinnieClosebutton = document.getElementById("WinnieClosebutton");
+const WinniePopup = document.getElementById("WinniePopup");
 
- const AnneIcon = document.getElementById("AoGGIcon");
- const AnneClosebutton = document.getElementById("AnneClosebutton");
- const AnnePopup = document.getElementById("AnnePopup");
+const AnneIcon = document.getElementById("AoGGIcon");
+const AnneClosebutton = document.getElementById("AnneClosebutton");
+const AnnePopup = document.getElementById("AnnePopup");
 
- const HobbitIcon = document.getElementById("HobbitIcon");
- const HobbitClosebutton = document.getElementById("HobbitClosebutton");
- const HobbitPopup = document.getElementById("HobbitPopup");
+const HobbitIcon = document.getElementById("HobbitIcon");
+const HobbitClosebutton = document.getElementById("HobbitClosebutton");
+const HobbitPopup = document.getElementById("HobbitPopup");
 
 
 
@@ -124,11 +123,11 @@ function NarniaClose() {
 NarniaIcon.addEventListener('click', NarniaClick);
 NarniaClosebutton.addEventListener('click',NarniaClose);
 
- OzIcon.addEventListener('click', OzClick);
- OzClosebutton.addEventListener('click',OzClose);
+OzIcon.addEventListener('click', OzClick);
+OzClosebutton.addEventListener('click',OzClose);
 
- CharlotteIcon.addEventListener('click', CharlotteClick);
- CharlotteClosebutton.addEventListener('click',CharlotteClose);
+CharlotteIcon.addEventListener('click', CharlotteClick);
+CharlotteClosebutton.addEventListener('click',CharlotteClose);
 
  FiveIcon.addEventListener('click', FiveClick);
  FiveClosebutton.addEventListener('click',FiveClose);
