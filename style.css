@@ -419,7 +419,8 @@
         bottom: 5%;
         z-index: 11;
         display: none;
-        grid-template-rows: 10% 90%;
+        /* grid-template-rows: 10% 90%; */
+        grid-template-rows: 15% 80%;
         grid-template-columns: 50% 50%;
         grid-template-areas: "header header" "image main"; 
         row-gap: 1em;
