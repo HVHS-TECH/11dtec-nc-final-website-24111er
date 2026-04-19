@@ -1,42 +1,42 @@
-var NarniaIcon = document.getElementById("NarniaIcon");
-var NarniaClosebutton = document.getElementById("NarniaClosebutton");
-var npopup = document.getElementById("NarniaPopup");
+const NarniaIcon = document.getElementById("NarniaIcon");
+const NarniaClosebutton = document.getElementById("NarniaClosebutton");
+const npopup = document.getElementById("NarniaPopup");
 
-var OzIcon = document.getElementById("OzIcon");
-var OzClosebutton = document.getElementById("OzClosebutton");
-var OzPopup = document.getElementById("OzPopup");
+const OzIcon = document.getElementById("OzIcon");
+const OzClosebutton = document.getElementById("OzClosebutton");
+const OzPopup = document.getElementById("OzPopup");
 
-var CharlotteIcon = document.getElementById("CharlotteIcon");
-var CharlotteClosebutton = document.getElementById("CharlotteClosebutton");
-var CharlottePopup = document.getElementById("CharlottePopup");
+const CharlotteIcon = document.getElementById("CharlotteIcon");
+const CharlotteClosebutton = document.getElementById("CharlotteClosebutton");
+const CharlottePopup = document.getElementById("CharlottePopup");
 
-var FiveIcon = document.getElementById("Famous5Icon");
-var FiveClosebutton = document.getElementById("FiveClosebutton");
-var FivePopup = document.getElementById("FivePopup");
+const FiveIcon = document.getElementById("Famous5Icon");
+const FiveClosebutton = document.getElementById("FiveClosebutton");
+const FivePopup = document.getElementById("FivePopup");
 
-var AliceIcon = document.getElementById("AliceIcon");
-var AliceClosebutton = document.getElementById("AliceClosebutton");
-var AlicePopup = document.getElementById("AlicePopup");
+const AliceIcon = document.getElementById("AliceIcon");
+const AliceClosebutton = document.getElementById("AliceClosebutton");
+const AlicePopup = document.getElementById("AlicePopup");
 
-var LittleWomenIcon = document.getElementById("LittleWomenIcon");
-var LittleWomenClosebutton = document.getElementById("LittleWomenClosebutton");
-var LittleWomenPopup = document.getElementById("LittleWomenPopup");
+const LittleWomenIcon = document.getElementById("LittleWomenIcon");
+const LittleWomenClosebutton = document.getElementById("LittleWomenClosebutton");
+const LittleWomenPopup = document.getElementById("LittleWomenPopup");
 
-var PeterIcon = document.getElementById("PeterRIcon");
-var PeterClosebutton = document.getElementById("PeterClosebutton");
-var PeterPopup = document.getElementById("PeterPopup");
+const PeterIcon = document.getElementById("PeterRIcon");
+const PeterClosebutton = document.getElementById("PeterClosebutton");
+const PeterPopup = document.getElementById("PeterPopup");
 
-var WinnieIcon = document.getElementById("WinnieIcon");
-var WinnieClosebutton = document.getElementById("WinnieClosebutton");
-var WinniePopup = document.getElementById("WinniePopup");
+const WinnieIcon = document.getElementById("WinnieIcon");
+const WinnieClosebutton = document.getElementById("WinnieClosebutton");
+const WinniePopup = document.getElementById("WinniePopup");
 
-var AnneIcon = document.getElementById("AoGGIcon");
-var AnneClosebutton = document.getElementById("AnneClosebutton");
-var AnnePopup = document.getElementById("AnnePopup");
+const AnneIcon = document.getElementById("AoGGIcon");
+const AnneClosebutton = document.getElementById("AnneClosebutton");
+const AnnePopup = document.getElementById("AnnePopup");
 
-var HobbitIcon = document.getElementById("HobbitIcon");
-var HobbitClosebutton = document.getElementById("HobbitClosebutton");
-var HobbitPopup = document.getElementById("HobbitPopup");
+const HobbitIcon = document.getElementById("HobbitIcon");
+const HobbitClosebutton = document.getElementById("HobbitClosebutton");
+const HobbitPopup = document.getElementById("HobbitPopup");
 
 
 
