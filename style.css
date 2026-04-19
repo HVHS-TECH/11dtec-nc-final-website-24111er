@@ -469,7 +469,7 @@
         align-content: center;
         justify-content: center;
         margin: 5%;
-        background-color: #F1DCA7;
+        /* background-color: #F1DCA7; */
         
     }
 
@@ -483,7 +483,7 @@
         text-align: left;
         align-content: center;
         margin: 5%; 
-        background-color: #F1DCA7;
+        /* background-color: #F1DCA7; */
     
     }
 
