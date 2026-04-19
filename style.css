@@ -32,7 +32,7 @@
         grid-template-columns: 20vw 70vw;
         grid-template-rows: 40% 60%;
         column-gap: 10vw;
-        overflow: none;
+        overflow: hidden;
         align-items: center;
         z-index: 9; /*The z index determines how this element is stacked on top or underneath of other 
         elements near it that have a different position than the default (e.g fixed, absolute, relative, sticky etc). 
