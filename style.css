@@ -806,6 +806,11 @@
         justify-content: space-between;
     }
 
+    .bookshop p {
+        color: black;
+        margin-right: 10%;
+    }
+
 /* This is the end of the code for the Bookstores A - Z page */
 
 
