@@ -296,22 +296,24 @@
         Whenever the custom varible (--carousel) is used, that element's position will be anchored in relation to the carousel. */
         scroll-snap-type: x mandatory; /*This specifies the scroll "snap" of the carousel (how, when it is finished scrolling, the items sit). 
         It specifies that the scrolling is done on the x acess and that the scroll snap must stop at the specified point (hence the "mandatory")*/
-        scroll-marker-group: after;
+        scroll-marker-group: after; /*This generates the scroll marker group as a following element (sibling) of the image carousel */
         background-image: url(indeximages/Shelf.png);
         background-position: 0% 100%;
         background-repeat: repeat-x;
         background-size:contain;
          
     }
-
+    
+    /* This disables the scrollbar that appears by default when the overflow: auto; code is applied */
     .carousel::-webkit-scrollbar{
         display:none;
     }
 
+    /* This is the code that is applicable to both scroll buttons */
     .carousel::scroll-button(right),.carousel::scroll-button(left) {
         content: '→';
-        border:none;
-        cursor:pointer;
+        border: none;
+        cursor: pointer;
         position: fixed;
         position-anchor: --carousel;
         /* This line of code above anchors the position of the buttons to the carousel. 
@@ -324,19 +326,10 @@
         color:rgb(0, 0, 0);
         border-radius:50%;
         padding-bottom: .15em;
-        transform: translateX();
-        transition: 0.5s, 7.5em, ease-in-out;
 
     }
 
-
-         /* .carousel::scroll-button(right):disabled {
-        opacity: 50%;
-        cursor: default;
-    } */
-
-    
-
+      /* This is the code specific to the left scroll button */
       .carousel::scroll-button(left) {
         content:'←';
         position: fixed;
@@ -347,22 +340,18 @@
 
     }
 
-    .carousel::scroll-button(left):disabled {
-        opacity: 75%;
-        cursor:default;
-    }
-
+    /* This is the code for the scroll markers (the little dots underneath the image carousel) */
     .carousel::scroll-marker-group {
-        display:flex;
+        display: flex;
         justify-content: center;
         gap: .5em;
         position: fixed;
-        position-anchor: --carousel;
+        position-anchor: --carousel; /*again the position-anchor element anchors the scroll markers to the carousel*/
         position-area: center bottom;
         padding: .5em;
         translate: 0 75%;
     }
-
+    /* This is the code for the individual dots that make up the scroll markers */
     .items::scroll-marker {
         content:'';
         height: 1em;
@@ -370,14 +359,14 @@
         background-color: #9B9B7A;
         border-radius: 50%;
     }
-
+    /* This is the code so that the relative dot to the current slide is a different colour to the rest of the dots */
     .items::scroll-marker:target-current {
         background-color: #797D62;
     }
 
+    /* This is the individual slides for the image caorusel */
     .items{
-        scroll-snap-align: start;
-        /* padding: .5em; */
+        scroll-snap-align: start; /*This states where the */
         text-align:center;
         align-content:center;
         color:#000000;   
