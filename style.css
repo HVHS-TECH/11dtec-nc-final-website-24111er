@@ -366,15 +366,14 @@
 
     /* This is the individual slides for the image caorusel */
     .items{
-        scroll-snap-align: start; /*This states where the */
+        scroll-snap-align: start; /*this specifies that when the user stops scrolling the start of the next slide will align with the viewport*/
         text-align:center;
         align-content:center;
         color:#000000;   
         
     }
-  
-   /* This is the styling for the book information pop ups */
 
+    /*This includes all the initially visible contents of the slides and the content that appears when an image is hovered over*/
     .items-content {
         width: 100%;
         height: 100%;
@@ -384,11 +383,13 @@
 
     } 
 
+    /* This includes the initially visible images in the carousel */
     .carouselImages {
         width: 75%;
         height: auto;
     } 
 
+    /* This is what is seen when the image is hovered over */
     .overlay {
         position: absolute;
         top: 0;
@@ -401,19 +402,20 @@
         border-radius: .5em;
         
     }
-
+    /* This makes the overlay show when the image is hovered over */
     .items-content:hover {
         .overlay {
             opacity: 0.95;
         }
     }
 
+/* This is the styling for the book information pop ups */
+   /* This class includes all of the content for the popups */
     .popup-content {
         width : 90%;
         height: 90vh;
         border: .5em solid #B58463;
         box-shadow: 0vw 0vh 45vw 10vw black;
-        /* background-color:#B58463; */
         background-color: #F1DCA7;
         position: fixed;
         top: 5%;
@@ -422,21 +424,20 @@
         bottom: 5%; 
         z-index: 11;
         display: none;
-        /* grid-template-rows: 10% 90%; */
         grid-template-rows: 10% 90%;
         grid-template-columns: 50% 50%;
         grid-template-areas: "header header" "main image"; 
-        /* row-gap: 1em; */
         column-gap: .5em;
         
     } 
 
-    
+    /* This specifies the images in the .items class (so both the images on the carousel and popups) */
     .items img {
         border-radius: .5em;
 
     }
 
+    /* This code is specific to the button information icon, which is a link to the popup */
     .icon {
         border: none;
         background-color: #797D62;
@@ -446,14 +447,16 @@
         border-radius: .5em;   
     }
 
-   
+    .icon img {
+        max-width: 25%;
+        opacity: 1;
+    }
 
+   /* This is the close button for the popup */
     .popupbutton button {
         cursor: pointer;
         border-radius: 50%; 
         position: absolute;
-        /* outline-style:solid;
-        outline-color: black; */
         border: solid black;
         top: -3%;
         right: -2%;
@@ -464,11 +467,12 @@
         font-weight: 1000;
         background-color: #9B9B7A;
     }
-
+    /* This is so that when the close button is hovered over it changes color, indicating to the user that it is a button */
     .popupbutton button:hover {
         background-color: #797D62;
     }
 
+    /* This is for the div of which the popup images are in */
     .popup-images {
         grid-area: image;
         align-content: center;
@@ -478,12 +482,12 @@
         border-radius: .5em;
         
     }
-
+    /* This specifies the popup images themselves */
     .popup-images img {
         width: 60%;
         height: auto;
     }
-
+    /* This is for all the writtin context (excluding the title) in the popup */
     .maintext {
         grid-area: main;
         text-align: left;
@@ -493,11 +497,11 @@
         border-radius: .5em;
     
     }
-
+    /* This is specifically targets the paragraph tags within the .maintext class */
     .maintext p {
         margin: 2.5%;
     }
-
+    /* These are the popup titles */
     .popup-titles {
         grid-area: header;
         height: 100%;
@@ -505,7 +509,7 @@
         padding: 0;
         justify-content: center;
     }
-
+    /* This specifically targets the h2 tags within the .popup-titles class */
     .popup-titles h2 {
         padding: 0;
         padding-top: 1em;
@@ -513,16 +517,13 @@
         height: 100%;
     }
 
-    .icon img {
-        max-width: 25%;
-        opacity: 1;
-    }
+    
 
     /* This is the end of the code for the image carousel */
 /* This is the end of the code for the home page */
 
  /* This is the start of the code for the Libraries Near You page (libraries.html) */
-
+    /* This is the code for the 3 library fact files seen on the bottom of the Libraries Near You page */
     .toplibraries {
         display: grid;
         grid-template-areas:"image1 image2 image3" "text1 text2 text3";
@@ -536,13 +537,13 @@
         margin-bottom: 5%;
 
     }
-
+    /* This specifically targets the images in the .toplibraries class */
     .toplibraries img {
         border-radius: 0.5em 0.5em 0 0;
         width: 100%;
         height: auto;
     }
-
+    /* this includes all text within the top library fact files */
     .librarytext {
         background-color: #B58463;
         border-radius: 0 0 0.5em 0.5em;
@@ -551,24 +552,23 @@
         height: 100%;
 
     }
-
+    /* This specifies the paragraph and h3 tags in the .librarytext class */
     .librarytext p, .librarytext h3 {
         margin-left: 1em;
 
     }
-
-    /* The library pages (auckland, bay of plenty, etc) share a layout to each other, 
-    but it is different to the three other pages. This code applies to all of the library pages */
+/* This is the start of the code for all the libraries (auckland.html, northland.html, etc) pages */
+    /* The library pages (auckland, bay of plenty, etc) share a layout to each other. This code applies to all of the library pages */
     .librarymains {
         display: grid;
         grid-template-columns: 47.5% 47.5%;
         column-gap: 5%;
-        /* The layout for the library pages is simualr but not identical. 
+        /* The layout for the library pages is simular but not identical. 
         Using auto (which is the default size) allows this code to work across all of the library pages */
         grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
     }
 
-
+    /* This applies to all the library pages sub-headings */
     .libraryheads {
         /* This specifies that the library sub-headings should always span across 2 columns. 
         I have not defined the row this class should go in as some library pages have more 
@@ -577,7 +577,7 @@
         grid-column-end: 3;
     }
 
-/* This is the start of the code for all the libraries (auckland.html, northland.html, etc) pages */
+
     /* This is the code for the dropdown menu  */
 
      /* This code uses the pseudo-class :hover so that when the users mouse hovers over 
@@ -587,7 +587,7 @@
         display: block;
         }
     }
-
+    /* This class includes all of the content in the dropdown menu */
     .content {
         width: 15vw;
         justify-self: center;
@@ -605,7 +605,6 @@
     .menu {
         background-color:#9B9B7A;
         list-style: none;
-        /* The position:absolute; function works in  */
         position: absolute;
         margin-top:0%;
         display: none;
@@ -616,7 +615,7 @@
         
     }
 
-
+    /* This class specifies the block that can be seen initially */
     .dropdown{
         text-decoration:none;
         background-color:#9B9B7A;
@@ -631,7 +630,7 @@
         background-color:#797D62;
     }
    
-
+    /* This specifies the individual links to the different regions within the dropdown menu */
     .region {
         padding: 15px 30px;
         display: block;
@@ -644,7 +643,7 @@
     .region:hover {
         background-color:#797D62;
     }
-
+    /* This code ensures that while the user is hovering over any part of the dropdown menu the main title stays the same background colour */
     .content:hover {
         .dropdown {
             background-color:#797D62;
@@ -655,13 +654,15 @@
     /* This is the end of the dropdown menu code */
 
 /* This is the end of the code for the Libraries Near You page */
-
+/* This is the start of the code for the expandable content */
+   /* This includes all of the content in the expandables */
    .expandable {
         width: 100%;
         margin: 1em 0;
         font-size: 16px;
    }
 
+    /*This   */
    .expandable-open {
     .expandable-content {
         grid-template-rows: 1fr;
