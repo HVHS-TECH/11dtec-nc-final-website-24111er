@@ -421,6 +421,7 @@
         box-shadow: 0vw 0vh 45vw 10vw black;
         background-color: #F1DCA7;
         position: fixed;
+        overflow: ato;
         top: 5%;
         left: 5%;
         right: 5%;
