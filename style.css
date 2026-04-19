@@ -421,7 +421,7 @@
         box-shadow: 0vw 0vh 45vw 10vw black;
         background-color: #F1DCA7;
         position: fixed;
-        overflow: ato;
+        overflow-y: auto;
         top: 5%;
         left: 5%;
         right: 5%;
@@ -461,6 +461,7 @@
         cursor: pointer;
         border-radius: 50%; 
         position: absolute;
+        z-index: 12;
         border: solid black;
         top: -3%;
         right: -2%;
