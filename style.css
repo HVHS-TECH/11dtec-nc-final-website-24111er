@@ -410,7 +410,8 @@
         height: 90vh;
         border: .5em solid #B58463;
         box-shadow: 0vw 0vh 45vw 10vw black;
-        background-color:#B58463;
+        /* background-color:#B58463; */
+        background-color: #F1DCA7;
         position: fixed;
         top: 5%;
         left: 5%;
