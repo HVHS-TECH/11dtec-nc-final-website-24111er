@@ -123,7 +123,11 @@ function NarniaClose() {
      HobbitPopup.style.display = "none";
  }
 
-// The event listenter 
+// The event listeners listen out for a specific event (in this class a click) 
+// of either the information icon (to open the popup) or the close button. They then
+//  direct they computer to execute the stated custom function. (e.g if the NarniaIcon 
+// was clicked the computer would execute the custom NarniaClick fucntion and set the 
+// NarniaPopup's display to grid, making it visible) 
 NarniaIcon.addEventListener('click', NarniaClick);
 NarniaClosebutton.addEventListener('click',NarniaClose);
 
@@ -156,4 +160,4 @@ HobbitClosebutton.addEventListener('click',HobbitClose);
 
 
 
-// https://www.w3schools.com/howto/howto_css_modals.asp#:~:text=Converters,padding:%2020px;
+// This tutorial helped me to understand and implement this code https://www.w3schools.com/howto/howto_css_modals.asp#:~:text=Converters,padding:%2020px;
