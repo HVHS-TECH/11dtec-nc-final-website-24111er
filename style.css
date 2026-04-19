@@ -807,16 +807,21 @@
 
 
 /* This is the start of the @media code (which applies to all pages) */
-/* The @media tag is used to check for a c */
+/* I have experimented with implementing the @media queries. The @media tag is used 
+for responsive web design and changes certain css elements when a condition is met.
+ I have set two conditions when the viewport is smaller than 750px (max-height: 750px;) 
+ and when the viewport is bigger than 750px (max-height: 750px) */
+   /* When the screen is smaller than 750px... */
     @media screen and (max-width: 750px) {
+        /* Instead of the expandable content on the libraries pages being two across, they will be one across*/
         .librarymains {
             display: block;   
         }
-
+       /* The width slides on the image carousel will take up the entire view width of the carousel */
         .items {
             flex: 0 0 100%; 
         }
-
+        /* The nav links will go under the logo and won't have a smaller text size than 18px */
         nav {
             display: block;
 
@@ -832,9 +837,11 @@
             }
         }     
     }
-    
+    /* When the screen is 750px wide or more... */
     @media screen and (min-width: 750px) {
-        .items 
-        {flex: 0 0 45%;}
+        /* The slides ont he images carousel will return to their orignal width */
+        .items {
+            flex: 0 0 45%;
+        }
     }
 
