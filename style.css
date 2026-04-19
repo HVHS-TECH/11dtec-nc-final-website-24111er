@@ -420,7 +420,7 @@
         z-index: 11;
         display: none;
         /* grid-template-rows: 10% 90%; */
-        grid-template-rows: 20% 80%;
+        grid-template-rows: 10% 90%;
         grid-template-columns: 50% 50%;
         grid-template-areas: "header header" "main image"; 
         /* row-gap: 1em; */
@@ -497,6 +497,11 @@
         height: 100%;
         top: 0;
         padding: 0;
+    }
+
+    .popup-titles h2 {
+        margin-top: 0;
+        height: 100%;
     }
 
     .icon img {
