@@ -372,7 +372,8 @@
         scroll-snap-align: start; /*this specifies that when the user stops scrolling the start of the next slide will align with the viewport*/
         text-align:center;
         align-content:center;
-        color:#000000;   
+        color:#000000;
+        overflow-y: auto;
         
     }
 
@@ -383,6 +384,7 @@
         position: relative;
         justify-content: center;
         align-content: center;
+        
 
     } 
 
@@ -421,7 +423,7 @@
         box-shadow: 0vw 0vh 45vw 10vw black;
         background-color: #F1DCA7;
         position: fixed;
-        overflow-y: auto;
+        
         top: 5%;
         left: 5%;
         right: 5%;
