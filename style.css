@@ -98,24 +98,9 @@
 
     h1 {
         font-size: 5vw;
-        /* font-family: "Abril Fatface", serif; */
         font-family: "Abyssinica SIL", serif;
     }
-
-    /* p { */
-        /* font-family: "Abril Fatface", serif; */
-        /* font-family: "Abyssinica SIL", serif;
-    }
-
-    a { */
-        /* font-family: "Abril Fatface", serif; */
-        /* font-family: "Abyssinica SIL", serif;
-    }
-
-    h2 { */
-        /* font-family: "Abril Fatface", serif; */
-        /* font-family: "Abyssinica SIL", serif;
-    } */
+    
 
     /* This is the code that implements the background images (banners) in the headers. 
     Some headers required specific code (such as the position elements) I have used classes and ids to target these headers */
@@ -211,7 +196,16 @@
         padding: 1em 3em;
         text-align: center;
         font-size: 30px;
+        font-family: "Abyssinica SIL", serif;
         
+    }
+
+    h3 {
+        font-family: "Abyssinica SIL", serif;
+    }
+
+    p {
+        font-family: "Abyssinica SIL", serif;
     }
 
 
