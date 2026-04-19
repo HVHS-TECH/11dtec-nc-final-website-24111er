@@ -98,19 +98,23 @@
 
     h1 {
         font-size: 5vw;
-        font-family: "Abril Fatface", serif;
+        /* font-family: "Abril Fatface", serif; */
+        font-family: "Abyssinica SIL", serif;
     }
 
     p {
-        font-family: "Abril Fatface", serif;
+        /* font-family: "Abril Fatface", serif; */
+        font-family: "Abyssinica SIL", serif;
     }
 
     a {
-        font-family: "Abril Fatface", serif;
+        /* font-family: "Abril Fatface", serif; */
+        font-family: "Abyssinica SIL", serif;
     }
 
     h2 {
-        font-family: "Abril Fatface", serif;
+        /* font-family: "Abril Fatface", serif; */
+        font-family: "Abyssinica SIL", serif;
     }
 
     /* This is the code that implements the background images (banners) in the headers. 
