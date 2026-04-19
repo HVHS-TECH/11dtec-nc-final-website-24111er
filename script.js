@@ -1,4 +1,4 @@
-// This connects all the html classes and ids regarding the popup as a 
+// This connects all the html ids regarding the popup (icon, popup and closebutton) as a 
 // constant (a varible that can not be changed) to javascript 
 const NarniaIcon = document.getElementById("NarniaIcon");
 const NarniaClosebutton = document.getElementById("NarniaClosebutton");
@@ -42,7 +42,7 @@ const HobbitPopup = document.getElementById("HobbitPopup");
 
 
 // These are custom functions that set a specific popup's display to 
-// either grid or none depending on whether the close button or information icon was pressed
+// either grid or none (making it visible or hidden) depending on whether the close button or information icon was pressed
 function NarniaClick() {
     npopup.style.display = "grid";
 }
@@ -123,9 +123,9 @@ function NarniaClose() {
      HobbitPopup.style.display = "none";
  }
 
-// The event listeners listen out for a specific event (in this class a click) 
+// The event listeners listen out for a specific event (in this case a click) 
 // of either the information icon (to open the popup) or the close button. They then
-//  direct they computer to execute the stated custom function. (e.g if the NarniaIcon 
+// direct they computer to execute the stated custom function. (e.g if the NarniaIcon 
 // was clicked the computer would execute the custom NarniaClick fucntion and set the 
 // NarniaPopup's display to grid, making it visible) 
 NarniaIcon.addEventListener('click', NarniaClick);
