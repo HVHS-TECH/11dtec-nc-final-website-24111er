@@ -98,6 +98,19 @@
 
     h1 {
         font-size: 5vw;
+        font-family: "Abril Fatface", serif;
+    }
+
+    p {
+        font-family: "Abril Fatface", serif;
+    }
+
+    a {
+        font-family: "Abril Fatface", serif;
+    }
+
+    h2 {
+        font-family: "Abril Fatface", serif;
     }
 
     /* This is the code that implements the background images (banners) in the headers. 
@@ -190,10 +203,11 @@
 
     h2{
         background-color:#997B66;
-        color: rgb(213, 213, 213);
+        color: white;
         padding: 1em 3em;
         text-align: center;
         font-size: 30px;
+        
     }
 
 
