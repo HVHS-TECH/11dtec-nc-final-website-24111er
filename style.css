@@ -662,23 +662,26 @@
         font-size: 16px;
    }
 
-    /*This   */
+    /*The javascript code toggles between this expandable-open class to open and close the expandable.
+    This code below makes it so that when the .expandable-open class is applied the expandable content
+    becomes visible  */
    .expandable-open {
     .expandable-content {
         grid-template-rows: 1fr;
     }
    }
-
+   /* This code (along with the javascript code) animates the arrow icon in the expandable content, 
+   making it rotate when the expandable content is opened and closed */
    .expandable-open {
     .expandable_icon {
         transform: rotate(-90deg);
     }
    }
-
+  
    .expandable_icon {
         transition: transform 0.3s;
    }
-
+    /* This class includes the title bar that is initially visible when the expandable content is closed */
    .expandable_head {
         display: flex;
         align-items: center;
@@ -688,13 +691,12 @@
         background-color: #B58463;
         border-radius: .5em .5em 0 0;
         cursor: pointer;
-
     }
-
+    /* This class targets the title itself on the title bar */
    .expandable_title {
         font-weight: bold;
     }
-
+   /* This class includes all the content in the main part of the expandable that is only visible when the expandable is open */
    .expandable_main {
         padding: 0 18px;
         line-height: 1.4;
@@ -714,7 +716,7 @@
         grid-column-gap: .5em;
     
     }
-   
+   /* This class helps to make the layout for the .expandable_main content */
    .address {
         display: flex;
         justify-content: space-between;
