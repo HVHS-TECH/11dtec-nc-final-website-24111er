@@ -723,7 +723,8 @@
         align-items: center;
     }
 
-   /* this is the div class that wraps around the .expandable_main content */
+   /* this is the div class that wraps around the .expandable_main content. It controls the transition between open and
+    close and sets the expandable content so that it is initially not seen */
    .expandable-content {
         display: grid;
         grid-template-rows: 0fr;
@@ -731,14 +732,11 @@
 
     }
 
-   .expandable_main img {
-        width: 100%;
-    }
-
+/* This is the end of the code for the expandable content */
 /* This is the end of the code for the libraries pages */
 
 /* This is the start of the code for the Bookstores A - Z page (bookstores.html) */
-
+    /* this class includes both the quicklinks and book list itself */
     .AtoZ {
         display: flex;
         align-items: flex-start;
@@ -753,14 +751,16 @@
         color: white;
         font-size: 15px;
     }
-
+    /* This code targets the booklist that is the main content for this page */
     .booklist {
         margin-left: 1%;
         overflow: auto;
         width: 90%;
 
     }
-
+    /* This code is for the quick links which enable quick acess to any part of the page. 
+     has the postion sticky so that it scrolls with the screen untill the header is out 
+     of the viewport then it sticks in a fixed position to the left hand side of the screen.  */
     .quicklinks {
         position: sticky;
         top: 20%;
@@ -788,11 +788,11 @@
         color:#B58463;
          
     }
-
+    /* This class is specifically for the sub-headings in the book list (A -, B - etc) */
     .booklistHead {
         scroll-margin-top: 24vh;
     }
-
+    /* This code enables the layout between the bookstore name and the town that it is in */
     .bookshop {
         display: flex;
         justify-content: space-between;
@@ -807,6 +807,7 @@
 
 
 /* This is the start of the @media code (which applies to all pages) */
+/* The @media tag is used to check for a c */
     @media screen and (max-width: 750px) {
         .librarymains {
             display: block;   
