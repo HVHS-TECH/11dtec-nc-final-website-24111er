@@ -422,7 +422,7 @@
         /* grid-template-rows: 10% 90%; */
         grid-template-rows: 15% 80%;
         grid-template-columns: 50% 50%;
-        grid-template-areas: "header header" "image main"; 
+        grid-template-areas: "header header" "main image"; 
         row-gap: 1em;
         column-gap: .5em;
         
