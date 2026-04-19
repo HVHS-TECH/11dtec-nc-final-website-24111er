@@ -294,7 +294,8 @@
         anchor-name: --carousel; 
         /* This declares that this class is the parent element of an anchor group and declares the name of the group.
         Whenever the custom varible (--carousel) is used, that element's position will be anchored in relation to the carousel. */
-        scroll-snap-type: x mandatory; 
+        scroll-snap-type: x mandatory; /*This specifies the scroll "snap" of the carousel (how, when it is finished scrolling, the items sit). 
+        It specifies that the scrolling is done on the x acess and that the scroll snap must stop at the specified point (hence the "mandatory")*/
         scroll-marker-group: after;
         background-image: url(indeximages/Shelf.png);
         background-position: 0% 100%;
