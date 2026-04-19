@@ -801,6 +801,11 @@
         scroll-margin-top: 24vh;
     }
 
+    .bookshop {
+        display: flex;
+        justify-content: space-between;
+    }
+
 /* This is the end of the code for the Bookstores A - Z page */
 
 
