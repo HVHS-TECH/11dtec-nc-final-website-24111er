@@ -462,10 +462,11 @@
         cursor: pointer;
         border-radius: 50%; 
         position: absolute;
+        /* outline-style:solid;
+        outline-color: black; */
+        border: solid black;
         top: -3%;
         right: -2%;
-        border-style: none;
-        outline: none;
         padding-bottom: 1.25em;
         padding-top: 1.25em;
         padding-right: 1.5em;
