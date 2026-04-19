@@ -716,15 +716,14 @@
         grid-column-gap: .5em;
     
     }
-   /* This class helps to make the layout for the .expandable_main content */
+   /* This class helps to make the layout for the .expandable_main content. It seperates the link and the address, */
    .address {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
-   
-
+   /* this is the div class that wraps around the .expandable_main content */
    .expandable-content {
         display: grid;
         grid-template-rows: 0fr;
