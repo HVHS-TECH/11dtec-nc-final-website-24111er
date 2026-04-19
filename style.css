@@ -416,14 +416,14 @@
         top: 5%;
         left: 5%;
         right: 5%;
-        bottom: 5%;
+        bottom: 5%; 
         z-index: 11;
         display: none;
         /* grid-template-rows: 10% 90%; */
-        grid-template-rows: 15% 80%;
+        grid-template-rows: 20% 80%;
         grid-template-columns: 50% 50%;
-        grid-template-areas: "header image" "main image"; 
-        row-gap: 1em;
+        grid-template-areas: "header header" "main image"; 
+        /* row-gap: 1em; */
         column-gap: .5em;
         
     } 
@@ -494,6 +494,9 @@
 
     .popup-titles {
         grid-area: header;
+        height: 100%;
+        top: 0;
+        padding: 0;
     }
 
     .icon img {
