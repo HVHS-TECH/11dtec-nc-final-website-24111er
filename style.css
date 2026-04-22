@@ -721,7 +721,7 @@
         margin-bottom: 2px;
         display: grid;
         grid-template-columns: 50% 50%;
-        text-align: left;
+        text-align: left; 
         justify-content: center;
         align-items: center;
         grid-column-gap: .5em;
@@ -764,7 +764,7 @@
     }
     /* This code targets the booklist that is the main content for this page */
     .booklist {
-        margin-left: 1%;
+        margin-left: 1%; 
         overflow: auto;
         width: 90%;
 
